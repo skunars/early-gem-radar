@@ -1,31 +1,15 @@
 import json
-import time
-from datetime import datetime, timezone
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
-from config import (
-    MIN_LIQUIDITY_USD,
-    MIN_VOLUME_24H_USD,
-    BUY_CANDIDATE_SCORE,
-    WATCH_SCORE,
-    PROJECT_NAME,
-)
 
-from security import get_security
-
-
-DEX_API = "https://api.dexscreener.com"
-
-LATEST_PROFILES_URL = (
-    f"{DEX_API}/token-profiles/latest/v1"
-)
+GOPLUS_BASE_URL = "https://api.gopluslabs.io/api/v1/token_security"
+GOPLUS_SOLANA_URL = "https://api.gopluslabs.io/api/v1/solana/token_security"
 
 USER_AGENT = "EarlyGemRadar/1.0"
 
 
 def api_get(url):
-    """API'den JSON veri al."""
     try:
         request = Request(
             url,
@@ -41,704 +25,478 @@ def api_get(url):
             )
 
     except HTTPError as e:
-        print(f"❌ HTTP HATASI: {e.code} - {url}")
+        print(f"GoPlus HTTP hatasi: {e.code}")
         return None
 
     except URLError as e:
-        print(f"❌ BAĞLANTI HATASI: {e.reason}")
+        print(f"GoPlus baglanti hatasi: {e.reason}")
         return None
 
     except Exception as e:
-        print(f"❌ API HATASI: {e}")
+        print(f"GoPlus hatasi: {e}")
         return None
 
 
-def get_latest_profiles():
-    """DEX Screener'daki son token profillerini al."""
-    data = api_get(LATEST_PROFILES_URL)
-
-    if not data:
-        return []
-
-    if not isinstance(data, list):
-        return []
-
-    return data
-
-
-def get_token_pairs(chain_id, token_address):
-    """Tokenın DEX üzerindeki işlem çiftlerini al."""
-
-    url = (
-        f"{DEX_API}/token-pairs/v1/"
-        f"{chain_id}/{token_address}"
-    )
-
-    data = api_get(url)
-
-    if not data:
-        return []
-
-    if not isinstance(data, list):
-        return []
-
-    return data
-
-
-def safe_float(value, default=0):
-    """Güvenli şekilde sayıya çevir."""
-    try:
-        if value is None:
-            return default
-
-        return float(value)
-
-    except (ValueError, TypeError):
-        return default
-
-
-def get_best_pair(pairs):
-    """Likiditesi en yüksek işlem çiftini seç."""
-
-    valid_pairs = []
-
-    for pair in pairs:
-        liquidity = safe_float(
-            pair.get(
-                "liquidity",
-                {}
-            ).get("usd")
-        )
-
-        if liquidity > 0:
-            valid_pairs.append(pair)
-
-    if not valid_pairs:
-        return None
-
-    return max(
-        valid_pairs,
-        key=lambda pair: safe_float(
-            pair.get(
-                "liquidity",
-                {}
-            ).get("usd")
-        ),
+def value_is_true(value):
+    return str(value).strip().lower() in (
+        "1",
+        "true",
+        "yes",
     )
 
 
-def calculate_age_hours(pair):
-    """İşlem çiftinin yaşını saat olarak hesapla."""
-
-    created_at = pair.get("pairCreatedAt")
-
-    if not created_at:
+def get_result(
+    result_data,
+    token_address,
+):
+    if not isinstance(result_data, dict):
         return None
 
-    try:
-        created_ms = int(created_at)
+    result = result_data.get(
+        token_address
+    )
 
-        created = datetime.fromtimestamp(
-            created_ms / 1000,
-            tz=timezone.utc,
-        )
+    if result is not None:
+        return result
 
-        now = datetime.now(timezone.utc)
+    result = result_data.get(
+        token_address.lower()
+    )
 
-        age = now - created
+    if result is not None:
+        return result
 
-        return max(
-            age.total_seconds() / 3600,
-            0,
-        )
+    for address, value in result_data.items():
 
-    except Exception:
-        return None
+        if str(address).lower() == (
+            token_address.lower()
+        ):
+            return value
+
+    return None
 
 
-def calculate_score(pair):
+def analyze_solana_security(
+    result
+):
     """
-    İlk fırsat skoru.
-
-    Token fiyatı skorlamada kullanılmaz.
+    GoPlus Solana güvenlik alanlarını kontrol eder.
     """
 
-    liquidity = safe_float(
-        pair.get(
-            "liquidity",
-            {}
-        ).get("usd")
-    )
+    risks = []
 
-    volume_24h = safe_float(
-        pair.get(
-            "volume",
-            {}
-        ).get("h24")
-    )
+    # ========================================================
+    # KRİTİK RİSKLER
+    # ========================================================
 
-    price_change_24h = safe_float(
-        pair.get(
-            "priceChange",
-            {}
-        ).get("h24")
-    )
-
-    txns_24h = pair.get(
-        "txns",
-        {}
-    ).get(
-        "h24",
-        {}
-    )
-
-    buys = int(
-        safe_float(
-            txns_24h.get("buys")
+    # Honeypot
+    if value_is_true(
+        result.get("is_honeypot")
+    ):
+        risks.append(
+            "HONEYPOT"
         )
-    )
 
-    sells = int(
-        safe_float(
-            txns_24h.get("sells")
+    # Mint authority
+    if value_is_true(
+        result.get("mintable")
+    ):
+        risks.append(
+            "MINT YETKİSİ AKTİF"
         )
-    )
 
-    age_hours = calculate_age_hours(pair)
-
-    score = 0
-
-    # 1. Likidite
-    if liquidity >= 100000:
-        score += 25
-
-    elif liquidity >= 50000:
-        score += 20
-
-    elif liquidity >= MIN_LIQUIDITY_USD:
-        score += 15
-
-    # 2. 24 saatlik hacim
-    if volume_24h >= 500000:
-        score += 20
-
-    elif volume_24h >= 100000:
-        score += 15
-
-    elif volume_24h >= MIN_VOLUME_24H_USD:
-        score += 10
-
-    # 3. Erkenlik
-    if age_hours is not None:
-
-        if age_hours <= 6:
-            score += 25
-
-        elif age_hours <= 24:
-            score += 20
-
-        elif age_hours <= 72:
-            score += 15
-
-        elif age_hours <= 168:
-            score += 8
-
-    # 4. Momentum
-    if price_change_24h >= 50:
-        score += 15
-
-    elif price_change_24h >= 20:
-        score += 12
-
-    elif price_change_24h >= 5:
-        score += 8
-
-    elif price_change_24h > 0:
-        score += 4
-
-    # 5. Alıcı / satıcı dengesi
-    total_txns = buys + sells
-
-    if total_txns > 0:
-
-        buy_ratio = buys / total_txns
-
-        if buy_ratio >= 0.65:
-            score += 15
-
-        elif buy_ratio >= 0.55:
-            score += 10
-
-        elif buy_ratio >= 0.50:
-            score += 5
-
-    return min(score, 100)
-
-
-def get_final_signal(score, security):
-    """
-    Fırsat skoru + güvenlik sonucuna göre
-    nihai radar sinyalini belirler.
-    """
-
-    risk = security.get(
-        "risk",
-        "UNKNOWN"
-    )
-
-    available = security.get(
-        "available",
-        False
-    )
-
-    # Kritik güvenlik riski
-    if risk == "HIGH":
-        return "🔴 UZAK DUR"
-
-    # Güvenlik verisi yoksa
-    if not available:
-
-        if score >= WATCH_SCORE:
-            return "🟡 TAKİP"
-
-        return "⚪ ELE"
-
-    # Güvenlik temizse normal skor
-    if score >= BUY_CANDIDATE_SCORE:
-        return "🟢 AL ADAYI"
-
-    if score >= WATCH_SCORE:
-        return "🟡 TAKİP"
-
-    return "⚪ ELE"
-
-
-def analyze_token(profile):
-    """Tek tokenı analiz et."""
-
-    chain_id = profile.get("chainId")
-
-    token_address = profile.get(
-        "tokenAddress"
-    )
-
-    if not chain_id or not token_address:
-        return None
-
-    pairs = get_token_pairs(
-        chain_id,
-        token_address,
-    )
-
-    best_pair = get_best_pair(pairs)
-
-    if not best_pair:
-        return None
-
-    liquidity = safe_float(
-        best_pair.get(
-            "liquidity",
-            {}
-        ).get("usd")
-    )
-
-    volume_24h = safe_float(
-        best_pair.get(
-            "volume",
-            {}
-        ).get("h24")
-    )
-
-    # Minimum piyasa şartları
-    if liquidity < MIN_LIQUIDITY_USD:
-        return None
-
-    if volume_24h < MIN_VOLUME_24H_USD:
-        return None
-
-    # Güvenlik kontrolü
-    print(
-        f"   🛡️ Güvenlik kontrolü: "
-        f"{token_address[:12]}..."
-    )
-
-    security = get_security(
-        chain_id,
-        token_address,
-    )
-
-    # Fırsat skoru
-    score = calculate_score(
-        best_pair
-    )
-
-    # Nihai sinyal
-    signal = get_final_signal(
-        score,
-        security,
-    )
-
-    base_token = best_pair.get(
-        "baseToken",
-        {}
-    )
-
-    txns_24h = best_pair.get(
-        "txns",
-        {}
-    ).get(
-        "h24",
-        {}
-    )
-
-    result = {
-        "name": base_token.get(
-            "name",
-            "Unknown"
-        ),
-
-        "symbol": base_token.get(
-            "symbol",
-            "UNKNOWN"
-        ),
-
-        "chain": chain_id,
-
-        "token_address": token_address,
-
-        "dex": best_pair.get(
-            "dexId"
-        ),
-
-        "pair_address": best_pair.get(
-            "pairAddress"
-        ),
-
-        "dex_url": best_pair.get(
-            "url"
-        ),
-
-        "price_usd": safe_float(
-            best_pair.get("priceUsd")
-        ),
-
-        "liquidity_usd": liquidity,
-
-        "volume_24h_usd": volume_24h,
-
-        "market_cap": safe_float(
-            best_pair.get("marketCap")
-        ),
-
-        "fdv": safe_float(
-            best_pair.get("fdv")
-        ),
-
-        "price_change_24h": safe_float(
-            best_pair.get(
-                "priceChange",
-                {}
-            ).get("h24")
-        ),
-
-        "age_hours": calculate_age_hours(
-            best_pair
-        ),
-
-        "score": score,
-
-        "signal": signal,
-
-        "security_available": security.get(
-            "available",
-            False
-        ),
-
-        "security_risk": security.get(
-            "risk",
-            "UNKNOWN"
-        ),
-
-        "security_risks": security.get(
-            "risks",
-            []
-        ),
-
-        "buy_tax": safe_float(
-            security.get(
-                "buy_tax",
-                0
+    # Bazı response sürümlerinde
+    # is_mintable kullanılabilir.
+    if value_is_true(
+        result.get("is_mintable")
+    ):
+        if "MINT YETKİSİ AKTİF" not in risks:
+            risks.append(
+                "MINT YETKİSİ AKTİF"
             )
-        ),
 
-        "sell_tax": safe_float(
-            security.get(
-                "sell_tax",
-                0
-            )
-        ),
+    # Freeze authority
+    if value_is_true(
+        result.get("freezable")
+    ):
+        risks.append(
+            "FREEZE YETKİSİ AKTİF"
+        )
 
-        "buys_24h": int(
-            safe_float(
-                txns_24h.get("buys")
+    if value_is_true(
+        result.get("is_freezeable")
+    ):
+        if "FREEZE YETKİSİ AKTİF" not in risks:
+            risks.append(
+                "FREEZE YETKİSİ AKTİF"
             )
-        ),
 
-        "sells_24h": int(
-            safe_float(
-                txns_24h.get("sells")
-            )
-        ),
+    # Token kapatılabilir
+    if value_is_true(
+        result.get("closable")
+    ):
+        risks.append(
+            "TOKEN KAPATMA YETKİSİ"
+        )
+
+    # ========================================================
+    # TOKEN METADATA
+    # ========================================================
+
+    if value_is_true(
+        result.get("metadata_mutable")
+    ):
+        risks.append(
+            "METADATA DEĞİŞTİRİLEBİLİR"
+        )
+
+    # ========================================================
+    # BALANCE / AUTHORITY
+    # ========================================================
+
+    if value_is_true(
+        result.get(
+            "balance_mutable_authority"
+        )
+    ):
+        risks.append(
+            "BALANCE YETKİSİ AKTİF"
+        )
+
+    # ========================================================
+    # TOKEN 2022
+    # ========================================================
+
+    if value_is_true(
+        result.get("is_token2022")
+    ):
+        risks.append(
+            "TOKEN-2022"
+        )
+
+    # ========================================================
+    # BLACKLIST
+    # ========================================================
+
+    if value_is_true(
+        result.get("is_blacklisted")
+    ):
+        risks.append(
+            "BLACKLIST"
+        )
+
+    # ========================================================
+    # LOCK
+    # ========================================================
+
+    if value_is_true(
+        result.get("is_locked")
+    ):
+        risks.append(
+            "LOCKED"
+        )
+
+    # ========================================================
+    # RİSK SEVİYESİ
+    # ========================================================
+
+    critical_risks = {
+        "HONEYPOT",
+        "MINT YETKİSİ AKTİF",
+        "FREEZE YETKİSİ AKTİF",
+        "TOKEN KAPATMA YETKİSİ",
+        "BALANCE YETKİSİ AKTİF",
+        "BLACKLIST",
     }
 
-    return result
-
-
-def print_candidate(candidate):
-    """Adayı terminalde okunabilir şekilde göster."""
-
-    print()
-    print("=" * 65)
-
-    print(
-        f"{candidate['signal']} | "
-        f"{candidate['symbol']}"
-    )
-
-    print(
-        f"İsim: {candidate['name']}"
-    )
-
-    print(
-        f"Chain: {candidate['chain']}"
-    )
-
-    print(
-        f"DEX: {candidate['dex']}"
-    )
-
-    print(
-        f"Fiyat: ${candidate['price_usd']}"
-    )
-
-    print(
-        f"Likidite: "
-        f"${candidate['liquidity_usd']:,.0f}"
-    )
-
-    print(
-        f"24s Hacim: "
-        f"${candidate['volume_24h_usd']:,.0f}"
-    )
-
-    print(
-        f"Market Cap: "
-        f"${candidate['market_cap']:,.0f}"
-    )
-
-    print(
-        f"FDV: "
-        f"${candidate['fdv']:,.0f}"
-    )
-
-    print(
-        f"24s Değişim: "
-        f"{candidate['price_change_24h']:.2f}%"
-    )
-
-    age = candidate["age_hours"]
-
-    if age is not None:
-        print(
-            f"Pair Yaşı: "
-            f"{age:.1f} saat"
-        )
-
-    print(
-        f"24s Alış: "
-        f"{candidate['buys_24h']} | "
-        f"Satış: "
-        f"{candidate['sells_24h']}"
-    )
-
-    print(
-        f"SKOR: "
-        f"{candidate['score']}/100"
-    )
-
-    print()
-    print("🛡️ GÜVENLİK")
-
-    print(
-        f"API kullanılabilir: "
-        f"{candidate['security_available']}"
-    )
-
-    print(
-        f"Risk: "
-        f"{candidate['security_risk']}"
-    )
-
-    print(
-        f"Buy Tax: "
-        f"%{candidate['buy_tax']:.2f}"
-    )
-
-    print(
-        f"Sell Tax: "
-        f"%{candidate['sell_tax']:.2f}"
-    )
-
-    risks = candidate[
-        "security_risks"
-    ]
-
-    if risks:
-        print(
-            "Riskler: "
-            + ", ".join(risks)
-        )
-    else:
-        print(
-            "Riskler: Yok"
-        )
-
-    print()
-
-    print(
-        f"Token: "
-        f"{candidate['token_address']}"
-    )
-
-    print(
-        f"Pair: "
-        f"{candidate['pair_address']}"
-    )
-
-    print(
-        f"DEX: "
-        f"{candidate['dex_url']}"
-    )
-
-    print("=" * 65)
-
-
-def main():
-
-    print()
-    print("=" * 65)
-
-    print(
-        f"🚀 {PROJECT_NAME}"
-    )
-
-    print(
-        "🔎 GERÇEK DEX VERİ TARAMASI"
-    )
-
-    print(
-        "🛡️ GÜVENLİK KONTROLLÜ MOD"
-    )
-
-    print("=" * 65)
-
-    print(
-        f"Minimum likidite: "
-        f"${MIN_LIQUIDITY_USD:,.0f}"
-    )
-
-    print(
-        f"Minimum 24s hacim: "
-        f"${MIN_VOLUME_24H_USD:,.0f}"
-    )
-
-    print()
-    print(
-        "📡 DEX Screener verisi alınıyor..."
-    )
-
-    profiles = get_latest_profiles()
-
-    print(
-        f"📥 {len(profiles)} "
-        f"token profili bulundu."
-    )
-
-    candidates = []
-
-    for index, profile in enumerate(
-        profiles,
-        start=1,
+    if any(
+        risk in critical_risks
+        for risk in risks
     ):
+        risk_level = "HIGH"
 
-        chain = profile.get(
-            "chainId",
-            "unknown"
+    elif risks:
+        risk_level = "MEDIUM"
+
+    else:
+        risk_level = "LOW"
+
+    return {
+        "available": True,
+        "risk": risk_level,
+        "risks": risks,
+        "buy_tax": 0,
+        "sell_tax": 0,
+        "raw": result,
+    }
+
+
+def analyze_evm_security(
+    result
+):
+    """
+    GoPlus EVM güvenlik kontrolü.
+    """
+
+    risks = []
+
+    def is_true(key):
+        return value_is_true(
+            result.get(key)
         )
 
-        address = profile.get(
-            "tokenAddress",
-            ""
+    # ========================================================
+    # KRİTİK RİSKLER
+    # ========================================================
+
+    if is_true(
+        "is_honeypot"
+    ):
+        risks.append(
+            "HONEYPOT"
         )
 
-        print(
-            f"[{index}/{len(profiles)}] "
-            f"{chain} "
-            f"{address[:12]}..."
+    if is_true(
+        "cannot_sell_all"
+    ):
+        risks.append(
+            "SATIS KISITLAMASI"
         )
 
-        candidate = analyze_token(
-            profile
+    if is_true(
+        "is_blacklisted"
+    ):
+        risks.append(
+            "BLACKLIST"
         )
 
-        if candidate:
-            candidates.append(
-                candidate
-            )
-
-        # API'yi gereksiz zorlamamak için
-        # küçük bekleme.
-        time.sleep(0.15)
-
-    candidates.sort(
-        key=lambda x: x["score"],
-        reverse=True,
-    )
-
-    print()
-    print("=" * 65)
-
-    print(
-        f"🎯 UYGUN ADAY SAYISI: "
-        f"{len(candidates)}"
-    )
-
-    print("=" * 65)
-
-    for candidate in candidates[:10]:
-        print_candidate(
-            candidate
+    if is_true(
+        "is_mintable"
+    ):
+        risks.append(
+            "MINT YETKISI"
         )
 
-    print()
-    print(
-        "✅ Tarama tamamlandı."
+    if is_true(
+        "hidden_owner"
+    ):
+        risks.append(
+            "GIZLI OWNER"
+        )
+
+    if is_true(
+        "can_take_back_ownership"
+    ):
+        risks.append(
+            "OWNER GERI ALABILIR"
+        )
+
+    if is_true(
+        "owner_change_balance"
+    ):
+        risks.append(
+            "OWNER BALANCE DEGISTIREBILIR"
+        )
+
+    # ========================================================
+    # TAX
+    # ========================================================
+
+    try:
+        buy_tax = float(
+            result.get(
+                "buy_tax",
+                0
+            ) or 0
+        )
+
+    except (
+        ValueError,
+        TypeError,
+    ):
+        buy_tax = 0
+
+    try:
+        sell_tax = float(
+            result.get(
+                "sell_tax",
+                0
+            ) or 0
+        )
+
+    except (
+        ValueError,
+        TypeError,
+    ):
+        sell_tax = 0
+
+    if buy_tax >= 10:
+        risks.append(
+            f"YUKSEK BUY TAX %{buy_tax:.1f}"
+        )
+
+    if sell_tax >= 10:
+        risks.append(
+            f"YUKSEK SELL TAX %{sell_tax:.1f}"
+        )
+
+    # ========================================================
+    # RİSK
+    # ========================================================
+
+    critical_risks = {
+        "HONEYPOT",
+        "SATIS KISITLAMASI",
+        "BLACKLIST",
+        "MINT YETKISI",
+        "GIZLI OWNER",
+        "OWNER GERI ALABILIR",
+        "OWNER BALANCE DEGISTIREBILIR",
+    }
+
+    if any(
+        risk in critical_risks
+        for risk in risks
+    ):
+        risk_level = "HIGH"
+
+    elif risks:
+        risk_level = "MEDIUM"
+
+    else:
+        risk_level = "LOW"
+
+    return {
+        "available": True,
+        "risk": risk_level,
+        "risks": risks,
+        "buy_tax": buy_tax,
+        "sell_tax": sell_tax,
+        "raw": result,
+    }
+
+
+def get_security(
+    chain_id,
+    token_address,
+):
+
+    # ========================================================
+    # SOLANA
+    # ========================================================
+
+    if chain_id == "solana":
+
+        url = (
+            f"{GOPLUS_SOLANA_URL}"
+            f"?contract_addresses={token_address}"
+        )
+
+        data = api_get(
+            url
+        )
+
+        if not data:
+            return {
+                "available": False,
+                "risk": "UNKNOWN",
+                "reason": (
+                    "GoPlus Solana API'den "
+                    "veri alinamadi."
+                ),
+            }
+
+        result_data = data.get(
+            "result",
+            {}
+        )
+
+        result = get_result(
+            result_data,
+            token_address,
+        )
+
+        if result is None:
+            return {
+                "available": False,
+                "risk": "UNKNOWN",
+                "reason": (
+                    "Solana token guvenlik "
+                    "verisi bulunamadi."
+                ),
+            }
+
+        return analyze_solana_security(
+            result
+        )
+
+    # ========================================================
+    # EVM
+    # ========================================================
+
+    chain_map = {
+        "ethereum": "1",
+        "bsc": "56",
+        "arbitrum": "42161",
+        "polygon": "137",
+        "base": "8453",
+        "optimism": "10",
+        "avalanche": "43114",
+        "robinhood": "4663",
+    }
+
+    goplus_chain = chain_map.get(
+        chain_id
     )
 
-    print(
-        "ℹ️ Telegram bildirimi "
-        "bu aşamada KAPALI."
+    if not goplus_chain:
+        return {
+            "available": False,
+            "risk": "UNKNOWN",
+            "reason": (
+                f"Desteklenmeyen chain: "
+                f"{chain_id}"
+            ),
+        }
+
+    url = (
+        f"{GOPLUS_BASE_URL}/{goplus_chain}"
+        f"?contract_addresses={token_address}"
     )
 
-    print(
-        "ℹ️ Token fiyatı filtre "
-        "olarak kullanılmadı."
+    data = api_get(
+        url
     )
 
-    print(
-        "🛡️ Güvenlik kontrolü aktif."
+    if not data:
+        return {
+            "available": False,
+            "risk": "UNKNOWN",
+            "reason": (
+                "GoPlus API'den veri alinamadi."
+            ),
+        }
+
+    result_data = data.get(
+        "result",
+        {}
     )
 
+    result = get_result(
+        result_data,
+        token_address,
+    )
 
-if __name__ == "__main__":
-    main()
+    if result is None:
+        return {
+            "available": False,
+            "risk": "UNKNOWN",
+            "reason": (
+                "Token guvenlik "
+                "verisi bulunamadi."
+            ),
+        }
+
+    return analyze_evm_security(
+        result
+    )
