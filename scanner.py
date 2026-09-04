@@ -12,6 +12,8 @@ from config import (
     PROJECT_NAME,
 )
 
+from security import get_security
+
 
 DEX_API = "https://api.dexscreener.com"
 
