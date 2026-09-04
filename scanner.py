@@ -13,6 +13,7 @@ from config import (
 )
 
 from security import get_security
+from history import save_candidates
 
 
 DEX_API = "https://api.dexscreener.com"
@@ -383,10 +384,6 @@ def calculate_score(
     # --------------------------------------------------
     # 5. MOMENTUM — 10 PUAN
     # --------------------------------------------------
-    #
-    # Aşırı pump'ı ödüllendirmiyoruz.
-    # Ama sağlıklı yükselişe puan veriyoruz.
-    #
 
     if (
         price_change_24h >= 0
@@ -974,7 +971,6 @@ def main():
                 f"{e}"
             )
 
-        # API'leri gereksiz zorlamamak için
         time.sleep(0.15)
 
     # --------------------------------------------------
@@ -997,12 +993,20 @@ def main():
 
     print("=" * 65)
 
-    # En yüksek 10 aday
+    # En yüksek 10 adayı göster
     for candidate in candidates[:10]:
 
         print_candidate(
             candidate
         )
+
+    # --------------------------------------------------
+    # GEÇMİŞE KAYDET
+    # --------------------------------------------------
+
+    save_candidates(
+        candidates
+    )
 
     print()
     print(
