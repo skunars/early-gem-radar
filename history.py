@@ -1,210 +1,321 @@
+# EARLY GEM RADAR - HISTORY SYSTEM
+
 import json
 import os
 from datetime import datetime, timezone
 
-HISTORY_DIR = "data"
-HISTORY_FILE = os.path.join(HISTORY_DIR, "candidates.json")
+
+DATA_DIR = "data"
+HISTORY_FILE = os.path.join(DATA_DIR, "candidates.json")
 
 
-def _now():
+def now_utc():
     return datetime.now(timezone.utc).isoformat()
 
 
-def _load_history():
-    os.makedirs(HISTORY_DIR, exist_ok=True)
+def load_history():
+    os.makedirs(DATA_DIR, exist_ok=True)
 
     if not os.path.exists(HISTORY_FILE):
-        return []
+        return {}
 
     try:
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        if isinstance(data, list):
+        if isinstance(data, dict):
             return data
 
     except Exception as e:
         print(f"⚠️ History okuma hatası: {e}")
 
-    return []
+    return {}
 
 
-def _save_history(data):
-    os.makedirs(HISTORY_DIR, exist_ok=True)
+def save_history(history):
+    os.makedirs(DATA_DIR, exist_ok=True)
 
     temp_file = HISTORY_FILE + ".tmp"
 
     with open(temp_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(
+            history,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
 
-    os.replace(temp_file, HISTORY_FILE)
-
-
-def _token_key(candidate):
-    chain = str(candidate.get("chain", "")).lower()
-    address = str(
-        candidate.get("token_address")
-        or candidate.get("address")
-        or candidate.get("tokenAddress")
-        or ""
-    ).lower()
-
-    if address:
-        return f"{chain}:{address}"
-
-    symbol = str(candidate.get("symbol", "")).upper()
-    name = str(candidate.get("name", "")).lower()
-
-    return f"{chain}:symbol:{symbol}:name:{name}"
-
-
-def record_candidates(candidates):
-    """
-    Scanner tarafından bulunan adayları geçmişe kaydeder.
-
-    Aynı token tekrar tarandığında yeni bir aday kaydı oluşturmaz.
-    Bunun yerine tokenin son durumunu günceller ve scan geçmişine
-    yeni bir snapshot ekler.
-    """
-
-    history = _load_history()
-
-    index = {}
-
-    for i, item in enumerate(history):
-        key = item.get("token_key")
-
-        if key:
-            index[key] = i
-
-    added = 0
-    updated = 0
-
-    for candidate in candidates:
-        key = _token_key(candidate)
-
-        now = _now()
-
-        snapshot = {
-            "time": now,
-            "price": candidate.get("price"),
-            "liquidity_usd": candidate.get("liquidity_usd"),
-            "volume_24h_usd": candidate.get("volume_24h_usd"),
-            "price_change_24h": candidate.get("price_change_24h"),
-            "score": candidate.get("score"),
-            "signal": candidate.get("signal"),
-            "security_risk": candidate.get("security_risk"),
-            "buy_tax": candidate.get("buy_tax"),
-            "sell_tax": candidate.get("sell_tax"),
-        }
-
-        if key not in index:
-            item = {
-                "token_key": key,
-                "first_seen": now,
-                "last_seen": now,
-
-                "chain": candidate.get("chain"),
-                "symbol": candidate.get("symbol"),
-                "name": candidate.get("name"),
-                "token_address": (
-                    candidate.get("token_address")
-                    or candidate.get("address")
-                    or candidate.get("tokenAddress")
-                ),
-                "dex": candidate.get("dex"),
-
-                "initial_price": candidate.get("price"),
-                "initial_liquidity_usd": candidate.get("liquidity_usd"),
-                "initial_volume_24h_usd": candidate.get("volume_24h_usd"),
-                "initial_score": candidate.get("score"),
-                "initial_signal": candidate.get("signal"),
-
-                "snapshots": [
-                    snapshot
-                ],
-
-                "performance": {
-                    "price_1h": None,
-                    "price_6h": None,
-                    "price_24h": None,
-                    "price_7d": None,
-                    "price_30d": None,
-                    "max_gain": None,
-                    "max_loss": None,
-                },
-            }
-
-            history.append(item)
-            index[key] = len(history) - 1
-
-            added += 1
-
-        else:
-            item = history[index[key]]
-
-            item["last_seen"] = now
-
-            snapshots = item.setdefault("snapshots", [])
-
-            # Aynı dakikada gereksiz tekrarları önle
-            if not snapshots or snapshots[-1].get("time", "")[:16] != now[:16]:
-                snapshots.append(snapshot)
-
-            updated += 1
-
-    _save_history(history)
-
-    print(
-        f"💾 History: {added} yeni aday, "
-        f"{updated} mevcut aday güncellendi."
+    os.replace(
+        temp_file,
+        HISTORY_FILE
     )
 
-    print(f"📁 Kayıt dosyası: {HISTORY_FILE}")
 
-    return history
+def save_candidate(candidate):
+    """Tek bir tokenın tarama sonucunu kaydeder."""
+
+    if not candidate:
+        return
+
+    history = load_history()
+
+    chain = str(
+        candidate.get("chain", "")
+    ).lower()
+
+    address = str(
+        candidate.get(
+            "token_address",
+            ""
+        )
+    ).lower()
+
+    symbol = str(
+        candidate.get(
+            "symbol",
+            "UNKNOWN"
+        )
+    )
+
+    if address:
+        key = f"{chain}:{address}"
+    else:
+        key = f"{chain}:{symbol.lower()}"
+
+    timestamp = now_utc()
+
+    if key not in history:
+
+        history[key] = {
+            "first_seen": timestamp,
+            "last_seen": timestamp,
+
+            "chain": chain,
+            "address": address,
+
+            "symbol": symbol,
+            "name": candidate.get(
+                "name"
+            ),
+
+            "dex": candidate.get(
+                "dex"
+            ),
+
+            "pair_address": candidate.get(
+                "pair_address"
+            ),
+
+            "dex_url": candidate.get(
+                "dex_url"
+            ),
+
+            "initial": {},
+            "latest": {},
+            "scans": []
+        }
+
+    item = history[key]
+
+    snapshot = {
+        "timestamp": timestamp,
+
+        "price_usd": candidate.get(
+            "price_usd"
+        ),
+
+        "liquidity_usd": candidate.get(
+            "liquidity_usd"
+        ),
+
+        "volume_24h_usd": candidate.get(
+            "volume_24h_usd"
+        ),
+
+        "market_cap": candidate.get(
+            "market_cap"
+        ),
+
+        "fdv": candidate.get(
+            "fdv"
+        ),
+
+        "price_change_24h": candidate.get(
+            "price_change_24h"
+        ),
+
+        "age_hours": candidate.get(
+            "age_hours"
+        ),
+
+        "buys_24h": candidate.get(
+            "buys_24h"
+        ),
+
+        "sells_24h": candidate.get(
+            "sells_24h"
+        ),
+
+        "score": candidate.get(
+            "score"
+        ),
+
+        "signal": candidate.get(
+            "signal"
+        ),
+
+        "security_available": candidate.get(
+            "security_available"
+        ),
+
+        "security_risk": candidate.get(
+            "security_risk"
+        ),
+
+        "security_risks": candidate.get(
+            "security_risks",
+            []
+        ),
+
+        "buy_tax": candidate.get(
+            "buy_tax"
+        ),
+
+        "sell_tax": candidate.get(
+            "sell_tax"
+        )
+    }
+
+    # İlk görüldüğü andaki bilgiler
+    if not item["initial"]:
+
+        item["initial"] = snapshot.copy()
+
+    # Son görülen bilgiler
+    item["latest"] = snapshot.copy()
+
+    item["last_seen"] = timestamp
+
+    # Tarama geçmişine ekle
+    item["scans"].append(
+        snapshot
+    )
+
+    # Her token için maksimum 1000 kayıt
+    if len(item["scans"]) > 1000:
+
+        item["scans"] = item[
+            "scans"
+        ][-1000:]
+
+    history[key] = item
+
+    save_history(history)
 
 
-def get_history():
-    """Tüm kayıtlı adayları döndürür."""
-    return _load_history()
+def save_candidates(candidates):
+    """Tarama sonuçlarının tamamını kaydeder."""
+
+    if not candidates:
+        return
+
+    count = 0
+
+    for candidate in candidates:
+
+        try:
+            save_candidate(
+                candidate
+            )
+
+            count += 1
+
+        except Exception as e:
+
+            print(
+                f"⚠️ Token kayıt hatası: {e}"
+            )
+
+    print(
+        f"💾 {count} aday geçmişe kaydedildi."
+    )
 
 
-def get_candidate(chain, token_address):
-    """Belirli bir tokenin geçmiş kaydını getirir."""
+def get_candidate(
+    chain,
+    address
+):
+    """Belirli bir tokenın geçmişini getirir."""
 
-    key = f"{str(chain).lower()}:{str(token_address).lower()}"
+    history = load_history()
 
-    history = _load_history()
+    key = (
+        f"{str(chain).lower()}:"
+        f"{str(address).lower()}"
+    )
 
-    for item in history:
-        if item.get("token_key") == key:
-            return item
+    return history.get(
+        key
+    )
 
-    return None
+
+def get_all_candidates():
+    """Tüm geçmiş tokenları getirir."""
+
+    return load_history()
 
 
 def history_count():
-    """Kayıtlı toplam token sayısını döndürür."""
-    return len(_load_history())
+    """Kayıtlı farklı token sayısını verir."""
+
+    return len(
+        load_history()
+    )
 
 
 if __name__ == "__main__":
-    history = _load_history()
 
-    print("📊 EARLY GEM RADAR HISTORY")
-    print("=" * 50)
-    print(f"Kayıtlı token sayısı: {len(history)}")
-    print(f"Dosya: {HISTORY_FILE}")
+    print()
+    print(
+        "📚 EARLY GEM RADAR"
+    )
+
+    print(
+        "📊 HISTORY SYSTEM"
+    )
+
     print("=" * 50)
 
-    for item in history[-10:]:
-        print(
-            item.get("symbol"),
-            "|",
-            item.get("chain"),
-            "|",
-            item.get("initial_signal"),
-            "|",
-            item.get("initial_score"),
+    history = load_history()
+
+    total_scans = 0
+
+    for item in history.values():
+
+        total_scans += len(
+            item.get(
+                "scans",
+                []
+            )
         )
+
+    print(
+        f"Farklı token: "
+        f"{len(history)}"
+    )
+
+    print(
+        f"Toplam tarama kaydı: "
+        f"{total_scans}"
+    )
+
+    print(
+        f"Dosya: "
+        f"{HISTORY_FILE}"
+    )
+
+    print("=" * 50)
+
+    print(
+        "✅ History sistemi hazır."
+    )
