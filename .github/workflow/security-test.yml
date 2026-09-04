@@ -1,0 +1,23 @@
+name: Security Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  security-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository'i indir
+        uses: actions/checkout@v4
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Güvenlik testini çalıştır
+        run: python test_security.py
