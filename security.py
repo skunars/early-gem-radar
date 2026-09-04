@@ -1,85 +1,46 @@
-# EARLY GEM RADAR - SECURITY ENGINE
-
 import json
 import urllib.request
 import urllib.parse
 import urllib.error
 
 
-GOPLUS_BASE_URL = "https://api.gopluslabs.io/api/v1/token_security"
-GOPLUS_SOLANA_URL = "https://api.gopluslabs.io/api/v1/solana/token_security"
+GOPLUS_EVM = "https://api.gopluslabs.io/api/v1/token_security"
+GOPLUS_SOLANA = "https://api.gopluslabs.io/api/v1/solana/token_security"
 
 
-# =========================================================
-# YARDIMCI FONKSİYONLAR
-# =========================================================
-
-def value_is_true(value):
-    if value is True:
-        return True
-
-    if value is False or value is None:
-        return False
-
-    return str(value).strip().lower() in {
-        "1",
-        "true",
-        "yes",
-        "y",
-    }
-
-
-def structured_status_is_true(value):
+def is_true(value):
     if isinstance(value, dict):
-        return value_is_true(value.get("status"))
+        value = value.get("status")
 
-    return value_is_true(value)
+    return str(value).lower() in ("1", "true", "yes")
 
 
-def safe_float(value, default=0.0):
+def number(value):
     try:
         return float(value)
     except Exception:
-        return default
+        return 0.0
 
 
-def get_result(data):
-    if not isinstance(data, dict):
-        return None
-
+def token_result(data):
     result = data.get("result")
-
-    if isinstance(result, dict):
-        return result
-
-    return None
-
-
-def get_token_data(result):
-    """
-    GoPlus result bazen doğrudan token verisini,
-    bazen de adres -> token verisi şeklinde döndürür.
-    """
 
     if not isinstance(result, dict):
         return None
 
-    known_keys = {
+    keys = {
         "is_honeypot",
         "is_mintable",
         "mintable",
         "freezable",
         "closable",
-        "metadata_mutable",
         "buy_tax",
         "sell_tax",
     }
 
-    # Doğrudan token datası
-    if any(key in result for key in known_keys):
+    if any(key in result for key in keys):
         return result
 
-    # Adres -> token datası
     for value in result.values():
         if isinstance(value, dict):
             return value
@@ -87,20 +48,14 @@ def get_token_data(result):
     return None
 
 
-# =========================================================
-# EVM ANALİZİ
-# =========================================================
-
-def analyze_evm_security(data):
-
-    result = get_result(data)
-    token = get_token_data(result)
+def analyze_evm(data):
+    token = token_result(data)
 
     if not token:
         return {
             "available": False,
             "risk": "UNKNOWN",
-            "reason": "GoPlus token sonucu bulunamadı",
+            "reason": "GoPlus sonucu bulunamadı",
             "risks": [],
             "buy_tax": 0,
             "sell_tax": 0,
@@ -108,197 +63,87 @@ def analyze_evm_security(data):
 
     risks = []
 
-    # -----------------------------------------------------
-    # HONEYPOT / SATIŞ
-    # -----------------------------------------------------
-
-    if value_is_true(token.get("is_honeypot")):
+    if is_true(token.get("is_honeypot")):
         risks.append("HONEYPOT")
 
-    if value_is_true(token.get("cannot_sell_all")):
+    if is_true(token.get("cannot_sell_all")):
         risks.append("SATIŞ KISITLAMASI")
 
-    if value_is_true(token.get("cannot_buy")):
+    if is_true(token.get("cannot_buy")):
         risks.append("ALIM KISITLAMASI")
 
-    # -----------------------------------------------------
-    # BLACKLIST
-    # -----------------------------------------------------
+    if is_true(token.get("is_blacklisted")):
+        risks.append("BLACKLIST")
 
-    if value_is_true(token.get("is_blacklisted")):
-        risks.append("BLACKLIST RİSKİ")
-
-    if value_is_true(token.get("transfer_pausable")):
-        risks.append("TRANSFER DURDURULABİLİR")
-
-    # -----------------------------------------------------
-    # MINT / OWNER
-    # -----------------------------------------------------
-
-    if value_is_true(token.get("is_mintable")):
+    if is_true(token.get("is_mintable")):
         risks.append("MINT YETKİSİ")
 
-    if value_is_true(token.get("owner_change_balance")):
+    if is_true(token.get("owner_change_balance")):
         risks.append("OWNER BAKİYE DEĞİŞTİREBİLİR")
 
-    if value_is_true(token.get("hidden_owner")):
+    if is_true(token.get("hidden_owner")):
         risks.append("GİZLİ OWNER")
 
-    if value_is_true(token.get("can_take_back_ownership")):
+    if is_true(token.get("can_take_back_ownership")):
         risks.append("OWNER GERİ ALINABİLİR")
 
-    # -----------------------------------------------------
-    # CONTRACT
-    # -----------------------------------------------------
-
     if "is_open_source" in token:
-        if not value_is_true(token.get("is_open_source")):
+        if not is_true(token.get("is_open_source")):
             risks.append("KAYNAK KODU AÇIK DEĞİL")
 
-    if value_is_true(token.get("is_proxy")):
+    if is_true(token.get("is_proxy")):
         risks.append("PROXY CONTRACT")
 
-    # -----------------------------------------------------
-    # TAX
-    # -----------------------------------------------------
-
-    buy_tax_raw = safe_float(token.get("buy_tax", 0))
-    sell_tax_raw = safe_float(token.get("sell_tax", 0))
-
-    buy_tax = buy_tax_raw * 100
-    sell_tax = sell_tax_raw * 100
+    buy_tax = number(token.get("buy_tax")) * 100
+    sell_tax = number(token.get("sell_tax")) * 100
 
     if buy_tax >= 10:
-        risks.append(
-            f"YÜKSEK BUY TAX %{buy_tax:.1f}"
-        )
+        risks.append("YÜKSEK BUY TAX")
 
     if sell_tax >= 10:
-        risks.append(
-            f"YÜKSEK SELL TAX %{sell_tax:.1f}"
-        )
+        risks.append("YÜKSEK SELL TAX")
 
-    if buy_tax >= 20:
-        risks.append("ÇOK YÜKSEK BUY TAX")
-
-    if sell_tax >= 20:
-        risks.append("ÇOK YÜKSEK SELL TAX")
-
-    # -----------------------------------------------------
-    # FAKE / SCAM
-    # -----------------------------------------------------
-
-    if value_is_true(token.get("fake_token")):
+    if is_true(token.get("fake_token")):
         risks.append("FAKE TOKEN")
 
-    if value_is_true(token.get("is_airdrop_scam")):
+    if is_true(token.get("is_airdrop_scam")):
         risks.append("AIRDROP SCAM")
 
-    # -----------------------------------------------------
-    # HOLDER YOĞUNLUĞU
-    # -----------------------------------------------------
-
-    top_holder_percent = 0.0
-    top5_percent = 0.0
-
-    holders = token.get("holders")
-
-    if isinstance(holders, list):
-
-        percentages = []
-
-        for holder in holders:
-
-            if not isinstance(holder, dict):
-                continue
-
-            percent = safe_float(
-                holder.get("percent"),
-                0
-            )
-
-            if percent > 0:
-                percentages.append(percent)
-
-        percentages.sort(reverse=True)
-
-        if percentages:
-            top_holder_percent = percentages[0]
-
-        if percentages:
-            top5_percent = sum(percentages[:5])
-
-    if top_holder_percent >= 0.30:
-        risks.append(
-            f"TOP HOLDER %{top_holder_percent * 100:.1f}"
-        )
-
-    if top5_percent >= 0.50:
-        risks.append(
-            f"TOP 5 HOLDER %{top5_percent * 100:.1f}"
-        )
-
-    # -----------------------------------------------------
-    # RİSK SEVİYESİ
-    # -----------------------------------------------------
-
-    high_risk_items = {
-        "HONEYPOT",
-        "SATIŞ KISITLAMASI",
-        "ALIM KISITLAMASI",
-        "BLACKLIST RİSKİ",
-        "MINT YETKİSİ",
-        "OWNER BAKİYE DEĞİŞTİREBİLİR",
-        "FAKE TOKEN",
-        "AIRDROP SCAM",
-        "ÇOK YÜKSEK BUY TAX",
-        "ÇOK YÜKSEK SELL TAX",
-    }
-
-    high_risk = False
-
-    for risk_text in risks:
-        for high_item in high_risk_items:
-            if high_item in risk_text:
-                high_risk = True
-                break
-
-        if high_risk:
-            break
-
-    if high_risk:
-        risk_level = "HIGH"
+    if "HONEYPOT" in risks:
+        risk = "HIGH"
+    elif "SATIŞ KISITLAMASI" in risks:
+        risk = "HIGH"
+    elif "ALIM KISITLAMASI" in risks:
+        risk = "HIGH"
+    elif "MINT YETKİSİ" in risks:
+        risk = "HIGH"
+    elif "FAKE TOKEN" in risks:
+        risk = "HIGH"
+    elif "AIRDROP SCAM" in risks:
+        risk = "HIGH"
     elif risks:
-        risk_level = "MEDIUM"
+        risk = "MEDIUM"
     else:
-        risk_level = "LOW"
+        risk = "LOW"
 
     return {
         "available": True,
-        "risk": risk_level,
-        "reason": "GoPlus EVM security analizi tamamlandı",
+        "risk": risk,
+        "reason": "GoPlus EVM güvenlik kontrolü tamamlandı",
         "risks": risks,
         "buy_tax": buy_tax,
         "sell_tax": sell_tax,
-        "top_holder_percent": top_holder_percent,
-        "top5_percent": top5_percent,
     }
 
 
-# =========================================================
-# SOLANA ANALİZİ
-# =========================================================
-
-def analyze_solana_security(data):
-
-    result = get_result(data)
-    token = get_token_data(result)
+def analyze_solana(data):
+    token = token_result(data)
 
     if not token:
         return {
             "available": False,
             "risk": "UNKNOWN",
-            "reason": "GoPlus Solana token sonucu bulunamadı",
+            "reason": "GoPlus Solana sonucu bulunamadı",
             "risks": [],
             "buy_tax": 0,
             "sell_tax": 0,
@@ -306,18 +151,141 @@ def analyze_solana_security(data):
 
     risks = []
 
-    # -----------------------------------------------------
-    # MINT
-    # -----------------------------------------------------
-
-    if structured_status_is_true(
-        token.get("mintable")
-    ):
+    if is_true(token.get("mintable")):
         risks.append("MINT YETKİSİ")
 
-    # -----------------------------------------------------
-    # FREEZE
-    # -----------------------------------------------------
+    if is_true(token.get("freezable")):
+        risks.append("FREEZE YETKİSİ")
 
-    if structured_status_is_true(
-        token.get("freezable
+    if is_true(token.get("closable")):
+        risks.append("TOKEN KAPATILABİLİR")
+
+    if is_true(token.get("metadata_mutable")):
+        risks.append("METADATA DEĞİŞTİRİLEBİLİR")
+
+    if is_true(token.get("transfer_fee_upgradable")):
+        risks.append("TRANSFER FEE DEĞİŞTİRİLEBİLİR")
+
+    if is_true(token.get("default_account_state_upgradable")):
+        risks.append("ACCOUNT STATE DEĞİŞTİRİLEBİLİR")
+
+    if is_true(token.get("balance_mutable_authority")):
+        risks.append("BALANCE MUTASYON YETKİSİ")
+
+    if is_true(token.get("transfer_hook_upgradable")):
+        risks.append("TRANSFER HOOK DEĞİŞTİRİLEBİLİR")
+
+    if is_true(token.get("non_transferable")):
+        risks.append("NON-TRANSFERABLE")
+
+    if is_true(token.get("creator_malicious")):
+        risks.append("KÖTÜ NİYETLİ CREATOR")
+
+    if is_true(token.get("token_malicious")):
+        risks.append("KÖTÜ NİYETLİ TOKEN")
+
+    high_risks = {
+        "MINT YETKİSİ",
+        "FREEZE YETKİSİ",
+        "BALANCE MUTASYON YETKİSİ",
+        "KÖTÜ NİYETLİ CREATOR",
+        "KÖTÜ NİYETLİ TOKEN",
+    }
+
+    if any(item in high_risks for item in risks):
+        risk = "HIGH"
+    elif risks:
+        risk = "MEDIUM"
+    else:
+        risk = "LOW"
+
+    return {
+        "available": True,
+        "risk": risk,
+        "reason": "GoPlus Solana güvenlik kontrolü tamamlandı",
+        "risks": risks,
+        "buy_tax": 0,
+        "sell_tax": 0,
+    }
+
+
+def get_security(chain, token_address):
+
+    chain = str(chain).lower().strip()
+    token_address = str(token_address).strip()
+
+    evm_chains = {
+        "ethereum": "1",
+        "bsc": "56",
+        "polygon": "137",
+        "arbitrum": "42161",
+        "optimism": "10",
+        "base": "8453",
+        "avalanche": "43114",
+        "fantom": "250",
+        "linea": "59144",
+        "scroll": "534352",
+        "blast": "81457",
+        "zksync": "324",
+        "mantle": "5000",
+        "mode": "34443",
+        "robinhood": "4663",
+        "robinhood-chain": "4663",
+        "robinhood_chain": "4663",
+    }
+
+    try:
+
+        params = urllib.parse.urlencode({
+            "contract_addresses": token_address
+        })
+
+        if chain == "solana":
+
+            url = f"{GOPLUS_SOLANA}?{params}"
+
+            parser = analyze_solana
+
+        elif chain in evm_chains:
+
+            chain_id = evm_chains[chain]
+
+            url = f"{GOPLUS_EVM}/{chain_id}?{params}"
+
+            parser = analyze_evm
+
+        else:
+
+            return {
+                "available": False,
+                "risk": "UNKNOWN",
+                "reason": f"Desteklenmeyen chain: {chain}",
+                "risks": [],
+                "buy_tax": 0,
+                "sell_tax": 0,
+            }
+
+        request = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Early-Gem-Radar/1.0"
+            }
+        )
+
+        with urllib.request.urlopen(
+            request,
+            timeout=15
+        ) as response:
+
+            if response.status != 200:
+
+                return {
+                    "available": False,
+                    "risk": "UNKNOWN",
+                    "reason": f"HTTP {response.status}",
+                    "risks": [],
+                    "buy_tax": 0,
+                    "sell_tax": 0,
+                }
+
+            raw
