@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   scan:
@@ -21,3 +21,17 @@ jobs:
 
       - name: Scanner çalıştır
         run: python scanner.py
+
+      - name: Geçmiş verisini GitHub'a kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/candidates.json
+
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -m "Update radar history"
+            git push
+          fi
