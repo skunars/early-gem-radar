@@ -1867,8 +1867,7 @@ def update_open_paper_trades(
                         f"🚀 {trade['symbol']} "
                         f"+{milestone}% "
                         f"| 100 TL → "
-                        f"{STAKE_TL + "
-                        profit_tl:.2f} TL"
+                        f"{STAKE_TL + profit_tl:.2f} TL"
                     )
 
                     changed = True
