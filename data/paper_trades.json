@@ -94,7 +94,7 @@
   },
   {
     "trade_id": "robinhood_0x4ab01d4333540ebd754d68e4ececf55c85706b451583d0e442a07ffcf8177ef6_1789240878",
-    "status": "OPEN",
+    "status": "CLOSED",
     "stake_tl": 100.0,
     "name": "Artificial Cat INU",
     "symbol": "CATAI",
@@ -109,9 +109,9 @@
     "earlyness_score": 66,
     "peak_price": 3.507e-06,
     "peak_profit_pct": 303.4745,
-    "max_drawdown_pct": 0.0,
-    "current_profit_pct": 303.4745,
-    "current_profit_tl": 303.4745,
+    "max_drawdown_pct": 224.6894,
+    "current_profit_pct": 78.7851,
+    "current_profit_tl": 78.7851,
     "highest_milestone": 300,
     "milestones_hit": [
       5,
@@ -125,12 +125,12 @@
       200,
       300
     ],
-    "exit_time": null,
-    "exit_price": null,
-    "exit_reason": null,
-    "final_profit_pct": null,
-    "final_profit_tl": null,
-    "hold_hours": null
+    "exit_time": "2026-09-12T21:14:28.982218+00:00",
+    "exit_price": 1.554e-06,
+    "exit_reason": "TRAILING_STOP",
+    "final_profit_pct": 78.7851,
+    "final_profit_tl": 78.7851,
+    "hold_hours": 1.89
   },
   {
     "trade_id": "robinhood_0x92aabada79a909f8115593fb5926468166216991bac47b69f8eabd9c95117473_1789241370",
