@@ -1,16 +1,16 @@
 {
-  "0x9ee0e829fcdec07734e5e669f6292440b102e49d8ac191f1805281d2c6eed775": {
-    "price": 0.001553,
-    "time": "2026-09-12T20:35:50.999815+00:00",
-    "symbol": "TWINE",
-    "chain": "robinhood",
-    "token_address": "0xe27501d787d647CC82a5B4a7Eafd5750386F1B77"
-  },
   "5x74XfDESP5j2vfr7nW76mqgQkKMUJUhGWXog4FaJs9X": {
-    "price": 0.001544,
-    "time": "2026-09-12T20:35:50.999828+00:00",
+    "price": 0.001558,
+    "time": "2026-09-12T20:52:43.453860+00:00",
     "symbol": "TWINE",
     "chain": "solana",
     "token_address": "CNWxmoBSQZo2Sgp5KSAK5m9FwSqDbXQRP4CNMuoe78Gm"
+  },
+  "0x9ee0e829fcdec07734e5e669f6292440b102e49d8ac191f1805281d2c6eed775": {
+    "price": 0.001451,
+    "time": "2026-09-12T20:52:43.453869+00:00",
+    "symbol": "TWINE",
+    "chain": "robinhood",
+    "token_address": "0xe27501d787d647CC82a5B4a7Eafd5750386F1B77"
   }
 }
