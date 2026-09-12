@@ -86684,5 +86684,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xb82adbd6453e6095bc532c6996ef400980cc1c72": {
+    "first_seen": "2026-09-12T23:48:08.450713+00:00",
+    "last_seen": "2026-09-12T23:48:08.450713+00:00",
+    "chain": "robinhood",
+    "address": "0xb82adbd6453e6095bc532c6996ef400980cc1c72",
+    "symbol": "TWINE",
+    "name": "TWINE",
+    "dex": "uniswap",
+    "pair_address": "0xBDD8CD3D16fAa5B8EA6E9E06521B0210bB3048DA",
+    "dex_url": "https://dexscreener.com/robinhood/0xbdd8cd3d16faa5b8ea6e9e06521b0210bb3048da",
+    "initial": {
+      "timestamp": "2026-09-12T23:48:08.450713+00:00",
+      "price_usd": 0.003796,
+      "liquidity_usd": 202845.79,
+      "volume_24h_usd": 1560571.55,
+      "market_cap": 3788972.0,
+      "fdv": 3788972.0,
+      "price_change_24h": 150329.0,
+      "age_hours": 0.4172860972222222,
+      "buys_24h": 614,
+      "sells_24h": 343,
+      "score": 62,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-12T23:48:08.450713+00:00",
+      "price_usd": 0.003796,
+      "liquidity_usd": 202845.79,
+      "volume_24h_usd": 1560571.55,
+      "market_cap": 3788972.0,
+      "fdv": 3788972.0,
+      "price_change_24h": 150329.0,
+      "age_hours": 0.4172860972222222,
+      "buys_24h": 614,
+      "sells_24h": 343,
+      "score": 62,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-12T23:48:08.450713+00:00",
+        "price_usd": 0.003796,
+        "liquidity_usd": 202845.79,
+        "volume_24h_usd": 1560571.55,
+        "market_cap": 3788972.0,
+        "fdv": 3788972.0,
+        "price_change_24h": 150329.0,
+        "age_hours": 0.4172860972222222,
+        "buys_24h": 614,
+        "sells_24h": 343,
+        "score": 62,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

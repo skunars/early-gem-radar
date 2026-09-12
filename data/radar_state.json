@@ -1,16 +1,9 @@
 {
-  "0x3acf997e3b7f5519cd5aeb6bb84c1ee73eea65b426732e17df9a38306663f8a5": {
-    "price": 0.0001487,
-    "time": "2026-09-12T23:31:00.802917+00:00",
-    "symbol": "PVE",
+  "0xBDD8CD3D16fAa5B8EA6E9E06521B0210bB3048DA": {
+    "price": 0.003796,
+    "time": "2026-09-12T23:48:08.499390+00:00",
+    "symbol": "TWINE",
     "chain": "robinhood",
-    "token_address": "0x94e5B67b563c5fDcb85F58859e3082fD02871E18"
-  },
-  "0xdaa6926de83ae1c51cc11357548c9f78f46d4fd9fb2a077f4ae966d806f689d7": {
-    "price": 3.496e-06,
-    "time": "2026-09-12T23:31:00.802935+00:00",
-    "symbol": "Underdog",
-    "chain": "robinhood",
-    "token_address": "0x3D40CeF9f3186eeC44404E3e3429Fa0d71486Ba3"
+    "token_address": "0xb82ADbD6453E6095bc532c6996eF400980cC1c72"
   }
 }
