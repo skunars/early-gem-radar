@@ -24,16 +24,16 @@ jobs:
       - name: Scanner çalıştır
         run: python scanner.py
 
-      - name: Geçmiş verisini GitHub'a kaydet
+      - name: Geçmiş ve paper verisini GitHub'a kaydet
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/candidates.json
+          git add data/candidates.json data/paper_trades.json data/radar_state.json
 
           if git diff --cached --quiet; then
             echo "Değişiklik yok."
           else
-            git commit -m "Update radar history"
+            git commit -m "Persist radar and paper trading state"
             git push
           fi
