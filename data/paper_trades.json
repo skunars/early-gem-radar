@@ -308,7 +308,7 @@
   },
   {
     "trade_id": "solana_6WwtGMXueNTv5YrD3nbfXxxS3ANiDEGyXJkTBcnmXLvc_1789272250",
-    "status": "OPEN",
+    "status": "CLOSED",
     "stake_tl": 100.0,
     "name": "JubJub Bird",
     "symbol": "JubJub",
@@ -323,20 +323,20 @@
     "earlyness_score": 58,
     "peak_price": 0.003783,
     "peak_profit_pct": 27.1169,
-    "max_drawdown_pct": 0.0,
-    "current_profit_pct": 27.1169,
-    "current_profit_tl": 27.1169,
+    "max_drawdown_pct": 34.1398,
+    "current_profit_pct": -7.0228,
+    "current_profit_tl": -7.0228,
     "highest_milestone": 20,
     "milestones_hit": [
       5,
       10,
       20
     ],
-    "exit_time": null,
-    "exit_price": null,
-    "exit_reason": null,
-    "final_profit_pct": null,
-    "final_profit_tl": null,
-    "hold_hours": null
+    "exit_time": "2026-09-13T04:41:52.011549+00:00",
+    "exit_price": 0.002767,
+    "exit_reason": "TRAILING_STOP",
+    "final_profit_pct": -7.0228,
+    "final_profit_tl": -7.0228,
+    "hold_hours": 0.63
   }
 ]
