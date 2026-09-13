@@ -1,9 +1,9 @@
 {
-  "0x9fc4a2a6ab1ff79dceeddea3556eff1f0556e9acddba7c1b8f2e8b1e51114c4e": {
-    "price": 0.0003929,
-    "time": "2026-09-13T21:57:37.606466+00:00",
-    "symbol": "CRLY",
+  "0x86d15dd82c00b104409680f13551a7e6be21a7b8077cfeadc06bcfaf21e5a356": {
+    "price": 0.001381,
+    "time": "2026-09-13T22:17:35.315502+00:00",
+    "symbol": "PENGU",
     "chain": "robinhood",
-    "token_address": "0x3E6ca9c9555669540F4db613d1be9a4bB8Ddc607"
+    "token_address": "0x4ea2cA14ffd28e951834bcf19BFcEf9b71f9B11D"
   }
 }
