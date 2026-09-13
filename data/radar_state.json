@@ -1,1 +1,9 @@
-{}
+{
+  "0x367be2CD3C75577b18e2A15e9D687A8A320136b7": {
+    "price": 0.001465,
+    "time": "2026-09-13T13:18:05.386009+00:00",
+    "symbol": "Almond",
+    "chain": "robinhood",
+    "token_address": "0x21d21e5d95C34405b36a308Ba58fbB0AcB6eFb50"
+  }
+}
