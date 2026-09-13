@@ -1,9 +1,9 @@
 {
-  "0xA1dD24f77788216b5386CCE7d392BDBf34bd467C": {
-    "price": 0.0001398,
-    "time": "2026-09-13T16:01:08.781055+00:00",
-    "symbol": "WRESTLER",
-    "chain": "robinhood",
-    "token_address": "0x5bDd6Cb3927036393a3444272EcF9c6A169E74A6"
+  "2ERrusBSySAXcfnEp4CBoLE4b2ZSiRVJd55Yz9im2yg4": {
+    "price": 0.0008139,
+    "time": "2026-09-13T16:23:48.727042+00:00",
+    "symbol": "INDEX",
+    "chain": "solana",
+    "token_address": "3Sv4Jriwo2V7c1wturGVrrpfKc9XbGxewnDHpMLrpbWQ"
   }
 }
