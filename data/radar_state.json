@@ -1,9 +1,9 @@
 {
-  "0xCc59D48F0Eb4cd668d759708072D22b4a27E01A0": {
-    "price": 0.003977,
-    "time": "2026-09-13T14:57:57.809210+00:00",
-    "symbol": "YOINK",
+  "0x25d555e00faf8aff3e70768e9ff917ab14fd09502ffe3f00ed7d6dde4d8ca298": {
+    "price": 1.372e-06,
+    "time": "2026-09-13T15:17:16.394146+00:00",
+    "symbol": "CLARITY",
     "chain": "robinhood",
-    "token_address": "0x6268808aa25b47f0aFFEee0E6139ab1CC9460d1D"
+    "token_address": "0x33242B42288B0a9aa0fdd49625C617EBE5474a35"
   }
 }
