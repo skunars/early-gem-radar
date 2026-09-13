@@ -1,1 +1,16 @@
-{}
+{
+  "0x69ae89982357399c7398a8ef1273a4ef8752e9130a281e4fafa3ee6889dee0b2": {
+    "price": 0.0001279,
+    "time": "2026-09-13T19:15:14.708710+00:00",
+    "symbol": "SKNT",
+    "chain": "robinhood",
+    "token_address": "0x08b3E80A824424Bf08E4BD4A768f7f9C4A951e18"
+  },
+  "0xd8db7fb6ca8488147683cd2d7ae7c6b95c2912cbf781f0189772b5bb54f9b163": {
+    "price": 0.000427,
+    "time": "2026-09-13T19:15:14.708722+00:00",
+    "symbol": "ANT",
+    "chain": "robinhood",
+    "token_address": "0x36E93e3F85472F206FAf96a2c2313355f9be1e18"
+  }
+}
