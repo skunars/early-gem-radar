@@ -87853,5 +87853,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xbc18d0b1d039107fc74ea97c333da6323b87723d": {
+    "first_seen": "2026-09-13T08:03:58.826813+00:00",
+    "last_seen": "2026-09-13T08:03:58.826813+00:00",
+    "chain": "robinhood",
+    "address": "0xbc18d0b1d039107fc74ea97c333da6323b87723d",
+    "symbol": "奶蛙",
+    "name": "Milk Frog",
+    "dex": "uniswap",
+    "pair_address": "0x0542feea93ec2441c44eb531e7407d0b1f5547394a80f7a037549e9b51cd9cef",
+    "dex_url": "https://dexscreener.com/robinhood/0x0542feea93ec2441c44eb531e7407d0b1f5547394a80f7a037549e9b51cd9cef",
+    "initial": {
+      "timestamp": "2026-09-13T08:03:58.826813+00:00",
+      "price_usd": 0.001522,
+      "liquidity_usd": 100281.18,
+      "volume_24h_usd": 1680213.24,
+      "market_cap": 1522128.0,
+      "fdv": 1522128.0,
+      "price_change_24h": 3817.0,
+      "age_hours": 1.2416876355555557,
+      "buys_24h": 5922,
+      "sells_24h": 5339,
+      "score": 56,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-13T08:03:58.826813+00:00",
+      "price_usd": 0.001522,
+      "liquidity_usd": 100281.18,
+      "volume_24h_usd": 1680213.24,
+      "market_cap": 1522128.0,
+      "fdv": 1522128.0,
+      "price_change_24h": 3817.0,
+      "age_hours": 1.2416876355555557,
+      "buys_24h": 5922,
+      "sells_24h": 5339,
+      "score": 56,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-13T08:03:58.826813+00:00",
+        "price_usd": 0.001522,
+        "liquidity_usd": 100281.18,
+        "volume_24h_usd": 1680213.24,
+        "market_cap": 1522128.0,
+        "fdv": 1522128.0,
+        "price_change_24h": 3817.0,
+        "age_hours": 1.2416876355555557,
+        "buys_24h": 5922,
+        "sells_24h": 5339,
+        "score": 56,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

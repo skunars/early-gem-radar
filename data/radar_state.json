@@ -1,23 +1,9 @@
 {
-  "0x57a57260e1359da5a5d655f19d829b9de0fbfab7b39f7ebda46b64507b4658fa": {
-    "price": 0.0001581,
-    "time": "2026-09-13T07:49:45.196876+00:00",
-    "symbol": "Verity",
+  "0x0542feea93ec2441c44eb531e7407d0b1f5547394a80f7a037549e9b51cd9cef": {
+    "price": 0.001522,
+    "time": "2026-09-13T08:03:58.922180+00:00",
+    "symbol": "奶蛙",
     "chain": "robinhood",
-    "token_address": "0x1cb40f12B9a2D9429D613C21AcE5AE8B662f7B0e"
-  },
-  "0x2B796d430B5a73b0479c2bE79d994237111d69A4": {
-    "price": 0.0009127,
-    "time": "2026-09-13T07:49:45.196893+00:00",
-    "symbol": "富贵",
-    "chain": "robinhood",
-    "token_address": "0x91AFF6094A8e2B9DE22ba6523A78B9b246E592e3"
-  },
-  "0xec52A53D7AA278b2027C83449B425Cde8ff8015b": {
-    "price": 0.003829,
-    "time": "2026-09-13T07:49:45.196896+00:00",
-    "symbol": "富贵",
-    "chain": "robinhood",
-    "token_address": "0xcEEBF25B318201f1F949be2FabBFcEe231737139"
+    "token_address": "0xBC18D0B1d039107fC74ea97C333dA6323b87723D"
   }
 }
