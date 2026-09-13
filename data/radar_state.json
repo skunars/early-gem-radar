@@ -1,9 +1,16 @@
 {
   "0x084b0dd3c91354c5a1247d66ab0f81f49e0cf70980766d71c2f9dbf6cbc84e4e": {
-    "price": 0.001259,
-    "time": "2026-09-13T20:33:54.687048+00:00",
+    "price": 0.001269,
+    "time": "2026-09-13T20:48:29.459078+00:00",
     "symbol": "JESUS",
     "chain": "robinhood",
     "token_address": "0x87D5F6c044C87077e1b4172869519E70900355e2"
+  },
+  "0x83c21859372fe334c6bebfdc32b32a09fd5ae714931f5208d7c02c821919721d": {
+    "price": 0.001549,
+    "time": "2026-09-13T20:48:29.459096+00:00",
+    "symbol": "ENDAI",
+    "chain": "robinhood",
+    "token_address": "0x46d7B18f7C0a946298cE7AE400df5384bf5addeF"
   }
 }
