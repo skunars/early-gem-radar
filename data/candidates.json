@@ -86989,5 +86989,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x457f57c9f85a984ffd890c4490ef0f33a26258fa": {
+    "first_seen": "2026-09-13T05:32:15.954136+00:00",
+    "last_seen": "2026-09-13T05:32:15.954136+00:00",
+    "chain": "robinhood",
+    "address": "0x457f57c9f85a984ffd890c4490ef0f33a26258fa",
+    "symbol": "JubJub",
+    "name": "Zcash Official Mascot",
+    "dex": "uniswap",
+    "pair_address": "0xa94d1c8cb0f61ce6a133f8c5b5987291732c14b2806df3659ce0a629c4254a2c",
+    "dex_url": "https://dexscreener.com/robinhood/0xa94d1c8cb0f61ce6a133f8c5b5987291732c14b2806df3659ce0a629c4254a2c",
+    "initial": {
+      "timestamp": "2026-09-13T05:32:15.954136+00:00",
+      "price_usd": 0.000427,
+      "liquidity_usd": 134049.86,
+      "volume_24h_usd": 849586.44,
+      "market_cap": 427024.0,
+      "fdv": 427024.0,
+      "price_change_24h": 3100.0,
+      "age_hours": 1.2606773288888888,
+      "buys_24h": 1674,
+      "sells_24h": 1298,
+      "score": 59,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-13T05:32:15.954136+00:00",
+      "price_usd": 0.000427,
+      "liquidity_usd": 134049.86,
+      "volume_24h_usd": 849586.44,
+      "market_cap": 427024.0,
+      "fdv": 427024.0,
+      "price_change_24h": 3100.0,
+      "age_hours": 1.2606773288888888,
+      "buys_24h": 1674,
+      "sells_24h": 1298,
+      "score": 59,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-13T05:32:15.954136+00:00",
+        "price_usd": 0.000427,
+        "liquidity_usd": 134049.86,
+        "volume_24h_usd": 849586.44,
+        "market_cap": 427024.0,
+        "fdv": 427024.0,
+        "price_change_24h": 3100.0,
+        "age_hours": 1.2606773288888888,
+        "buys_24h": 1674,
+        "sells_24h": 1298,
+        "score": 59,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

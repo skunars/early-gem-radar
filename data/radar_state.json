@@ -1,1 +1,9 @@
-{}
+{
+  "0xa94d1c8cb0f61ce6a133f8c5b5987291732c14b2806df3659ce0a629c4254a2c": {
+    "price": 0.000427,
+    "time": "2026-09-13T05:32:16.047167+00:00",
+    "symbol": "JubJub",
+    "chain": "robinhood",
+    "token_address": "0x457f57c9f85A984FFd890c4490EF0f33a26258fA"
+  }
+}
