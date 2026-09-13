@@ -90040,5 +90040,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x3e6ca9c9555669540f4db613d1be9a4bb8ddc607": {
+    "first_seen": "2026-09-13T21:40:51.071800+00:00",
+    "last_seen": "2026-09-13T21:40:51.071800+00:00",
+    "chain": "robinhood",
+    "address": "0x3e6ca9c9555669540f4db613d1be9a4bb8ddc607",
+    "symbol": "CRLY",
+    "name": "CapitalRelay",
+    "dex": "uniswap",
+    "pair_address": "0x9fc4a2a6ab1ff79dceeddea3556eff1f0556e9acddba7c1b8f2e8b1e51114c4e",
+    "dex_url": "https://dexscreener.com/robinhood/0x9fc4a2a6ab1ff79dceeddea3556eff1f0556e9acddba7c1b8f2e8b1e51114c4e",
+    "initial": {
+      "timestamp": "2026-09-13T21:40:51.071800+00:00",
+      "price_usd": 0.0003295,
+      "liquidity_usd": 169989.39,
+      "volume_24h_usd": 562909.59,
+      "market_cap": 329574.0,
+      "fdv": 329574.0,
+      "price_change_24h": 946.0,
+      "age_hours": 0.3309759905555556,
+      "buys_24h": 300,
+      "sells_24h": 259,
+      "score": 67,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-13T21:40:51.071800+00:00",
+      "price_usd": 0.0003295,
+      "liquidity_usd": 169989.39,
+      "volume_24h_usd": 562909.59,
+      "market_cap": 329574.0,
+      "fdv": 329574.0,
+      "price_change_24h": 946.0,
+      "age_hours": 0.3309759905555556,
+      "buys_24h": 300,
+      "sells_24h": 259,
+      "score": 67,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-13T21:40:51.071800+00:00",
+        "price_usd": 0.0003295,
+        "liquidity_usd": 169989.39,
+        "volume_24h_usd": 562909.59,
+        "market_cap": 329574.0,
+        "fdv": 329574.0,
+        "price_change_24h": 946.0,
+        "age_hours": 0.3309759905555556,
+        "buys_24h": 300,
+        "sells_24h": 259,
+        "score": 67,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

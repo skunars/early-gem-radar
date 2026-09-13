@@ -1,9 +1,9 @@
 {
-  "0x1fef43a203688de34191f0027657de63b52d46c07b4c3807be7884ee8c21492a": {
-    "price": 0.001732,
-    "time": "2026-09-13T21:22:18.011083+00:00",
-    "symbol": "TRUST",
+  "0x9fc4a2a6ab1ff79dceeddea3556eff1f0556e9acddba7c1b8f2e8b1e51114c4e": {
+    "price": 0.0003295,
+    "time": "2026-09-13T21:40:51.168277+00:00",
+    "symbol": "CRLY",
     "chain": "robinhood",
-    "token_address": "0xD2efc8eeb81Dc9500a935947b1996f50F94Fe9CF"
+    "token_address": "0x3E6ca9c9555669540F4db613d1be9a4bB8Ddc607"
   }
 }
