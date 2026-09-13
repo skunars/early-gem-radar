@@ -90326,5 +90326,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x3544df7295e5fbb3c5e9603972db4a27fb821ee8": {
+    "first_seen": "2026-09-13T23:40:09.540092+00:00",
+    "last_seen": "2026-09-13T23:40:09.540092+00:00",
+    "chain": "robinhood",
+    "address": "0x3544df7295e5fbb3c5e9603972db4a27fb821ee8",
+    "symbol": "TWIN",
+    "name": "TWIN",
+    "dex": "uniswap",
+    "pair_address": "0x265cd2E75599b5a97cd8eFF1D3b16947dfb73cE1",
+    "dex_url": "https://dexscreener.com/robinhood/0x265cd2e75599b5a97cd8eff1d3b16947dfb73ce1",
+    "initial": {
+      "timestamp": "2026-09-13T23:40:09.540092+00:00",
+      "price_usd": 0.0004187,
+      "liquidity_usd": 111983.36,
+      "volume_24h_usd": 1027596.39,
+      "market_cap": 418738.0,
+      "fdv": 418738.0,
+      "price_change_24h": 4725.0,
+      "age_hours": 1.0570731330555556,
+      "buys_24h": 1657,
+      "sells_24h": 1055,
+      "score": 61,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-13T23:40:09.540092+00:00",
+      "price_usd": 0.0004187,
+      "liquidity_usd": 111983.36,
+      "volume_24h_usd": 1027596.39,
+      "market_cap": 418738.0,
+      "fdv": 418738.0,
+      "price_change_24h": 4725.0,
+      "age_hours": 1.0570731330555556,
+      "buys_24h": 1657,
+      "sells_24h": 1055,
+      "score": 61,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-13T23:40:09.540092+00:00",
+        "price_usd": 0.0004187,
+        "liquidity_usd": 111983.36,
+        "volume_24h_usd": 1027596.39,
+        "market_cap": 418738.0,
+        "fdv": 418738.0,
+        "price_change_24h": 4725.0,
+        "age_hours": 1.0570731330555556,
+        "buys_24h": 1657,
+        "sells_24h": 1055,
+        "score": 61,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
