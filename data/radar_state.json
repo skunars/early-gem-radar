@@ -1,23 +1,23 @@
 {
-  "0x444B3bc1D930FAd6734F3d8B163Cfc94a63d2c4d": {
-    "price": 0.0003368,
-    "time": "2026-09-13T19:29:25.646532+00:00",
-    "symbol": "Ant",
-    "chain": "robinhood",
-    "token_address": "0x309A9f72598d7A0aa1a7f66c140781e2946109F7"
-  },
   "0xd8db7fb6ca8488147683cd2d7ae7c6b95c2912cbf781f0189772b5bb54f9b163": {
-    "price": 0.0003114,
-    "time": "2026-09-13T19:29:25.646550+00:00",
+    "price": 0.0002351,
+    "time": "2026-09-13T19:42:44.903946+00:00",
     "symbol": "ANT",
     "chain": "robinhood",
     "token_address": "0x36E93e3F85472F206FAf96a2c2313355f9be1e18"
   },
   "0xc38c5348dd270352b25cdc1fd5220541da52f8b0dbf15b9110ebe96078816181": {
-    "price": 0.0003133,
-    "time": "2026-09-13T19:29:25.646554+00:00",
+    "price": 0.0005573,
+    "time": "2026-09-13T19:42:44.903963+00:00",
     "symbol": "MOONCOIN",
     "chain": "robinhood",
     "token_address": "0x6F3af61E9517776744EdC724b9afAA70E0A51E18"
+  },
+  "0x69ae89982357399c7398a8ef1273a4ef8752e9130a281e4fafa3ee6889dee0b2": {
+    "price": 0.0002799,
+    "time": "2026-09-13T19:42:44.903966+00:00",
+    "symbol": "SKNT",
+    "chain": "robinhood",
+    "token_address": "0x08b3E80A824424Bf08E4BD4A768f7f9C4A951e18"
   }
 }
