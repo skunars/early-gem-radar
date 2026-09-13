@@ -1,23 +1,16 @@
 {
   "0xdab5d67ad43c4ec25a191884a5fa40f69369016223590f93b69531c2ff612137": {
     "price": 0.000436,
-    "time": "2026-09-13T05:48:35.492139+00:00",
+    "time": "2026-09-13T06:02:26.623649+00:00",
     "symbol": "MINTERS",
     "chain": "robinhood",
     "token_address": "0xa55E7b522Db501FABBfF6D0a188D0Edd0c011EC7"
   },
   "0xE1341d3A36663f52c07D3Bd986d4c1c781fdC4CF": {
-    "price": 0.004283,
-    "time": "2026-09-13T05:48:35.492173+00:00",
+    "price": 0.004284,
+    "time": "2026-09-13T06:02:26.623664+00:00",
     "symbol": "B500",
     "chain": "bsc",
     "token_address": "0xFC9e2B3e001A16A5643cEE48Be04B59327457777"
-  },
-  "0x9cEE38bb5d99abab15eB45364c1BFaE311f25061": {
-    "price": 0.0009901,
-    "time": "2026-09-13T05:48:35.492177+00:00",
-    "symbol": "CC",
-    "chain": "robinhood",
-    "token_address": "0xF0c2054db03CFdA94894dDa67c10a386450dc54c"
   }
 }
