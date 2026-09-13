@@ -86881,5 +86881,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "solana:88t4edajiuudzhujjnk5nywitqzyqwejq2ouugrgpump": {
+    "first_seen": "2026-09-13T03:49:37.504948+00:00",
+    "last_seen": "2026-09-13T03:49:37.504948+00:00",
+    "chain": "solana",
+    "address": "88t4edajiuudzhujjnk5nywitqzyqwejq2ouugrgpump",
+    "symbol": "JubJub",
+    "name": "JubJub Bird",
+    "dex": "meteora",
+    "pair_address": "6WwtGMXueNTv5YrD3nbfXxxS3ANiDEGyXJkTBcnmXLvc",
+    "dex_url": "https://dexscreener.com/solana/6wwtgmxuentv5yrd3nbfxxxs3anidegyxjktbcnmxlvc",
+    "initial": {
+      "timestamp": "2026-09-13T03:49:37.504948+00:00",
+      "price_usd": 0.003443,
+      "liquidity_usd": 137905.26,
+      "volume_24h_usd": 311393.73,
+      "market_cap": 3287891.0,
+      "fdv": 3287891.0,
+      "price_change_24h": 125.0,
+      "age_hours": 0.7923390788888889,
+      "buys_24h": 1424,
+      "sells_24h": 1470,
+      "score": 78,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-13T03:49:37.504948+00:00",
+      "price_usd": 0.003443,
+      "liquidity_usd": 137905.26,
+      "volume_24h_usd": 311393.73,
+      "market_cap": 3287891.0,
+      "fdv": 3287891.0,
+      "price_change_24h": 125.0,
+      "age_hours": 0.7923390788888889,
+      "buys_24h": 1424,
+      "sells_24h": 1470,
+      "score": 78,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-13T03:49:37.504948+00:00",
+        "price_usd": 0.003443,
+        "liquidity_usd": 137905.26,
+        "volume_24h_usd": 311393.73,
+        "market_cap": 3287891.0,
+        "fdv": 3287891.0,
+        "price_change_24h": 125.0,
+        "age_hours": 0.7923390788888889,
+        "buys_24h": 1424,
+        "sells_24h": 1470,
+        "score": 78,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
