@@ -1,1 +1,16 @@
-{}
+{
+  "0x2987b2654C183D1CE29bc79F315f2fDCb6CA36Cb": {
+    "price": 0.001215,
+    "time": "2026-09-13T17:16:16.209643+00:00",
+    "symbol": "NINA",
+    "chain": "robinhood",
+    "token_address": "0xF82606d74abFd9845e8f89Ac6E857FF6b226F4D6"
+  },
+  "0x22437C033D4Df61d97b71E47cE25a3615B8a8230": {
+    "price": 0.0007766,
+    "time": "2026-09-13T17:16:16.209662+00:00",
+    "symbol": "PONSCUPINE",
+    "chain": "robinhood",
+    "token_address": "0x860412A94963eF92561e79B2f91073e194670125"
+  }
+}

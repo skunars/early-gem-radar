@@ -407,7 +407,7 @@
   },
   {
     "trade_id": "robinhood_0xA1dD24f77788216b5386CCE7d392BDBf34bd467C_1789314503",
-    "status": "OPEN",
+    "status": "CLOSED",
     "stake_tl": 100.0,
     "name": "Wrestler",
     "symbol": "WRESTLER",
@@ -422,20 +422,20 @@
     "earlyness_score": 59,
     "peak_price": 0.0001403,
     "peak_profit_pct": 24.4898,
-    "max_drawdown_pct": 0.7098,
-    "current_profit_pct": 24.4898,
-    "current_profit_tl": 24.4898,
+    "max_drawdown_pct": 6.1224,
+    "current_profit_pct": 18.3673,
+    "current_profit_tl": 18.3673,
     "highest_milestone": 20,
     "milestones_hit": [
       5,
       10,
       20
     ],
-    "exit_time": null,
-    "exit_price": null,
-    "exit_reason": null,
-    "final_profit_pct": null,
-    "final_profit_tl": null,
-    "hold_hours": null
+    "exit_time": "2026-09-13T17:16:08.911416+00:00",
+    "exit_price": 0.0001334,
+    "exit_reason": "TRAILING_STOP",
+    "final_profit_pct": 18.3673,
+    "final_profit_tl": 18.3673,
+    "hold_hours": 1.46
   }
 ]
