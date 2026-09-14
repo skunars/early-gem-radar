@@ -93572,5 +93572,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xf5567678396022ff36d717db7aa35948f8f01e18": {
+    "first_seen": "2026-09-14T23:29:36.795689+00:00",
+    "last_seen": "2026-09-14T23:29:36.795689+00:00",
+    "chain": "robinhood",
+    "address": "0xf5567678396022ff36d717db7aa35948f8f01e18",
+    "symbol": "JUDE",
+    "name": "Space Puppy",
+    "dex": "uniswap",
+    "pair_address": "0x4fa972773543f58a16b34db8445eaf070312bc031b4fd3b3ab34817d8fe0e0ad",
+    "dex_url": "https://dexscreener.com/robinhood/0x4fa972773543f58a16b34db8445eaf070312bc031b4fd3b3ab34817d8fe0e0ad",
+    "initial": {
+      "timestamp": "2026-09-14T23:29:36.795689+00:00",
+      "price_usd": 0.0003337,
+      "liquidity_usd": 150480.69,
+      "volume_24h_usd": 586735.19,
+      "market_cap": 333712.0,
+      "fdv": 333712.0,
+      "price_change_24h": 1202.0,
+      "age_hours": 294.39186307555553,
+      "buys_24h": 5864,
+      "sells_24h": 5779,
+      "score": 43,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-14T23:29:36.795689+00:00",
+      "price_usd": 0.0003337,
+      "liquidity_usd": 150480.69,
+      "volume_24h_usd": 586735.19,
+      "market_cap": 333712.0,
+      "fdv": 333712.0,
+      "price_change_24h": 1202.0,
+      "age_hours": 294.39186307555553,
+      "buys_24h": 5864,
+      "sells_24h": 5779,
+      "score": 43,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-14T23:29:36.795689+00:00",
+        "price_usd": 0.0003337,
+        "liquidity_usd": 150480.69,
+        "volume_24h_usd": 586735.19,
+        "market_cap": 333712.0,
+        "fdv": 333712.0,
+        "price_change_24h": 1202.0,
+        "age_hours": 294.39186307555553,
+        "buys_24h": 5864,
+        "sells_24h": 5779,
+        "score": 43,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

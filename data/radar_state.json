@@ -1,1 +1,9 @@
-{}
+{
+  "0x4fa972773543f58a16b34db8445eaf070312bc031b4fd3b3ab34817d8fe0e0ad": {
+    "price": 0.0003337,
+    "time": "2026-09-14T23:29:36.897027+00:00",
+    "symbol": "JUDE",
+    "chain": "robinhood",
+    "token_address": "0xf5567678396022ff36D717Db7Aa35948f8F01E18"
+  }
+}
