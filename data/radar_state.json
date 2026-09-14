@@ -1,14 +1,7 @@
 {
-  "0x38effb0effc65fc08849be47c6496b99bcf91a5eb77d4896fe13eef051f36436": {
-    "price": 2.43e-06,
-    "time": "2026-09-14T21:32:33.297552+00:00",
-    "symbol": "ZFLOW",
-    "chain": "robinhood",
-    "token_address": "0x046464763A23E528378AF4a07915e105663a63C7"
-  },
   "0xAD1a21F61d653c6101b92c335f61140459C81C79": {
-    "price": 0.003856,
-    "time": "2026-09-14T21:32:33.297572+00:00",
+    "price": 0.003572,
+    "time": "2026-09-14T21:50:59.602245+00:00",
     "symbol": "MOTO",
     "chain": "ethereum",
     "token_address": "0xBd965230588EAA536dE6aA45E8ebbc01638535e0"
