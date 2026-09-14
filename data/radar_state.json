@@ -1,9 +1,9 @@
 {
-  "0xfce28891d8e102df0f06e6ac72bd5ced5a40f5b792f848d63bea65eb7b33d2ca": {
-    "price": 0.002404,
-    "time": "2026-09-14T18:17:31.474572+00:00",
-    "symbol": "SPRING",
+  "0x16373bbb7d06da299f685c8b3ec38e4fce1a71e4f146666698f62d4768b865f0": {
+    "price": 0.001561,
+    "time": "2026-09-14T18:38:24.624524+00:00",
+    "symbol": "INU",
     "chain": "robinhood",
-    "token_address": "0x440e339a46eaa3bE8d723c2cBED2A30af74536D5"
+    "token_address": "0xE842A336Cee9337122e0Be935647577fbC18703e"
   }
 }
