@@ -1,1 +1,9 @@
-{}
+{
+  "0xC0904939Bd7D8fd3c3a1B591DD0FA1DA0c7C028A": {
+    "price": 0.0002782,
+    "time": "2026-09-14T00:47:56.411149+00:00",
+    "symbol": "ABCD",
+    "chain": "bsc",
+    "token_address": "0x52EBACf436f01128C4b03FfE94D03C37B35AAbCD"
+  }
+}
