@@ -1,14 +1,7 @@
 {
-  "0x34237ff021511623Cf7ee23422F74CdC600c6789": {
-    "price": 0.0002069,
-    "time": "2026-09-14T01:23:42.635918+00:00",
-    "symbol": "RUFUS",
-    "chain": "robinhood",
-    "token_address": "0x6E18092316eA42B17286cd8b6BF8185Ef34999D3"
-  },
   "0xC0904939Bd7D8fd3c3a1B591DD0FA1DA0c7C028A": {
-    "price": 0.0003101,
-    "time": "2026-09-14T01:23:42.635936+00:00",
+    "price": 0.0003405,
+    "time": "2026-09-14T01:42:37.052564+00:00",
     "symbol": "ABCD",
     "chain": "bsc",
     "token_address": "0x52EBACf436f01128C4b03FfE94D03C37B35AAbCD"
