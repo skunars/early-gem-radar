@@ -1,9 +1,9 @@
 {
-  "0xf9050c018e681d55ad59745028f47b4c8be1ed7de353656a807785f1718b3c2e": {
-    "price": 0.007618,
-    "time": "2026-09-14T08:45:15.581141+00:00",
-    "symbol": "COOK",
+  "0x41322789db0de999D5bf9Bc9Da551851a6e6B9c5": {
+    "price": 0.001373,
+    "time": "2026-09-14T09:02:49.969019+00:00",
+    "symbol": "Bootstrap",
     "chain": "robinhood",
-    "token_address": "0xD2D6C666a888C71a5C8071684EA1F05299e6f846"
+    "token_address": "0x7889c570e746489A235a68eF3CB885326944A213"
   }
 }
