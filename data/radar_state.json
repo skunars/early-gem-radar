@@ -1,14 +1,14 @@
 {
   "0xf9050c018e681d55ad59745028f47b4c8be1ed7de353656a807785f1718b3c2e": {
-    "price": 0.007212,
-    "time": "2026-09-14T08:00:09.185087+00:00",
+    "price": 0.008038,
+    "time": "2026-09-14T08:23:23.650275+00:00",
     "symbol": "COOK",
     "chain": "robinhood",
     "token_address": "0xD2D6C666a888C71a5C8071684EA1F05299e6f846"
   },
   "0x17d3ffd7d877efb24daeaff4ec4c01d4aa3e30b3fa2cac5b6d663215dcf7df7c": {
-    "price": 0.001891,
-    "time": "2026-09-14T08:00:09.185094+00:00",
+    "price": 0.001309,
+    "time": "2026-09-14T08:23:23.650285+00:00",
     "symbol": "PENGU",
     "chain": "robinhood",
     "token_address": "0xa61B304EBEE5e9527A22e93Be6352EA67025328b"
