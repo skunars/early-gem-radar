@@ -1,9 +1,16 @@
 {
   "0x41322789db0de999D5bf9Bc9Da551851a6e6B9c5": {
-    "price": 0.001272,
-    "time": "2026-09-14T09:27:08.814181+00:00",
+    "price": 0.001971,
+    "time": "2026-09-14T09:46:40.554156+00:00",
     "symbol": "Bootstrap",
     "chain": "robinhood",
     "token_address": "0x7889c570e746489A235a68eF3CB885326944A213"
+  },
+  "0x02b72d91098b499da45a81ffeee5c01c7d81e73032debc313e45478e121fa05b": {
+    "price": 0.0002789,
+    "time": "2026-09-14T09:46:40.554175+00:00",
+    "symbol": "IA",
+    "chain": "robinhood",
+    "token_address": "0xabef63dfd6143339f66F1Cd17D64014c0bff1E18"
   }
 }
