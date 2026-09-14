@@ -91330,5 +91330,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xd2d6c666a888c71a5c8071684ea1f05299e6f846": {
+    "first_seen": "2026-09-14T07:47:02.266923+00:00",
+    "last_seen": "2026-09-14T07:47:02.266923+00:00",
+    "chain": "robinhood",
+    "address": "0xd2d6c666a888c71a5c8071684ea1f05299e6f846",
+    "symbol": "COOK",
+    "name": "Cook",
+    "dex": "uniswap",
+    "pair_address": "0xf9050c018e681d55ad59745028f47b4c8be1ed7de353656a807785f1718b3c2e",
+    "dex_url": "https://dexscreener.com/robinhood/0xf9050c018e681d55ad59745028f47b4c8be1ed7de353656a807785f1718b3c2e",
+    "initial": {
+      "timestamp": "2026-09-14T07:47:02.266923+00:00",
+      "price_usd": 0.008078,
+      "liquidity_usd": 210562.71,
+      "volume_24h_usd": 1365261.23,
+      "market_cap": 7264807.0,
+      "fdv": 7264807.0,
+      "price_change_24h": 5.09,
+      "age_hours": 67.572530145,
+      "buys_24h": 1329,
+      "sells_24h": 750,
+      "score": 83,
+      "signal": "🟢 AL ADAYI",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-14T07:47:02.266923+00:00",
+      "price_usd": 0.008078,
+      "liquidity_usd": 210562.71,
+      "volume_24h_usd": 1365261.23,
+      "market_cap": 7264807.0,
+      "fdv": 7264807.0,
+      "price_change_24h": 5.09,
+      "age_hours": 67.572530145,
+      "buys_24h": 1329,
+      "sells_24h": 750,
+      "score": 83,
+      "signal": "🟢 AL ADAYI",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-14T07:47:02.266923+00:00",
+        "price_usd": 0.008078,
+        "liquidity_usd": 210562.71,
+        "volume_24h_usd": 1365261.23,
+        "market_cap": 7264807.0,
+        "fdv": 7264807.0,
+        "price_change_24h": 5.09,
+        "age_hours": 67.572530145,
+        "buys_24h": 1329,
+        "sells_24h": 750,
+        "score": 83,
+        "signal": "🟢 AL ADAYI",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

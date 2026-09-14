@@ -1,16 +1,9 @@
 {
-  "0xeE8E25f8b9102999D08FE8bd55049A9F2E25dc99": {
-    "price": 0.002761,
-    "time": "2026-09-14T07:26:36.623737+00:00",
-    "symbol": "PNL",
+  "0xf9050c018e681d55ad59745028f47b4c8be1ed7de353656a807785f1718b3c2e": {
+    "price": 0.008078,
+    "time": "2026-09-14T07:47:02.349821+00:00",
+    "symbol": "COOK",
     "chain": "robinhood",
-    "token_address": "0x4b641DBdee1a92187ab9505670e4bD70D01448AB"
-  },
-  "0xe7fe6db226ef6b54e51f50d96e44455440827e08a7e19b9a1b4284a01d0bbdab": {
-    "price": 0.0001435,
-    "time": "2026-09-14T07:26:36.623747+00:00",
-    "symbol": "JUNOCLOCK",
-    "chain": "robinhood",
-    "token_address": "0x2BF8cE7d31F5856ACa4Bd8d4e3a99E336a0c1e18"
+    "token_address": "0xD2D6C666a888C71a5C8071684EA1F05299e6f846"
   }
 }
