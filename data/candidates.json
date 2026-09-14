@@ -90771,5 +90771,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xe098e641c2cb1d8209d1deddb970f193831e1e18": {
+    "first_seen": "2026-09-14T04:44:37.348261+00:00",
+    "last_seen": "2026-09-14T04:44:37.348261+00:00",
+    "chain": "robinhood",
+    "address": "0xe098e641c2cb1d8209d1deddb970f193831e1e18",
+    "symbol": "HUMANITY",
+    "name": "Team Humanity",
+    "dex": "uniswap",
+    "pair_address": "0x9306cc2b88e17d05202cefa532d535f4d816b1dcb7b5a68576bf7651240d54f0",
+    "dex_url": "https://dexscreener.com/robinhood/0x9306cc2b88e17d05202cefa532d535f4d816b1dcb7b5a68576bf7651240d54f0",
+    "initial": {
+      "timestamp": "2026-09-14T04:44:37.348261+00:00",
+      "price_usd": 0.001124,
+      "liquidity_usd": 793882.08,
+      "volume_24h_usd": 1577835.28,
+      "market_cap": 1124721.0,
+      "fdv": 1124721.0,
+      "price_change_24h": 4682.0,
+      "age_hours": 0.43279580916666666,
+      "buys_24h": 4370,
+      "sells_24h": 7854,
+      "score": 37,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-14T04:44:37.348261+00:00",
+      "price_usd": 0.001124,
+      "liquidity_usd": 793882.08,
+      "volume_24h_usd": 1577835.28,
+      "market_cap": 1124721.0,
+      "fdv": 1124721.0,
+      "price_change_24h": 4682.0,
+      "age_hours": 0.43279580916666666,
+      "buys_24h": 4370,
+      "sells_24h": 7854,
+      "score": 37,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-14T04:44:37.348261+00:00",
+        "price_usd": 0.001124,
+        "liquidity_usd": 793882.08,
+        "volume_24h_usd": 1577835.28,
+        "market_cap": 1124721.0,
+        "fdv": 1124721.0,
+        "price_change_24h": 4682.0,
+        "age_hours": 0.43279580916666666,
+        "buys_24h": 4370,
+        "sells_24h": 7854,
+        "score": 37,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
