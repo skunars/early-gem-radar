@@ -1,16 +1,9 @@
 {
   "0x654E4143e82a5824445Ade0824351C2A9ACD95a8": {
-    "price": 91.92,
-    "time": "2026-09-14T05:35:54.283483+00:00",
+    "price": 91.84,
+    "time": "2026-09-14T05:51:37.618624+00:00",
     "symbol": "CRCL",
     "chain": "robinhood",
     "token_address": "0xdF0992E440dD0be65BD8439b609d6D4366bf1CB5"
-  },
-  "0x9306cc2b88e17d05202cefa532d535f4d816b1dcb7b5a68576bf7651240d54f0": {
-    "price": 0.0001833,
-    "time": "2026-09-14T05:35:54.283507+00:00",
-    "symbol": "HUMANITY",
-    "chain": "robinhood",
-    "token_address": "0xe098e641C2cB1d8209d1DedDb970f193831e1E18"
   }
 }
