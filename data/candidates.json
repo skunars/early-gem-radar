@@ -93502,5 +93502,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x38b29657b6d8ef9015489a0914f1279d5429bc1a": {
+    "first_seen": "2026-09-14T22:15:33.933468+00:00",
+    "last_seen": "2026-09-14T22:15:33.933468+00:00",
+    "chain": "robinhood",
+    "address": "0x38b29657b6d8ef9015489a0914f1279d5429bc1a",
+    "symbol": "$CLARITY",
+    "name": "Clarity Act",
+    "dex": "uniswap",
+    "pair_address": "0x8aba8c63a0e1e0bc198aaf2759d483a73d6ab35992a893fb71596c75257fac1f",
+    "dex_url": "https://dexscreener.com/robinhood/0x8aba8c63a0e1e0bc198aaf2759d483a73d6ab35992a893fb71596c75257fac1f",
+    "initial": {
+      "timestamp": "2026-09-14T22:15:33.933468+00:00",
+      "price_usd": 0.001581,
+      "liquidity_usd": 122440.99,
+      "volume_24h_usd": 860051.64,
+      "market_cap": 1581090.0,
+      "fdv": 1581090.0,
+      "price_change_24h": 61163.0,
+      "age_hours": 0.6155757836111112,
+      "buys_24h": 1125,
+      "sells_24h": 422,
+      "score": 64,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-14T22:15:33.933468+00:00",
+      "price_usd": 0.001581,
+      "liquidity_usd": 122440.99,
+      "volume_24h_usd": 860051.64,
+      "market_cap": 1581090.0,
+      "fdv": 1581090.0,
+      "price_change_24h": 61163.0,
+      "age_hours": 0.6155757836111112,
+      "buys_24h": 1125,
+      "sells_24h": 422,
+      "score": 64,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-14T22:15:33.933468+00:00",
+        "price_usd": 0.001581,
+        "liquidity_usd": 122440.99,
+        "volume_24h_usd": 860051.64,
+        "market_cap": 1581090.0,
+        "fdv": 1581090.0,
+        "price_change_24h": 61163.0,
+        "age_hours": 0.6155757836111112,
+        "buys_24h": 1125,
+        "sells_24h": 422,
+        "score": 64,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

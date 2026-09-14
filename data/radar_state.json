@@ -1,9 +1,9 @@
 {
-  "0xAD1a21F61d653c6101b92c335f61140459C81C79": {
-    "price": 0.003572,
-    "time": "2026-09-14T21:50:59.602245+00:00",
-    "symbol": "MOTO",
-    "chain": "ethereum",
-    "token_address": "0xBd965230588EAA536dE6aA45E8ebbc01638535e0"
+  "0x8aba8c63a0e1e0bc198aaf2759d483a73d6ab35992a893fb71596c75257fac1f": {
+    "price": 0.001581,
+    "time": "2026-09-14T22:15:34.034806+00:00",
+    "symbol": "$CLARITY",
+    "chain": "robinhood",
+    "token_address": "0x38B29657b6d8eF9015489A0914F1279D5429bC1A"
   }
 }
