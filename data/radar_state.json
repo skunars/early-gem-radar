@@ -1,23 +1,16 @@
 {
   "0x38effb0effc65fc08849be47c6496b99bcf91a5eb77d4896fe13eef051f36436": {
-    "price": 1.605e-06,
-    "time": "2026-09-14T21:14:39.066876+00:00",
+    "price": 2.43e-06,
+    "time": "2026-09-14T21:32:33.297552+00:00",
     "symbol": "ZFLOW",
     "chain": "robinhood",
     "token_address": "0x046464763A23E528378AF4a07915e105663a63C7"
   },
-  "0xca7b1b5f2210d9b4398fdfdd82ca55d8669f47129380cda3eb3a63436e0d2d92": {
-    "price": 0.0002461,
-    "time": "2026-09-14T21:14:39.066895+00:00",
-    "symbol": "CYBERINU",
-    "chain": "robinhood",
-    "token_address": "0xC2703284E399a9778DcE9734e69dD6aB0dC71E18"
-  },
-  "8dAEnVvvbHPoh5fAGrGcMqH75r5wwN1qbHn2FRRcJzqQ": {
-    "price": 0.001446,
-    "time": "2026-09-14T21:14:39.066898+00:00",
-    "symbol": "WET",
-    "chain": "solana",
-    "token_address": "H1q6vF9X2ewo7XxqJ2qb2uTdwkjDLAWF1Y3SefRAUTGZ"
+  "0xAD1a21F61d653c6101b92c335f61140459C81C79": {
+    "price": 0.003856,
+    "time": "2026-09-14T21:32:33.297572+00:00",
+    "symbol": "MOTO",
+    "chain": "ethereum",
+    "token_address": "0xBd965230588EAA536dE6aA45E8ebbc01638535e0"
   }
 }
