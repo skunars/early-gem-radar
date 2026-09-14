@@ -1,14 +1,7 @@
 {
-  "0x9daa69592c1c12a905df6ded9c424085517d314fd3992abe84b423b19f0ba5f4": {
-    "price": 0.0003148,
-    "time": "2026-09-14T17:32:29.330288+00:00",
-    "symbol": "CLNOW",
-    "chain": "robinhood",
-    "token_address": "0x4A70b0506e6cA8b200Bd00796a5E5030c32f0a5D"
-  },
   "0x7732C763dc32aE81e1776F1AC8592342AD87a25b": {
-    "price": 0.001788,
-    "time": "2026-09-14T17:32:29.330300+00:00",
+    "price": 0.001776,
+    "time": "2026-09-14T17:51:39.123625+00:00",
     "symbol": "CLEAR",
     "chain": "robinhood",
     "token_address": "0x670aAe9Ae635Df5118A37bE149F419e7A2Cb7030"
