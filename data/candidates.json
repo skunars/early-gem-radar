@@ -93097,5 +93097,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x8b2b1e9b2aad4a0eb2f344f3ce85ce79771fd316": {
+    "first_seen": "2026-09-14T20:32:54.527253+00:00",
+    "last_seen": "2026-09-14T20:32:54.527253+00:00",
+    "chain": "robinhood",
+    "address": "0x8b2b1e9b2aad4a0eb2f344f3ce85ce79771fd316",
+    "symbol": "FGOD",
+    "name": "Fgod Candle",
+    "dex": "uniswap",
+    "pair_address": "0x6ef3237deb7a2cb889f7e420fb51f7765833fb19aa7c11e7b4f3fb7299620650",
+    "dex_url": "https://dexscreener.com/robinhood/0x6ef3237deb7a2cb889f7e420fb51f7765833fb19aa7c11e7b4f3fb7299620650",
+    "initial": {
+      "timestamp": "2026-09-14T20:32:54.527253+00:00",
+      "price_usd": 0.001482,
+      "liquidity_usd": 119653.12,
+      "volume_24h_usd": 538981.76,
+      "market_cap": 1482049.0,
+      "fdv": 1482049.0,
+      "price_change_24h": 57554.0,
+      "age_hours": 0.34891669888888893,
+      "buys_24h": 546,
+      "sells_24h": 157,
+      "score": 64,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-14T20:32:54.527253+00:00",
+      "price_usd": 0.001482,
+      "liquidity_usd": 119653.12,
+      "volume_24h_usd": 538981.76,
+      "market_cap": 1482049.0,
+      "fdv": 1482049.0,
+      "price_change_24h": 57554.0,
+      "age_hours": 0.34891669888888893,
+      "buys_24h": 546,
+      "sells_24h": 157,
+      "score": 64,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-14T20:32:54.527253+00:00",
+        "price_usd": 0.001482,
+        "liquidity_usd": 119653.12,
+        "volume_24h_usd": 538981.76,
+        "market_cap": 1482049.0,
+        "fdv": 1482049.0,
+        "price_change_24h": 57554.0,
+        "age_hours": 0.34891669888888893,
+        "buys_24h": 546,
+        "sells_24h": 157,
+        "score": 64,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
