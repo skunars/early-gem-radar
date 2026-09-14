@@ -1,9 +1,16 @@
 {
   "0x654E4143e82a5824445Ade0824351C2A9ACD95a8": {
-    "price": 91.84,
-    "time": "2026-09-14T05:51:37.618624+00:00",
+    "price": 91.75,
+    "time": "2026-09-14T06:22:30.674535+00:00",
     "symbol": "CRCL",
     "chain": "robinhood",
     "token_address": "0xdF0992E440dD0be65BD8439b609d6D4366bf1CB5"
+  },
+  "0xe7fe6db226ef6b54e51f50d96e44455440827e08a7e19b9a1b4284a01d0bbdab": {
+    "price": 0.0002506,
+    "time": "2026-09-14T06:22:30.674560+00:00",
+    "symbol": "JUNOCLOCK",
+    "chain": "robinhood",
+    "token_address": "0x2BF8cE7d31F5856ACa4Bd8d4e3a99E336a0c1e18"
   }
 }
