@@ -1,1 +1,9 @@
-{}
+{
+  "0xba032a22521f6eda5ded133a1b0e5cbb74c5e84e0579310f7aa8161a5aaff49b": {
+    "price": 0.0002222,
+    "time": "2026-09-14T19:35:49.646388+00:00",
+    "symbol": "RSI",
+    "chain": "robinhood",
+    "token_address": "0xCE4C9418B8E9bCad3E4BA2bD84123A49A6911e18"
+  }
+}
