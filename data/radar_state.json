@@ -1,14 +1,7 @@
 {
-  "0x2756a326dd21035b096e695e0dcaa97a6470e49a23f326e7f228b41e30402e7c": {
-    "price": 0.001476,
-    "time": "2026-09-14T10:58:32.575337+00:00",
-    "symbol": "BONER",
-    "chain": "robinhood",
-    "token_address": "0x572F1fA848a2A28A6Be4116EfEA130387e547E63"
-  },
   "0xa07989b26b114569d3b04cf276de3d5a1924bbad291a91d33f6f27f6f594809d": {
-    "price": 0.0001351,
-    "time": "2026-09-14T10:58:32.575356+00:00",
+    "price": 0.0001276,
+    "time": "2026-09-14T11:20:32.331148+00:00",
     "symbol": "ANTH",
     "chain": "robinhood",
     "token_address": "0x4Bcc2c6d2497a2b0864D87Efac28d0D47A391E18"
