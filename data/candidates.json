@@ -97026,5 +97026,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "solana:gy9mzfyppxxxbxbxs2hb2xjhp3kfusywtvgveozxpump": {
+    "first_seen": "2026-09-15T22:23:06.970287+00:00",
+    "last_seen": "2026-09-15T22:23:06.970287+00:00",
+    "chain": "solana",
+    "address": "gy9mzfyppxxxbxbxs2hb2xjhp3kfusywtvgveozxpump",
+    "symbol": "ELON",
+    "name": "Elon Coin",
+    "dex": "pumpswap",
+    "pair_address": "6tuhHpYSinf41V39KW3JmpVUaxehcabCbHZqqFnwR6xf",
+    "dex_url": "https://dexscreener.com/solana/6tuhhpysinf41v39kw3jmpvuaxehcabcbhzqqfnwr6xf",
+    "initial": {
+      "timestamp": "2026-09-15T22:23:06.970287+00:00",
+      "price_usd": 0.001331,
+      "liquidity_usd": 103178.28,
+      "volume_24h_usd": 3699982.53,
+      "market_cap": 1235602.0,
+      "fdv": 1235602.0,
+      "price_change_24h": 3191.0,
+      "age_hours": 2.9499533319444446,
+      "buys_24h": 17996,
+      "sells_24h": 14675,
+      "score": 59,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-15T22:23:06.970287+00:00",
+      "price_usd": 0.001331,
+      "liquidity_usd": 103178.28,
+      "volume_24h_usd": 3699982.53,
+      "market_cap": 1235602.0,
+      "fdv": 1235602.0,
+      "price_change_24h": 3191.0,
+      "age_hours": 2.9499533319444446,
+      "buys_24h": 17996,
+      "sells_24h": 14675,
+      "score": 59,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-15T22:23:06.970287+00:00",
+        "price_usd": 0.001331,
+        "liquidity_usd": 103178.28,
+        "volume_24h_usd": 3699982.53,
+        "market_cap": 1235602.0,
+        "fdv": 1235602.0,
+        "price_change_24h": 3191.0,
+        "age_hours": 2.9499533319444446,
+        "buys_24h": 17996,
+        "sells_24h": 14675,
+        "score": 59,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
