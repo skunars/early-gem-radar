@@ -2,6 +2,11 @@ name: Early Gem Radar
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "profit_protection_patch.py"
+      - ".github/workflows/main.yml"
+      - "scanner.py"
   schedule:
     - cron: "*/10 * * * *"
 
