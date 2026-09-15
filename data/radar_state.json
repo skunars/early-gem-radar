@@ -1,16 +1,9 @@
 {
-  "0x33aa10d1455a75f0abc5ccaa5bf3058bacee9d6e048923feae4ba212a2722bb7": {
-    "price": 0.000391,
-    "time": "2026-09-15T10:25:20.119125+00:00",
-    "symbol": "MIMIKYU",
-    "chain": "robinhood",
-    "token_address": "0x355A4f6414969d2ac85e33ba3CA6e0236434434f"
-  },
-  "0xcA297bA8158ceE54C55ce4cf2554FC0e8692531d": {
-    "price": 0.003485,
-    "time": "2026-09-15T10:25:20.119144+00:00",
-    "symbol": "ji",
-    "chain": "robinhood",
-    "token_address": "0xDEd4A6CC3eD23fd44723715FE04b43d173f4FF03"
+  "BZJTiubWLruAhoBxCTgU3uVdvXFztsr4cKG7SZcxoQdC": {
+    "price": 0.001214,
+    "time": "2026-09-15T10:44:07.435809+00:00",
+    "symbol": "SCRIBE",
+    "chain": "solana",
+    "token_address": "6rHkNb7HCtkpvdnVJsBCZHH5dw3AndqEjfmbEGhooR7t"
   }
 }

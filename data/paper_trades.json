@@ -456,8 +456,8 @@
     "peak_price": 97.66,
     "peak_profit_pct": 6.0427,
     "max_drawdown_pct": 6.3521,
-    "current_profit_pct": 0.3963,
-    "current_profit_tl": 0.3963,
+    "current_profit_pct": 0.3638,
+    "current_profit_tl": 0.3638,
     "highest_milestone": 5,
     "milestones_hit": [
       5
@@ -549,19 +549,20 @@
     "entry_score": 81,
     "raw_score": 81,
     "earlyness_score": 62,
-    "peak_price": 0.0002726,
-    "peak_profit_pct": 98.1105,
+    "peak_price": 0.0002886,
+    "peak_profit_pct": 109.7384,
     "max_drawdown_pct": 0.7994,
-    "current_profit_pct": 98.1105,
-    "current_profit_tl": 98.1105,
-    "highest_milestone": 75,
+    "current_profit_pct": 109.7384,
+    "current_profit_tl": 109.7384,
+    "highest_milestone": 100,
     "milestones_hit": [
       5,
       10,
       20,
       30,
       50,
-      75
+      75,
+      100
     ],
     "exit_time": null,
     "exit_price": null,
