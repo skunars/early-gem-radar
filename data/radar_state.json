@@ -1,1 +1,9 @@
-{}
+{
+  "0xD628583C63e0C1794790C2627C5cEA17449C28f2": {
+    "price": 0.0009357,
+    "time": "2026-09-15T03:00:25.622060+00:00",
+    "symbol": "SCALPERS",
+    "chain": "robinhood",
+    "token_address": "0xd61344dfE7cAaD86662f7479e36D34F2101C0d58"
+  }
+}
