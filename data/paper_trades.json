@@ -455,9 +455,9 @@
     "earlyness_score": 58,
     "peak_price": 97.66,
     "peak_profit_pct": 6.0427,
-    "max_drawdown_pct": 6.3521,
-    "current_profit_pct": 0.3312,
-    "current_profit_tl": 0.3312,
+    "max_drawdown_pct": 8.7953,
+    "current_profit_pct": -2.7526,
+    "current_profit_tl": -2.7526,
     "highest_milestone": 5,
     "milestones_hit": [
       5
@@ -536,7 +536,7 @@
   },
   {
     "trade_id": "robinhood_0x133b40189c4b9e415fbe3a1ae5c0851b01a78df602f1aa3a443eece8594ef0cb_1789451073",
-    "status": "OPEN",
+    "status": "CLOSED",
     "stake_tl": 100.0,
     "name": "STANDARD",
     "symbol": "STANDARD",
@@ -551,9 +551,9 @@
     "earlyness_score": 62,
     "peak_price": 0.0002924,
     "peak_profit_pct": 112.5,
-    "max_drawdown_pct": 15.407,
-    "current_profit_pct": 97.093,
-    "current_profit_tl": 97.093,
+    "max_drawdown_pct": 137.1366,
+    "current_profit_pct": -24.6366,
+    "current_profit_tl": -24.6366,
     "highest_milestone": 100,
     "milestones_hit": [
       5,
@@ -564,11 +564,11 @@
       75,
       100
     ],
-    "exit_time": null,
-    "exit_price": null,
-    "exit_reason": null,
-    "final_profit_pct": null,
-    "final_profit_tl": null,
-    "hold_hours": null
+    "exit_time": "2026-09-15T13:45:58.736931+00:00",
+    "exit_price": 0.0001037,
+    "exit_reason": "HARD_STOP",
+    "final_profit_pct": -24.6366,
+    "final_profit_tl": -24.6366,
+    "hold_hours": 8.02
   }
 ]
