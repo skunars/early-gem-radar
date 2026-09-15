@@ -1,21 +1,14 @@
 {
   "GqbkAy1ajZivdjk8jhDdMqapzN6ogEfD12LtJYyXQC4C": {
-    "price": 0.0003949,
-    "time": "2026-09-15T17:13:59.000638+00:00",
+    "price": 0.000692,
+    "time": "2026-09-15T17:30:51.009672+00:00",
     "symbol": "STEALF",
     "chain": "solana",
     "token_address": "G5W6LwkLeoj6rZqBP1y3KT8k6Cz6rXGJmMNU3TArXtXw"
   },
-  "0xccc9f7d9256fd516c077ae33dcd391da5d2d3c301d82f9b32971ace0b8fa3f38": {
-    "price": 0.0004005,
-    "time": "2026-09-15T17:13:59.000656+00:00",
-    "symbol": "TRAIN",
-    "chain": "robinhood",
-    "token_address": "0x5D8F890d0a44029f9542A9cF66b9C01210CAae9d"
-  },
   "0xbd1c96c405b237945bff1613ca184ecb227c53352b00bae035a6ced972bba417": {
-    "price": 0.001017,
-    "time": "2026-09-15T17:13:59.000660+00:00",
+    "price": 0.0006288,
+    "time": "2026-09-15T17:30:51.009690+00:00",
     "symbol": "JENSEN",
     "chain": "robinhood",
     "token_address": "0xa6b0e654BDEfC8CFf8e9b0C90388768BE404d921"
