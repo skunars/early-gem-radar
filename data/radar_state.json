@@ -1,14 +1,7 @@
 {
-  "0x8fa9bd27d6159944727a49fd442158fea3b19893833a4e6d41b120cfd9eab4dd": {
-    "price": 0.001181,
-    "time": "2026-09-15T11:51:01.892662+00:00",
-    "symbol": "FCC",
-    "chain": "robinhood",
-    "token_address": "0x0Db476A12d3e1e86829D5D0a5AaB0622893dF835"
-  },
   "0x849e576bfcc5e962ec4e92a620d7e2407e59392f965106e309bdae79b0b56276": {
-    "price": 0.001785,
-    "time": "2026-09-15T11:51:01.892674+00:00",
+    "price": 0.001397,
+    "time": "2026-09-15T12:19:46.305092+00:00",
     "symbol": "LIFE",
     "chain": "robinhood",
     "token_address": "0x54ce863634EA305ad084c3f7338d11dC8454C842"
