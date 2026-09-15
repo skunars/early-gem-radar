@@ -97115,5 +97115,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x1bfd7056f5304fecf366d11726790f4ff3ef8ab0": {
+    "first_seen": "2026-09-15T22:58:05.695821+00:00",
+    "last_seen": "2026-09-15T22:58:05.695821+00:00",
+    "chain": "robinhood",
+    "address": "0x1bfd7056f5304fecf366d11726790f4ff3ef8ab0",
+    "symbol": "TICKET",
+    "name": "TICKET",
+    "dex": "uniswap",
+    "pair_address": "0x9B3B9dE3b6BaF80BDB1ec3d26F3655f5A5Df2803",
+    "dex_url": "https://dexscreener.com/robinhood/0x9b3b9de3b6baf80bdb1ec3d26f3655f5a5df2803",
+    "initial": {
+      "timestamp": "2026-09-15T22:58:05.695821+00:00",
+      "price_usd": 0.0003261,
+      "liquidity_usd": 113138.06,
+      "volume_24h_usd": 376613.25,
+      "market_cap": 326119.0,
+      "fdv": 326119.0,
+      "price_change_24h": 2581.0,
+      "age_hours": 0.6403020405555555,
+      "buys_24h": 758,
+      "sells_24h": 376,
+      "score": 59,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-15T22:58:05.695821+00:00",
+      "price_usd": 0.0003261,
+      "liquidity_usd": 113138.06,
+      "volume_24h_usd": 376613.25,
+      "market_cap": 326119.0,
+      "fdv": 326119.0,
+      "price_change_24h": 2581.0,
+      "age_hours": 0.6403020405555555,
+      "buys_24h": 758,
+      "sells_24h": 376,
+      "score": 59,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-15T22:58:05.695821+00:00",
+        "price_usd": 0.0003261,
+        "liquidity_usd": 113138.06,
+        "volume_24h_usd": 376613.25,
+        "market_cap": 326119.0,
+        "fdv": 326119.0,
+        "price_change_24h": 2581.0,
+        "age_hours": 0.6403020405555555,
+        "buys_24h": 758,
+        "sells_24h": 376,
+        "score": 59,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

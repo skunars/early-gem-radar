@@ -1,9 +1,9 @@
 {
-  "6tuhHpYSinf41V39KW3JmpVUaxehcabCbHZqqFnwR6xf": {
-    "price": 0.001286,
-    "time": "2026-09-15T22:40:59.271740+00:00",
-    "symbol": "ELON",
-    "chain": "solana",
-    "token_address": "GY9mZfyPpxXxBXBxS2hB2XjhP3kfUsywTvgveozxpump"
+  "0x9B3B9dE3b6BaF80BDB1ec3d26F3655f5A5Df2803": {
+    "price": 0.0003261,
+    "time": "2026-09-15T22:58:05.772495+00:00",
+    "symbol": "TICKET",
+    "chain": "robinhood",
+    "token_address": "0x1bfD7056f5304fECf366D11726790F4fF3ef8AB0"
   }
 }
