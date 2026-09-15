@@ -1,23 +1,16 @@
 {
-  "0xde55463016f21c46e3841254489650791d72d7e63c2d1d02b6b7560b4da2487e": {
-    "price": 0.00145,
-    "time": "2026-09-15T20:23:26.094909+00:00",
-    "symbol": "GG",
-    "chain": "robinhood",
-    "token_address": "0x2205c2232914f3A962fB25EdA51f2d063Dc9E532"
-  },
-  "0xa214be77ae3f4d233d31e30178708470a8773e2fda920460219941d9f0c0aa78": {
-    "price": 0.0001911,
-    "time": "2026-09-15T20:23:26.094928+00:00",
-    "symbol": "WAGIE",
-    "chain": "robinhood",
-    "token_address": "0x0C9EF6d80e6279c3a214a5E3c7AaD4417e3d1e18"
-  },
   "0x0bca8b92ebd747eabac5add200f068e30cda1bd9a4ba3b5caad04f5f17383dc3": {
-    "price": 0.002538,
-    "time": "2026-09-15T20:23:26.094930+00:00",
+    "price": 0.003089,
+    "time": "2026-09-15T20:42:11.277179+00:00",
     "symbol": "FREN",
     "chain": "robinhood",
     "token_address": "0xDF09eDb6B7C7de7c8472E243d78681b71aCEd3de"
+  },
+  "0xde55463016f21c46e3841254489650791d72d7e63c2d1d02b6b7560b4da2487e": {
+    "price": 0.002217,
+    "time": "2026-09-15T20:42:11.277198+00:00",
+    "symbol": "GG",
+    "chain": "robinhood",
+    "token_address": "0x2205c2232914f3A962fB25EdA51f2d063Dc9E532"
   }
 }
