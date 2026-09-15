@@ -1,23 +1,16 @@
 {
   "0x133b40189c4b9e415fbe3a1ae5c0851b01a78df602f1aa3a443eece8594ef0cb": {
-    "price": 0.0001873,
-    "time": "2026-09-15T05:59:18.853973+00:00",
+    "price": 0.0001982,
+    "time": "2026-09-15T06:27:05.195550+00:00",
     "symbol": "STANDARD",
     "chain": "robinhood",
     "token_address": "0x7458c44caB1B93eaC98d7Dd8baAE4357F939e6B1"
   },
   "0xb06b3f2763d24e589d0ebdfba84431605805d211d7856b3ec44d52215bdf3765": {
-    "price": 0.0002199,
-    "time": "2026-09-15T05:59:18.853993+00:00",
+    "price": 0.0003793,
+    "time": "2026-09-15T06:27:05.195577+00:00",
     "symbol": "KEYV",
     "chain": "robinhood",
     "token_address": "0x66e503eab3624Bc9Dbe6C129579C627bFbEE309D"
-  },
-  "0x8e827dF9e84DFD58dc5a2ceDC0599737Fd332B90": {
-    "price": 0.001488,
-    "time": "2026-09-15T05:59:18.853997+00:00",
-    "symbol": "NECTAR",
-    "chain": "bsc",
-    "token_address": "0x1f88980913b5973bB18643c4f7663708ab9c7777"
   }
 }
