@@ -94823,5 +94823,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x03934215afe252ac206025623cc1bf15c8e33d23": {
+    "first_seen": "2026-09-15T08:18:06.561082+00:00",
+    "last_seen": "2026-09-15T08:18:06.561082+00:00",
+    "chain": "robinhood",
+    "address": "0x03934215afe252ac206025623cc1bf15c8e33d23",
+    "symbol": "MindGames",
+    "name": "MindGamesAI",
+    "dex": "uniswap",
+    "pair_address": "0xAa018c7678e15E69c76f8448c5A3031EAFa4fa20",
+    "dex_url": "https://dexscreener.com/robinhood/0xaa018c7678e15e69c76f8448c5a3031eafa4fa20",
+    "initial": {
+      "timestamp": "2026-09-15T08:18:06.561082+00:00",
+      "price_usd": 0.001212,
+      "liquidity_usd": 112105.78,
+      "volume_24h_usd": 307876.32,
+      "market_cap": 1210725.0,
+      "fdv": 1210725.0,
+      "price_change_24h": 48747.0,
+      "age_hours": 0.8365176480555556,
+      "buys_24h": 769,
+      "sells_24h": 192,
+      "score": 61,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-15T08:18:06.561082+00:00",
+      "price_usd": 0.001212,
+      "liquidity_usd": 112105.78,
+      "volume_24h_usd": 307876.32,
+      "market_cap": 1210725.0,
+      "fdv": 1210725.0,
+      "price_change_24h": 48747.0,
+      "age_hours": 0.8365176480555556,
+      "buys_24h": 769,
+      "sells_24h": 192,
+      "score": 61,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-15T08:18:06.561082+00:00",
+        "price_usd": 0.001212,
+        "liquidity_usd": 112105.78,
+        "volume_24h_usd": 307876.32,
+        "market_cap": 1210725.0,
+        "fdv": 1210725.0,
+        "price_change_24h": 48747.0,
+        "age_hours": 0.8365176480555556,
+        "buys_24h": 769,
+        "sells_24h": 192,
+        "score": 61,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
