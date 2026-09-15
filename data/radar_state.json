@@ -1,23 +1,9 @@
 {
-  "0xa0509793c03b5f660ec0e67a62688ed19bdfa0cc3b8e87958ab8e340c891056a": {
-    "price": 3.348e-06,
-    "time": "2026-09-15T14:21:42.622101+00:00",
-    "symbol": "AXMT",
-    "chain": "robinhood",
-    "token_address": "0xcf5d59BF1A37CF11c456E10C9C01006c5AA206f8"
-  },
   "0x999c2320Bb2d22BC277B750FD26E708465172152": {
-    "price": 0.001145,
-    "time": "2026-09-15T14:21:42.622125+00:00",
+    "price": 0.002745,
+    "time": "2026-09-15T14:43:55.070698+00:00",
     "symbol": "JACKCAT",
     "chain": "robinhood",
     "token_address": "0xc611475EfF0cFdDeE78E13941CF66211a666fb6c"
-  },
-  "0x1fc23cdc48701e5a7ed664765597200dc01402689481c5b5067e0f5254c91f54": {
-    "price": 0.0004417,
-    "time": "2026-09-15T14:21:42.622128+00:00",
-    "symbol": "JACKCAT",
-    "chain": "robinhood",
-    "token_address": "0xed670FD0a23C5b6BB34fE85C2B44BAFE0E4c1e18"
   }
 }
