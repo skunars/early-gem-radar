@@ -456,8 +456,8 @@
     "peak_price": 97.66,
     "peak_profit_pct": 6.0427,
     "max_drawdown_pct": 5.5052,
-    "current_profit_pct": 0.8089,
-    "current_profit_tl": 0.8089,
+    "current_profit_pct": 1.3301,
+    "current_profit_tl": 1.3301,
     "highest_milestone": 5,
     "milestones_hit": [
       5
@@ -487,8 +487,8 @@
     "peak_price": 0.008785,
     "peak_profit_pct": 8.7522,
     "max_drawdown_pct": 20.2402,
-    "current_profit_pct": -8.356,
-    "current_profit_tl": -8.356,
+    "current_profit_pct": -9.7673,
+    "current_profit_tl": -9.7673,
     "highest_milestone": 5,
     "milestones_hit": [
       5
@@ -549,13 +549,18 @@
     "entry_score": 81,
     "raw_score": 81,
     "earlyness_score": 62,
-    "peak_price": 0.0001376,
-    "peak_profit_pct": 0.0,
+    "peak_price": 0.0001873,
+    "peak_profit_pct": 36.1192,
     "max_drawdown_pct": 0.0,
-    "current_profit_pct": 0.0,
-    "current_profit_tl": 0.0,
-    "highest_milestone": 0,
-    "milestones_hit": [],
+    "current_profit_pct": 36.1192,
+    "current_profit_tl": 36.1192,
+    "highest_milestone": 30,
+    "milestones_hit": [
+      5,
+      10,
+      20,
+      30
+    ],
     "exit_time": null,
     "exit_price": null,
     "exit_reason": null,
