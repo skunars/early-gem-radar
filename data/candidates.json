@@ -96594,5 +96594,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xee544558a8fff523a065eaa8a5c099209b883ba1": {
+    "first_seen": "2026-09-15T18:45:09.460751+00:00",
+    "last_seen": "2026-09-15T18:45:09.460751+00:00",
+    "chain": "robinhood",
+    "address": "0xee544558a8fff523a065eaa8a5c099209b883ba1",
+    "symbol": "ISWC",
+    "name": "I Stand With Crypto",
+    "dex": "uniswap",
+    "pair_address": "0xd759058bb916ba97f06e014a6f6f993484baa84dcecc8c513c626ca035bb5695",
+    "dex_url": "https://dexscreener.com/robinhood/0xd759058bb916ba97f06e014a6f6f993484baa84dcecc8c513c626ca035bb5695",
+    "initial": {
+      "timestamp": "2026-09-15T18:45:09.460751+00:00",
+      "price_usd": 0.001264,
+      "liquidity_usd": 102156.06,
+      "volume_24h_usd": 431490.24,
+      "market_cap": 1264748.0,
+      "fdv": 1264748.0,
+      "price_change_24h": 2407.0,
+      "age_hours": 0.5662884508333333,
+      "buys_24h": 7653,
+      "sells_24h": 1107,
+      "score": 61,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-15T18:45:09.460751+00:00",
+      "price_usd": 0.001264,
+      "liquidity_usd": 102156.06,
+      "volume_24h_usd": 431490.24,
+      "market_cap": 1264748.0,
+      "fdv": 1264748.0,
+      "price_change_24h": 2407.0,
+      "age_hours": 0.5662884508333333,
+      "buys_24h": 7653,
+      "sells_24h": 1107,
+      "score": 61,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-15T18:45:09.460751+00:00",
+        "price_usd": 0.001264,
+        "liquidity_usd": 102156.06,
+        "volume_24h_usd": 431490.24,
+        "market_cap": 1264748.0,
+        "fdv": 1264748.0,
+        "price_change_24h": 2407.0,
+        "age_hours": 0.5662884508333333,
+        "buys_24h": 7653,
+        "sells_24h": 1107,
+        "score": 61,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
