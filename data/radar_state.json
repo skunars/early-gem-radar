@@ -1,1 +1,9 @@
-{}
+{
+  "0xB035EA4dE113F6FEDb38FaA51037D45E5a5ef6DA": {
+    "price": 0.0002194,
+    "time": "2026-09-15T07:54:38.602347+00:00",
+    "symbol": "BITCAT",
+    "chain": "robinhood",
+    "token_address": "0x9205F0a8e24D50Bbde63449EabBDf5674f4ae06C"
+  }
+}
