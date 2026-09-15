@@ -357,8 +357,8 @@
     "peak_price": 0.000436,
     "peak_profit_pct": 0.0,
     "max_drawdown_pct": 0.0,
-    "current_profit_pct": -10.4817,
-    "current_profit_tl": -10.4817,
+    "current_profit_pct": -10.4587,
+    "current_profit_tl": -10.4587,
     "highest_milestone": 0,
     "milestones_hit": [],
     "exit_time": null,
@@ -456,8 +456,8 @@
     "peak_price": 97.66,
     "peak_profit_pct": 6.0427,
     "max_drawdown_pct": 5.5052,
-    "current_profit_pct": 0.5375,
-    "current_profit_tl": 0.5375,
+    "current_profit_pct": 0.8089,
+    "current_profit_tl": 0.8089,
     "highest_milestone": 5,
     "milestones_hit": [
       5
@@ -487,8 +487,8 @@
     "peak_price": 0.008785,
     "peak_profit_pct": 8.7522,
     "max_drawdown_pct": 20.2402,
-    "current_profit_pct": -7.8732,
-    "current_profit_tl": -7.8732,
+    "current_profit_pct": -8.356,
+    "current_profit_tl": -8.356,
     "highest_milestone": 5,
     "milestones_hit": [
       5
@@ -533,5 +533,34 @@
     "final_profit_pct": 11.9962,
     "final_profit_tl": 11.9962,
     "hold_hours": 0.98
+  },
+  {
+    "trade_id": "robinhood_0x133b40189c4b9e415fbe3a1ae5c0851b01a78df602f1aa3a443eece8594ef0cb_1789451073",
+    "status": "OPEN",
+    "stake_tl": 100.0,
+    "name": "STANDARD",
+    "symbol": "STANDARD",
+    "chain": "robinhood",
+    "token_address": "0x7458c44caB1B93eaC98d7Dd8baAE4357F939e6B1",
+    "pair_address": "0x133b40189c4b9e415fbe3a1ae5c0851b01a78df602f1aa3a443eece8594ef0cb",
+    "dex": "uniswap",
+    "entry_time": "2026-09-15T05:44:33.842013+00:00",
+    "entry_price": 0.0001376,
+    "entry_score": 81,
+    "raw_score": 81,
+    "earlyness_score": 62,
+    "peak_price": 0.0001376,
+    "peak_profit_pct": 0.0,
+    "max_drawdown_pct": 0.0,
+    "current_profit_pct": 0.0,
+    "current_profit_tl": 0.0,
+    "highest_milestone": 0,
+    "milestones_hit": [],
+    "exit_time": null,
+    "exit_price": null,
+    "exit_reason": null,
+    "final_profit_pct": null,
+    "final_profit_tl": null,
+    "hold_hours": null
   }
 ]
