@@ -455,9 +455,9 @@
     "earlyness_score": 58,
     "peak_price": 97.66,
     "peak_profit_pct": 6.0427,
-    "max_drawdown_pct": 9.6965,
-    "current_profit_pct": -3.2825,
-    "current_profit_tl": -3.2825,
+    "max_drawdown_pct": 10.0657,
+    "current_profit_pct": -4.023,
+    "current_profit_tl": -4.023,
     "highest_milestone": 5,
     "milestones_hit": [
       5
@@ -570,5 +570,34 @@
     "final_profit_pct": -24.6366,
     "final_profit_tl": -24.6366,
     "hold_hours": 8.02
+  },
+  {
+    "trade_id": "solana_GqbkAy1ajZivdjk8jhDdMqapzN6ogEfD12LtJYyXQC4C_1789492438",
+    "status": "OPEN",
+    "stake_tl": 100.0,
+    "name": "Stealf",
+    "symbol": "STEALF",
+    "chain": "solana",
+    "token_address": "G5W6LwkLeoj6rZqBP1y3KT8k6Cz6rXGJmMNU3TArXtXw",
+    "pair_address": "GqbkAy1ajZivdjk8jhDdMqapzN6ogEfD12LtJYyXQC4C",
+    "dex": "meteora",
+    "entry_time": "2026-09-15T17:13:58.603111+00:00",
+    "entry_price": 0.0003949,
+    "entry_score": 90,
+    "raw_score": 90,
+    "earlyness_score": 70,
+    "peak_price": 0.0003949,
+    "peak_profit_pct": 0.0,
+    "max_drawdown_pct": 0.0,
+    "current_profit_pct": 0.0,
+    "current_profit_tl": 0.0,
+    "highest_milestone": 0,
+    "milestones_hit": [],
+    "exit_time": null,
+    "exit_price": null,
+    "exit_reason": null,
+    "final_profit_pct": null,
+    "final_profit_tl": null,
+    "hold_hours": null
   }
 ]
