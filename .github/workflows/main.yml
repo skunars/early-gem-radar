@@ -21,6 +21,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Kâr koruma patch'i uygula
+        run: python profit_protection_patch.py
+
+      - name: Scanner syntax kontrolü
+        run: python -m py_compile scanner.py
+
       - name: Scanner çalıştır
         run: python scanner.py
 
