@@ -96664,5 +96664,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xdf09edb6b7c7de7c8472e243d78681b71aced3de": {
+    "first_seen": "2026-09-15T19:34:04.946886+00:00",
+    "last_seen": "2026-09-15T19:34:04.946886+00:00",
+    "chain": "robinhood",
+    "address": "0xdf09edb6b7c7de7c8472e243d78681b71aced3de",
+    "symbol": "FREN",
+    "name": "fren",
+    "dex": "uniswap",
+    "pair_address": "0x0bca8b92ebd747eabac5add200f068e30cda1bd9a4ba3b5caad04f5f17383dc3",
+    "dex_url": "https://dexscreener.com/robinhood/0x0bca8b92ebd747eabac5add200f068e30cda1bd9a4ba3b5caad04f5f17383dc3",
+    "initial": {
+      "timestamp": "2026-09-15T19:34:04.946886+00:00",
+      "price_usd": 0.002655,
+      "liquidity_usd": 374503.94,
+      "volume_24h_usd": 3301529.02,
+      "market_cap": 2655169.0,
+      "fdv": 2655169.0,
+      "price_change_24h": 749.0,
+      "age_hours": 0.11203947305555556,
+      "buys_24h": 1880,
+      "sells_24h": 1784,
+      "score": 69,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-15T19:34:04.946886+00:00",
+      "price_usd": 0.002655,
+      "liquidity_usd": 374503.94,
+      "volume_24h_usd": 3301529.02,
+      "market_cap": 2655169.0,
+      "fdv": 2655169.0,
+      "price_change_24h": 749.0,
+      "age_hours": 0.11203947305555556,
+      "buys_24h": 1880,
+      "sells_24h": 1784,
+      "score": 69,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-15T19:34:04.946886+00:00",
+        "price_usd": 0.002655,
+        "liquidity_usd": 374503.94,
+        "volume_24h_usd": 3301529.02,
+        "market_cap": 2655169.0,
+        "fdv": 2655169.0,
+        "price_change_24h": 749.0,
+        "age_hours": 0.11203947305555556,
+        "buys_24h": 1880,
+        "sells_24h": 1784,
+        "score": 69,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
