@@ -1,9 +1,9 @@
 {
-  "0xCC1a837Cd5cA69D9CbD2Fa20F5Acc5F034815b21": {
-    "price": 0.0002049,
-    "time": "2026-09-15T13:00:19.335557+00:00",
-    "symbol": "X",
+  "0x946610b542e32f9e5AdBD5fCae5Dca5a4c7B341D": {
+    "price": 0.002772,
+    "time": "2026-09-15T13:25:51.572740+00:00",
+    "symbol": "Koa",
     "chain": "robinhood",
-    "token_address": "0x800dC3b375C55f1EF22BFC85576Ed5D7302C0FCD"
+    "token_address": "0x03CBe5e9A47c3b690D63C9C32292bFe6560A8104"
   }
 }
