@@ -357,8 +357,8 @@
     "peak_price": 0.000436,
     "peak_profit_pct": 0.0,
     "max_drawdown_pct": 0.0,
-    "current_profit_pct": -7.7982,
-    "current_profit_tl": -7.7982,
+    "current_profit_pct": -10.4817,
+    "current_profit_tl": -10.4817,
     "highest_milestone": 0,
     "milestones_hit": [],
     "exit_time": null,
@@ -455,9 +455,9 @@
     "earlyness_score": 58,
     "peak_price": 97.66,
     "peak_profit_pct": 6.0427,
-    "max_drawdown_pct": 5.1903,
-    "current_profit_pct": 0.9852,
-    "current_profit_tl": 0.9852,
+    "max_drawdown_pct": 5.5052,
+    "current_profit_pct": 0.5375,
+    "current_profit_tl": 0.5375,
     "highest_milestone": 5,
     "milestones_hit": [
       5
@@ -487,8 +487,8 @@
     "peak_price": 0.008785,
     "peak_profit_pct": 8.7522,
     "max_drawdown_pct": 20.2402,
-    "current_profit_pct": -7.18,
-    "current_profit_tl": -7.18,
+    "current_profit_pct": -7.8732,
+    "current_profit_tl": -7.8732,
     "highest_milestone": 5,
     "milestones_hit": [
       5
@@ -502,7 +502,7 @@
   },
   {
     "trade_id": "solana_Crtx19GAMBhVh62cHArWYa2moRQeyMtzgsVjzX9NCDhy_1789446368",
-    "status": "OPEN",
+    "status": "CLOSED",
     "stake_tl": 100.0,
     "name": "HUHCAT",
     "symbol": "HUHCAT",
@@ -517,9 +517,9 @@
     "earlyness_score": 58,
     "peak_price": 0.001547,
     "peak_profit_pct": 48.4645,
-    "max_drawdown_pct": 0.0,
-    "current_profit_pct": 48.4645,
-    "current_profit_tl": 48.4645,
+    "max_drawdown_pct": 36.4683,
+    "current_profit_pct": 11.9962,
+    "current_profit_tl": 11.9962,
     "highest_milestone": 30,
     "milestones_hit": [
       5,
@@ -527,11 +527,11 @@
       20,
       30
     ],
-    "exit_time": null,
-    "exit_price": null,
-    "exit_reason": null,
-    "final_profit_pct": null,
-    "final_profit_tl": null,
-    "hold_hours": null
+    "exit_time": "2026-09-15T05:25:00.561156+00:00",
+    "exit_price": 0.001167,
+    "exit_reason": "TRAILING_STOP",
+    "final_profit_pct": 11.9962,
+    "final_profit_tl": 11.9962,
+    "hold_hours": 0.98
   }
 ]
