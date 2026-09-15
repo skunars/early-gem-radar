@@ -93909,5 +93909,154 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "solana:a9ahyeqb7nqk7lzuraw7rbczyrjy2drve6nqwffhkrdh": {
+    "first_seen": "2026-09-15T04:26:08.666153+00:00",
+    "last_seen": "2026-09-15T04:26:08.666153+00:00",
+    "chain": "solana",
+    "address": "a9ahyeqb7nqk7lzuraw7rbczyrjy2drve6nqwffhkrdh",
+    "symbol": "HUHCAT",
+    "name": "HUHCAT",
+    "dex": "meteora",
+    "pair_address": "Crtx19GAMBhVh62cHArWYa2moRQeyMtzgsVjzX9NCDhy",
+    "dex_url": "https://dexscreener.com/solana/crtx19gambhvh62charwya2morqeymtzgsvjzx9ncdhy",
+    "initial": {
+      "timestamp": "2026-09-15T04:26:08.666153+00:00",
+      "price_usd": 0.001042,
+      "liquidity_usd": 123937.45,
+      "volume_24h_usd": 559356.02,
+      "market_cap": 1000272.0,
+      "fdv": 1000272.0,
+      "price_change_24h": 117.0,
+      "age_hours": 1.0859435272222222,
+      "buys_24h": 2466,
+      "sells_24h": 2106,
+      "score": 82,
+      "signal": "🟢 AL ADAYI",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-15T04:26:08.666153+00:00",
+      "price_usd": 0.001042,
+      "liquidity_usd": 123937.45,
+      "volume_24h_usd": 559356.02,
+      "market_cap": 1000272.0,
+      "fdv": 1000272.0,
+      "price_change_24h": 117.0,
+      "age_hours": 1.0859435272222222,
+      "buys_24h": 2466,
+      "sells_24h": 2106,
+      "score": 82,
+      "signal": "🟢 AL ADAYI",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-15T04:26:08.666153+00:00",
+        "price_usd": 0.001042,
+        "liquidity_usd": 123937.45,
+        "volume_24h_usd": 559356.02,
+        "market_cap": 1000272.0,
+        "fdv": 1000272.0,
+        "price_change_24h": 117.0,
+        "age_hours": 1.0859435272222222,
+        "buys_24h": 2466,
+        "sells_24h": 2106,
+        "score": 82,
+        "signal": "🟢 AL ADAYI",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
+  },
+  "solana:6eaecvv5kkahx9rlrmww2rpurdwqbjkhepaax8iqhcya": {
+    "first_seen": "2026-09-15T04:26:08.789388+00:00",
+    "last_seen": "2026-09-15T04:26:08.789388+00:00",
+    "chain": "solana",
+    "address": "6eaecvv5kkahx9rlrmww2rpurdwqbjkhepaax8iqhcya",
+    "symbol": "VJRA",
+    "name": "Vajra Coin",
+    "dex": "raydium",
+    "pair_address": "7tRxsHPnNEfuErqoSC6eVBmCB6subfiqVuJ9NGWNBanD",
+    "dex_url": "https://dexscreener.com/solana/7trxshpnnefuerqosc6evbmcb6subfiqvuj9ngwnband",
+    "initial": {
+      "timestamp": "2026-09-15T04:26:08.789388+00:00",
+      "price_usd": 4.68,
+      "liquidity_usd": 138743.31,
+      "volume_24h_usd": 70182.46,
+      "market_cap": 14990654.0,
+      "fdv": 14990654.0,
+      "price_change_24h": 0.09,
+      "age_hours": 1114.3332416019443,
+      "buys_24h": 1271,
+      "sells_24h": 1097,
+      "score": 0,
+      "signal": "🔴 UZAK DUR",
+      "security_available": true,
+      "security_risk": "HIGH",
+      "security_risks": [
+        "MINT YETKİSİ",
+        "METADATA DEĞİŞTİRİLEBİLİR"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-15T04:26:08.789388+00:00",
+      "price_usd": 4.68,
+      "liquidity_usd": 138743.31,
+      "volume_24h_usd": 70182.46,
+      "market_cap": 14990654.0,
+      "fdv": 14990654.0,
+      "price_change_24h": 0.09,
+      "age_hours": 1114.3332416019443,
+      "buys_24h": 1271,
+      "sells_24h": 1097,
+      "score": 0,
+      "signal": "🔴 UZAK DUR",
+      "security_available": true,
+      "security_risk": "HIGH",
+      "security_risks": [
+        "MINT YETKİSİ",
+        "METADATA DEĞİŞTİRİLEBİLİR"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-15T04:26:08.789388+00:00",
+        "price_usd": 4.68,
+        "liquidity_usd": 138743.31,
+        "volume_24h_usd": 70182.46,
+        "market_cap": 14990654.0,
+        "fdv": 14990654.0,
+        "price_change_24h": 0.09,
+        "age_hours": 1114.3332416019443,
+        "buys_24h": 1271,
+        "sells_24h": 1097,
+        "score": 0,
+        "signal": "🔴 UZAK DUR",
+        "security_available": true,
+        "security_risk": "HIGH",
+        "security_risks": [
+          "MINT YETKİSİ",
+          "METADATA DEĞİŞTİRİLEBİLİR"
+        ],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
