@@ -1,14 +1,7 @@
 {
-  "0x0bca8b92ebd747eabac5add200f068e30cda1bd9a4ba3b5caad04f5f17383dc3": {
-    "price": 0.003089,
-    "time": "2026-09-15T20:42:11.277179+00:00",
-    "symbol": "FREN",
-    "chain": "robinhood",
-    "token_address": "0xDF09eDb6B7C7de7c8472E243d78681b71aCEd3de"
-  },
   "0xde55463016f21c46e3841254489650791d72d7e63c2d1d02b6b7560b4da2487e": {
-    "price": 0.002217,
-    "time": "2026-09-15T20:42:11.277198+00:00",
+    "price": 0.002185,
+    "time": "2026-09-15T20:58:08.388672+00:00",
     "symbol": "GG",
     "chain": "robinhood",
     "token_address": "0x2205c2232914f3A962fB25EdA51f2d063Dc9E532"
