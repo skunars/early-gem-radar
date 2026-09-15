@@ -1,9 +1,16 @@
 {
-  "0x9B3B9dE3b6BaF80BDB1ec3d26F3655f5A5Df2803": {
-    "price": 0.0003261,
-    "time": "2026-09-15T22:58:05.772495+00:00",
-    "symbol": "TICKET",
+  "0x57a217c3cc1d42e2d6e4ad23ebf3a323106504c0184d41ee6678e695c15a2f36": {
+    "price": 0.001533,
+    "time": "2026-09-15T23:17:02.401641+00:00",
+    "symbol": "SZN",
     "chain": "robinhood",
-    "token_address": "0x1bfD7056f5304fECf366D11726790F4fF3ef8AB0"
+    "token_address": "0xDddDD41F2Eb2949dA51E6A91aB1c96af44106CEA"
+  },
+  "0x6b035d9ed1e75e4273d8ffdd375fac5ddd595238d9ffe712fb3f5d596fae7def": {
+    "price": 0.0003615,
+    "time": "2026-09-15T23:17:02.401661+00:00",
+    "symbol": "SHI",
+    "chain": "robinhood",
+    "token_address": "0xCcaF2ea73f204d7DC2F2C723579D9Ff7cCE61e18"
   }
 }
