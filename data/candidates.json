@@ -94893,5 +94893,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x2a24d1c9de6db0260016722f980f72c59f7228a0": {
+    "first_seen": "2026-09-15T08:37:45.257535+00:00",
+    "last_seen": "2026-09-15T08:37:45.257535+00:00",
+    "chain": "robinhood",
+    "address": "0x2a24d1c9de6db0260016722f980f72c59f7228a0",
+    "symbol": "GRIMACE",
+    "name": "Grimacecoin",
+    "dex": "uniswap",
+    "pair_address": "0x4ea95a1e59bf1bffa5b361232eef0873aca685a9ee9448eef8eff19114e8e0dc",
+    "dex_url": "https://dexscreener.com/robinhood/0x4ea95a1e59bf1bffa5b361232eef0873aca685a9ee9448eef8eff19114e8e0dc",
+    "initial": {
+      "timestamp": "2026-09-15T08:37:45.257535+00:00",
+      "price_usd": 0.0002432,
+      "liquidity_usd": 112375.86,
+      "volume_24h_usd": 1147470.85,
+      "market_cap": 243202.0,
+      "fdv": 243202.0,
+      "price_change_24h": 1283.0,
+      "age_hours": 1.3800208091666668,
+      "buys_24h": 1763,
+      "sells_24h": 1634,
+      "score": 56,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-15T08:37:45.257535+00:00",
+      "price_usd": 0.0002432,
+      "liquidity_usd": 112375.86,
+      "volume_24h_usd": 1147470.85,
+      "market_cap": 243202.0,
+      "fdv": 243202.0,
+      "price_change_24h": 1283.0,
+      "age_hours": 1.3800208091666668,
+      "buys_24h": 1763,
+      "sells_24h": 1634,
+      "score": 56,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-15T08:37:45.257535+00:00",
+        "price_usd": 0.0002432,
+        "liquidity_usd": 112375.86,
+        "volume_24h_usd": 1147470.85,
+        "market_cap": 243202.0,
+        "fdv": 243202.0,
+        "price_change_24h": 1283.0,
+        "age_hours": 1.3800208091666668,
+        "buys_24h": 1763,
+        "sells_24h": 1634,
+        "score": 56,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

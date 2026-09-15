@@ -456,8 +456,8 @@
     "peak_price": 97.66,
     "peak_profit_pct": 6.0427,
     "max_drawdown_pct": 6.3521,
-    "current_profit_pct": -0.3095,
-    "current_profit_tl": -0.3095,
+    "current_profit_pct": -0.1021,
+    "current_profit_tl": -0.1021,
     "highest_milestone": 5,
     "milestones_hit": [
       5
@@ -471,7 +471,7 @@
   },
   {
     "trade_id": "robinhood_0xf9050c018e681d55ad59745028f47b4c8be1ed7de353656a807785f1718b3c2e_1789372022",
-    "status": "OPEN",
+    "status": "CLOSED",
     "stake_tl": 100.0,
     "name": "Cook",
     "symbol": "COOK",
@@ -486,19 +486,19 @@
     "earlyness_score": 62,
     "peak_price": 0.008785,
     "peak_profit_pct": 8.7522,
-    "max_drawdown_pct": 20.2402,
-    "current_profit_pct": -8.0218,
-    "current_profit_tl": -8.0218,
+    "max_drawdown_pct": 23.3226,
+    "current_profit_pct": -14.5704,
+    "current_profit_tl": -14.5704,
     "highest_milestone": 5,
     "milestones_hit": [
       5
     ],
-    "exit_time": null,
-    "exit_price": null,
-    "exit_reason": null,
-    "final_profit_pct": null,
-    "final_profit_tl": null,
-    "hold_hours": null
+    "exit_time": "2026-09-15T08:37:39.338906+00:00",
+    "exit_price": 0.006901,
+    "exit_reason": "HARD_STOP",
+    "final_profit_pct": -14.5704,
+    "final_profit_tl": -14.5704,
+    "hold_hours": 24.84
   },
   {
     "trade_id": "solana_Crtx19GAMBhVh62cHArWYa2moRQeyMtzgsVjzX9NCDhy_1789446368",
@@ -549,11 +549,11 @@
     "entry_score": 81,
     "raw_score": 81,
     "earlyness_score": 62,
-    "peak_price": 0.0002453,
-    "peak_profit_pct": 78.2703,
+    "peak_price": 0.0002509,
+    "peak_profit_pct": 82.3401,
     "max_drawdown_pct": 0.0,
-    "current_profit_pct": 78.2703,
-    "current_profit_tl": 78.2703,
+    "current_profit_pct": 82.3401,
+    "current_profit_tl": 82.3401,
     "highest_milestone": 75,
     "milestones_hit": [
       5,
