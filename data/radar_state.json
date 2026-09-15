@@ -1,1 +1,9 @@
-{}
+{
+  "0x2f4d1a75c5c884e70fd17a737a6b62bc008248fcbb2c31276adc1a3f1528b3bf": {
+    "price": 0.001277,
+    "time": "2026-09-15T01:27:08.040727+00:00",
+    "symbol": "WAIFU",
+    "chain": "robinhood",
+    "token_address": "0x948647a06a6422DceEA3711297F82AeF68Ec641C"
+  }
+}

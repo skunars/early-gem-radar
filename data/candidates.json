@@ -93769,5 +93769,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x948647a06a6422dceea3711297f82aef68ec641c": {
+    "first_seen": "2026-09-15T01:27:07.944753+00:00",
+    "last_seen": "2026-09-15T01:27:07.944753+00:00",
+    "chain": "robinhood",
+    "address": "0x948647a06a6422dceea3711297f82aef68ec641c",
+    "symbol": "WAIFU",
+    "name": "Waifu",
+    "dex": "uniswap",
+    "pair_address": "0x2f4d1a75c5c884e70fd17a737a6b62bc008248fcbb2c31276adc1a3f1528b3bf",
+    "dex_url": "https://dexscreener.com/robinhood/0x2f4d1a75c5c884e70fd17a737a6b62bc008248fcbb2c31276adc1a3f1528b3bf",
+    "initial": {
+      "timestamp": "2026-09-15T01:27:07.944753+00:00",
+      "price_usd": 0.001277,
+      "liquidity_usd": 104980.33,
+      "volume_24h_usd": 3023899.0,
+      "market_cap": 1277074.0,
+      "fdv": 1277074.0,
+      "price_change_24h": 1905.0,
+      "age_hours": 1.0276042619444445,
+      "buys_24h": 4004,
+      "sells_24h": 2160,
+      "score": 61,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-15T01:27:07.944753+00:00",
+      "price_usd": 0.001277,
+      "liquidity_usd": 104980.33,
+      "volume_24h_usd": 3023899.0,
+      "market_cap": 1277074.0,
+      "fdv": 1277074.0,
+      "price_change_24h": 1905.0,
+      "age_hours": 1.0276042619444445,
+      "buys_24h": 4004,
+      "sells_24h": 2160,
+      "score": 61,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-15T01:27:07.944753+00:00",
+        "price_usd": 0.001277,
+        "liquidity_usd": 104980.33,
+        "volume_24h_usd": 3023899.0,
+        "market_cap": 1277074.0,
+        "fdv": 1277074.0,
+        "price_change_24h": 1905.0,
+        "age_hours": 1.0276042619444445,
+        "buys_24h": 4004,
+        "sells_24h": 2160,
+        "score": 61,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
