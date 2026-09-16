@@ -1,16 +1,16 @@
 {
   "0x1F7f6A5E2Ba06E9b3644AFA8Db8E1c606B5A5aBb": {
-    "price": 0.001293,
-    "time": "2026-09-16T08:58:30.161535+00:00",
+    "price": 0.001077,
+    "time": "2026-09-16T09:20:06.938851+00:00",
     "symbol": "BEANCAT",
     "chain": "arc",
     "token_address": "0x41c8A71f630c636294009fa4FB0CC4c3bBE674fe"
   },
-  "0x3664e34418868c4e64c59c0e45f23c1f9361c4f4b6c23b3793d336be1d675a24": {
-    "price": 0.001344,
-    "time": "2026-09-16T08:58:30.161554+00:00",
-    "symbol": "PI",
+  "0x6d8db35396B5eb98DeE495e32B8ccA992682316d": {
+    "price": 0.000828,
+    "time": "2026-09-16T09:20:06.938872+00:00",
+    "symbol": "ARCANINE",
     "chain": "arc",
-    "token_address": "0x30aC39DeC8a854c5Fd03AA429E3BEF32a7E4c84a"
+    "token_address": "0xF3715bF5C2De299F08B81180ffb739A8372a175f"
   }
 }
