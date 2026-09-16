@@ -1,16 +1,9 @@
 {
   "0xbce0a88313a6ff1c473750ee15ffcac0d6e8366589ed11b2a40262b661efa31f": {
-    "price": 3.271e-06,
-    "time": "2026-09-16T20:20:10.126849+00:00",
+    "price": 7.005e-06,
+    "time": "2026-09-16T20:37:19.060496+00:00",
     "symbol": "HPAY",
     "chain": "robinhood",
     "token_address": "0x5bc108eaC390fc0520b12dB61e04B9EE2045c615"
-  },
-  "0xE6FE02077A5BB52C39120b4B74f12780Aa738859": {
-    "price": 0.000134,
-    "time": "2026-09-16T20:20:10.126871+00:00",
-    "symbol": "ARCADE",
-    "chain": "arc",
-    "token_address": "0x8b838fd5196Bbdf4dF482d56ac69f8b2E72F3a6F"
   }
 }
