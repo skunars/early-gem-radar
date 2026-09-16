@@ -1,9 +1,9 @@
 {
-  "0xd9133187331e20885fd1b4ff2f18b892f94793ddaf808b1db6d4ef29ca58b943": {
-    "price": 0.00499,
-    "time": "2026-09-16T16:21:06.550717+00:00",
-    "symbol": "FAZE",
-    "chain": "arc",
-    "token_address": "0x394D38F807eE0027A182216f5e67a15Ae441FA2E"
+  "0x49880df747b829dd30cd8f443a4cdee0b3ace0ba485a684464297ba58253e6c7": {
+    "price": 0.0004754,
+    "time": "2026-09-16T16:43:09.590449+00:00",
+    "symbol": "XBOW",
+    "chain": "robinhood",
+    "token_address": "0xa156048AA84d13b1DE40dFa8288D28B2593fc35c"
   }
 }
