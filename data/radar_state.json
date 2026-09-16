@@ -1,37 +1,23 @@
 {
-  "0xf67476f57ff2451744c5d2d046586249eed82787207109aa26224c193dcce769": {
-    "price": 0.001206,
-    "time": "2026-09-16T10:34:20.981525+00:00",
-    "symbol": "WASH",
-    "chain": "robinhood",
-    "token_address": "0x1b8A598A3cBc9EA2F256ff139DB839f9A70C97b9"
-  },
   "0x778029e36cae80284b8395eb524d166bb54ccd46461918b379c21ea018db2a64": {
-    "price": 0.001392,
-    "time": "2026-09-16T10:34:20.981554+00:00",
+    "price": 0.001226,
+    "time": "2026-09-16T10:51:43.069292+00:00",
     "symbol": "ARCX10",
     "chain": "arc",
     "token_address": "0x12cE1F970722ca6e08364b60099b3d25c09b5434"
   },
-  "0x54d5fe8ee7a9546ce74ebe06c1d040defb7757410a627d4793d62a77eaaae4bf": {
-    "price": 0.001361,
-    "time": "2026-09-16T10:34:20.981558+00:00",
-    "symbol": "USDC",
-    "chain": "arc",
-    "token_address": "0x8E98A62a995A50eca9979bfa016f91bf36A8F9D9"
-  },
-  "0x162Df51C504e7b8321e07387932f333D9be16a72": {
-    "price": 0.01749,
-    "time": "2026-09-16T10:34:20.981560+00:00",
-    "symbol": "TOLLY",
-    "chain": "arc",
-    "token_address": "0xBc43CE8DEc648EA298C4275559b81D6261c90b67"
-  },
   "0xd77a1efbc8d143b100cf2496ff970da0a616a6796886e6ba1f45e7d7e09bb150": {
-    "price": 0.001541,
-    "time": "2026-09-16T10:34:20.981562+00:00",
+    "price": 0.001649,
+    "time": "2026-09-16T10:51:43.069319+00:00",
     "symbol": "Minara",
     "chain": "arc",
     "token_address": "0xA163d7624Da3B5d9182c50EaB5b8cd247Ae861bb"
+  },
+  "0x162Df51C504e7b8321e07387932f333D9be16a72": {
+    "price": 0.01514,
+    "time": "2026-09-16T10:51:43.069322+00:00",
+    "symbol": "TOLLY",
+    "chain": "arc",
+    "token_address": "0xBc43CE8DEc648EA298C4275559b81D6261c90b67"
   }
 }
