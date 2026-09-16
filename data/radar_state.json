@@ -1,9 +1,9 @@
 {
-  "0x90aa7d2ec79999ad196cb9bcfa5c0c7da63735a76f495523c26a5d55418e242b": {
-    "price": 0.0002986,
-    "time": "2026-09-16T00:50:05.234263+00:00",
-    "symbol": "POKÉ",
+  "0xd4034a18f5ae2023fa8a0c1f237f7f25a0728ee370489948f3be26b1c1c21b71": {
+    "price": 0.001849,
+    "time": "2026-09-16T01:04:45.283919+00:00",
+    "symbol": "ZC",
     "chain": "robinhood",
-    "token_address": "0x82E427f9def1Ffc52c61A6d9B39ecC3Bf4eA817A"
+    "token_address": "0xd855f585bB57aEE8bf1723BE5260736951F353aA"
   }
 }
