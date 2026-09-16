@@ -1,1 +1,9 @@
-{}
+{
+  "0x40732e01ba7A829DEA44f51a10e7C58cd9F37765": {
+    "price": 0.005555,
+    "time": "2026-09-16T04:33:43.714709+00:00",
+    "symbol": "COOL",
+    "chain": "arc",
+    "token_address": "0xEb64987643db71c76b2a2BE7E723DECC995E5b37"
+  }
+}
