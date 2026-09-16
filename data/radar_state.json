@@ -1,9 +1,16 @@
 {
   "0x671A4FAcDA8106BD5a16Bc7f8B0790099EA17644": {
-    "price": 0.006897,
-    "time": "2026-09-16T22:22:57.983331+00:00",
+    "price": 0.007633,
+    "time": "2026-09-16T22:41:49.027302+00:00",
     "symbol": "FLX",
     "chain": "robinhood",
     "token_address": "0x0D4eD27a906a0774474B200Cc5392019facD2A47"
+  },
+  "0xfabeb358fe4ac3c64ac0a59f7355eb04eab3f422eb4585092e9ef79946d7410c": {
+    "price": 2.603e-06,
+    "time": "2026-09-16T22:41:49.027319+00:00",
+    "symbol": "SPIDERBRAIN",
+    "chain": "robinhood",
+    "token_address": "0xb11766322d5958551025597389e1e33eD4Df0bA3"
   }
 }
