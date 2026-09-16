@@ -1,14 +1,7 @@
 {
-  "0x79c95b24735df6be4bef150997609d27995f885d9f0bdf2d63ce4421a5a92c3d": {
-    "price": 0.001628,
-    "time": "2026-09-16T23:33:03.066935+00:00",
-    "symbol": "RUNNER",
-    "chain": "robinhood",
-    "token_address": "0x9999995309376138C9bD66A49e1D6B16dE693D1B"
-  },
   "0xe51be59e0c1FeD915888a345877b77713f13D32C": {
-    "price": 0.0003801,
-    "time": "2026-09-16T23:33:03.066955+00:00",
+    "price": 0.0002855,
+    "time": "2026-09-16T23:48:21.208371+00:00",
     "symbol": "CHEESE",
     "chain": "arc",
     "token_address": "0x2e554C802E6b3A0EA4793f2267e0C4dcB28721e0"
