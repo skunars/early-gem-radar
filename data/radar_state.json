@@ -1,7 +1,14 @@
 {
+  "0xf9088c9d2dA1B2c450C23b657285b8439E0A9B66": {
+    "price": 0.0009153,
+    "time": "2026-09-16T02:19:39.387683+00:00",
+    "symbol": "CATE",
+    "chain": "bsc",
+    "token_address": "0xa4B0320fe6158823CE73a26300176747670B5555"
+  },
   "0xC2151a561E928D16576d75Ea88544543ac63D80B": {
-    "price": 668.9,
-    "time": "2026-09-16T01:58:28.830289+00:00",
+    "price": 668.86,
+    "time": "2026-09-16T02:19:39.387700+00:00",
     "symbol": "METAB",
     "chain": "bsc",
     "token_address": "0x7425889FE94F9d693E8daefE88BCCed6AcFEf4c0"
