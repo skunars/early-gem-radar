@@ -626,9 +626,9 @@
     "earlyness_score": 89,
     "peak_price": 0.002184,
     "peak_profit_pct": 180.792,
-    "max_drawdown_pct": 0.0,
-    "current_profit_pct": 180.792,
-    "current_profit_tl": 180.792,
+    "max_drawdown_pct": 31.4991,
+    "current_profit_pct": 149.2929,
+    "current_profit_tl": 149.2929,
     "highest_milestone": 150,
     "milestones_hit": [
       5,
