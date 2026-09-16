@@ -1,14 +1,14 @@
 {
   "0x9673b01178e483C9EA427a76567Ed6383e6CA72f": {
-    "price": 0.001603,
-    "time": "2026-09-16T19:23:03.513150+00:00",
+    "price": 0.0007922,
+    "time": "2026-09-16T19:41:01.668343+00:00",
     "symbol": "DUKE",
     "chain": "arc",
     "token_address": "0xe6a2476f33Ec1566288AA32Ec3319A6B77DD1E3B"
   },
   "0x69a8440ea85bac37d8eceb41b599ff18f9243fd8446226770c91d6afeb31b946": {
-    "price": 0.000782,
-    "time": "2026-09-16T19:23:03.513170+00:00",
+    "price": 0.0007294,
+    "time": "2026-09-16T19:41:01.668363+00:00",
     "symbol": "SHIT",
     "chain": "base",
     "token_address": "0xC005627A90bD65F8E92DC89594bcC6e79b511c8F"
