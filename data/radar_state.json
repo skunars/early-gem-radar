@@ -1,9 +1,16 @@
 {
   "0x40732e01ba7A829DEA44f51a10e7C58cd9F37765": {
-    "price": 0.005555,
-    "time": "2026-09-16T04:33:43.714709+00:00",
+    "price": 0.006421,
+    "time": "2026-09-16T04:51:28.554217+00:00",
     "symbol": "COOL",
     "chain": "arc",
     "token_address": "0xEb64987643db71c76b2a2BE7E723DECC995E5b37"
+  },
+  "0x6A3bAcAa6493734c1Ac221EBF42CF530A96C1e02": {
+    "price": 0.03066,
+    "time": "2026-09-16T04:51:28.554237+00:00",
+    "symbol": "ARGUS",
+    "chain": "arc",
+    "token_address": "0xeCe5cA8bf9220718E5727754026757512212cb3c"
   }
 }
