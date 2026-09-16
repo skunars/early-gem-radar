@@ -1,9 +1,23 @@
 {
+  "0x778029e36cae80284b8395eb524d166bb54ccd46461918b379c21ea018db2a64": {
+    "price": 0.001556,
+    "time": "2026-09-16T10:16:46.403549+00:00",
+    "symbol": "ARCX10",
+    "chain": "arc",
+    "token_address": "0x12cE1F970722ca6e08364b60099b3d25c09b5434"
+  },
   "0x7dbceC05f12b14E21a79a0DC15EA9859322A4ab2": {
-    "price": 0.001363,
-    "time": "2026-09-16T09:53:47.257783+00:00",
+    "price": 0.001353,
+    "time": "2026-09-16T10:16:46.403567+00:00",
     "symbol": "ARCASH",
     "chain": "arc",
     "token_address": "0x0BFFa97f774824e9dA843699aEDd2835cb1b8022"
+  },
+  "0x162Df51C504e7b8321e07387932f333D9be16a72": {
+    "price": 0.01541,
+    "time": "2026-09-16T10:16:46.403570+00:00",
+    "symbol": "TOLLY",
+    "chain": "arc",
+    "token_address": "0xBc43CE8DEc648EA298C4275559b81D6261c90b67"
   }
 }
