@@ -1,16 +1,37 @@
 {
-  "0x40732e01ba7A829DEA44f51a10e7C58cd9F37765": {
-    "price": 0.006421,
-    "time": "2026-09-16T04:51:28.554217+00:00",
-    "symbol": "COOL",
+  "0xDA9F3D166497DdfDDF37c93CACFd8Aa39b71e493": {
+    "price": 0.01116,
+    "time": "2026-09-16T05:14:34.725348+00:00",
+    "symbol": "LONG",
     "chain": "arc",
-    "token_address": "0xEb64987643db71c76b2a2BE7E723DECC995E5b37"
+    "token_address": "0x2164bB17a2D38c1b5170E987b2c0416DF1EFc752"
+  },
+  "0x162Df51C504e7b8321e07387932f333D9be16a72": {
+    "price": 0.01443,
+    "time": "2026-09-16T05:14:34.725363+00:00",
+    "symbol": "TOLLY",
+    "chain": "arc",
+    "token_address": "0xBc43CE8DEc648EA298C4275559b81D6261c90b67"
   },
   "0x6A3bAcAa6493734c1Ac221EBF42CF530A96C1e02": {
-    "price": 0.03066,
-    "time": "2026-09-16T04:51:28.554237+00:00",
+    "price": 0.02803,
+    "time": "2026-09-16T05:14:34.725366+00:00",
     "symbol": "ARGUS",
     "chain": "arc",
     "token_address": "0xeCe5cA8bf9220718E5727754026757512212cb3c"
+  },
+  "0xf5a913528f0d4e0c68e63977c83ab901d88f1e05c76836707431ea08291863b8": {
+    "price": 0.003134,
+    "time": "2026-09-16T05:14:34.725368+00:00",
+    "symbol": "USDC",
+    "chain": "arc",
+    "token_address": "0xb67f50fdE86e09B5da963c4251CBd4788b151eD5"
+  },
+  "0xf0a16b0ba05d050a1079cade9ace83db52de576445578039de9a9f3c62898b27": {
+    "price": 0.0003678,
+    "time": "2026-09-16T05:14:34.725370+00:00",
+    "symbol": "ARGEN",
+    "chain": "arc",
+    "token_address": "0xeB5294495134c29d40b38A51986AB98144AB8a52"
   }
 }
