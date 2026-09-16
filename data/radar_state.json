@@ -1,16 +1,9 @@
 {
   "0xC2151a561E928D16576d75Ea88544543ac63D80B": {
-    "price": 668.98,
-    "time": "2026-09-16T01:42:04.235946+00:00",
+    "price": 668.9,
+    "time": "2026-09-16T01:58:28.830289+00:00",
     "symbol": "METAB",
     "chain": "bsc",
     "token_address": "0x7425889FE94F9d693E8daefE88BCCed6AcFEf4c0"
-  },
-  "0x086a3368b2604426a6deea7848154c45632dba6cea5a6afbdb88d523ccf3c512": {
-    "price": 0.0004946,
-    "time": "2026-09-16T01:42:04.235964+00:00",
-    "symbol": "FIFE",
-    "chain": "robinhood",
-    "token_address": "0x5129eD2cB16465cB3DdA0843D2f891c23c85Fcc8"
   }
 }
