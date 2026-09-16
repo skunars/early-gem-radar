@@ -1,1 +1,9 @@
-{}
+{
+  "0xd9133187331e20885fd1b4ff2f18b892f94793ddaf808b1db6d4ef29ca58b943": {
+    "price": 0.005288,
+    "time": "2026-09-16T15:59:45.284741+00:00",
+    "symbol": "FAZE",
+    "chain": "arc",
+    "token_address": "0x394D38F807eE0027A182216f5e67a15Ae441FA2E"
+  }
+}
