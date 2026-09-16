@@ -1,7 +1,14 @@
 {
+  "0xC2151a561E928D16576d75Ea88544543ac63D80B": {
+    "price": 669.5,
+    "time": "2026-09-16T01:23:00.326600+00:00",
+    "symbol": "METAB",
+    "chain": "bsc",
+    "token_address": "0x7425889FE94F9d693E8daefE88BCCed6AcFEf4c0"
+  },
   "0xd4034a18f5ae2023fa8a0c1f237f7f25a0728ee370489948f3be26b1c1c21b71": {
-    "price": 0.001849,
-    "time": "2026-09-16T01:04:45.283919+00:00",
+    "price": 0.001726,
+    "time": "2026-09-16T01:23:00.326630+00:00",
     "symbol": "ZC",
     "chain": "robinhood",
     "token_address": "0xd855f585bB57aEE8bf1723BE5260736951F353aA"
