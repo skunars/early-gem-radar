@@ -1,14 +1,14 @@
 {
-  "0x0Abd501F56CD434D346CD5Bf3B67aEF461ebBc2d": {
-    "price": 0.0007966,
-    "time": "2026-09-16T07:25:32.630958+00:00",
-    "symbol": "ELLIPSE",
-    "chain": "arc",
-    "token_address": "0x86F7424C3e1EBb3F42e1E687468e36D5f2A1222E"
+  "0x3a9e688f64616fb291d38f93f1ad0d534692a9f105fe9cdbff8b5aae26ad0c3e": {
+    "price": 0.0003834,
+    "time": "2026-09-16T07:44:06.728339+00:00",
+    "symbol": "EXAG",
+    "chain": "robinhood",
+    "token_address": "0x876Cac419238bb42584FB73b30102407785205AE"
   },
   "0x4f1930bF327337208B49FDD4e7B5bdf3bD83029c": {
-    "price": 84.99,
-    "time": "2026-09-16T07:25:32.630969+00:00",
+    "price": 85.43,
+    "time": "2026-09-16T07:44:06.728355+00:00",
     "symbol": "CRCL",
     "chain": "arc",
     "token_address": "0x2ba0f44BDfC17FbA30edA9cdBeCB908cA45B043B"
