@@ -97363,5 +97363,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x82e427f9def1ffc52c61a6d9b39ecc3bf4ea817a": {
+    "first_seen": "2026-09-16T00:50:05.128957+00:00",
+    "last_seen": "2026-09-16T00:50:05.128957+00:00",
+    "chain": "robinhood",
+    "address": "0x82e427f9def1ffc52c61a6d9b39ecc3bf4ea817a",
+    "symbol": "POKÉ",
+    "name": "PokéCoin",
+    "dex": "uniswap",
+    "pair_address": "0x90aa7d2ec79999ad196cb9bcfa5c0c7da63735a76f495523c26a5d55418e242b",
+    "dex_url": "https://dexscreener.com/robinhood/0x90aa7d2ec79999ad196cb9bcfa5c0c7da63735a76f495523c26a5d55418e242b",
+    "initial": {
+      "timestamp": "2026-09-16T00:50:05.128957+00:00",
+      "price_usd": 0.0002986,
+      "liquidity_usd": 102792.77,
+      "volume_24h_usd": 496109.66,
+      "market_cap": 298622.0,
+      "fdv": 298622.0,
+      "price_change_24h": 2665.0,
+      "age_hours": 0.8469135913888889,
+      "buys_24h": 881,
+      "sells_24h": 428,
+      "score": 59,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-16T00:50:05.128957+00:00",
+      "price_usd": 0.0002986,
+      "liquidity_usd": 102792.77,
+      "volume_24h_usd": 496109.66,
+      "market_cap": 298622.0,
+      "fdv": 298622.0,
+      "price_change_24h": 2665.0,
+      "age_hours": 0.8469135913888889,
+      "buys_24h": 881,
+      "sells_24h": 428,
+      "score": 59,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-16T00:50:05.128957+00:00",
+        "price_usd": 0.0002986,
+        "liquidity_usd": 102792.77,
+        "volume_24h_usd": 496109.66,
+        "market_cap": 298622.0,
+        "fdv": 298622.0,
+        "price_change_24h": 2665.0,
+        "age_hours": 0.8469135913888889,
+        "buys_24h": 881,
+        "sells_24h": 428,
+        "score": 59,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
