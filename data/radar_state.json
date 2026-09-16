@@ -1,21 +1,28 @@
 {
-  "0x778029e36cae80284b8395eb524d166bb54ccd46461918b379c21ea018db2a64": {
-    "price": 0.001226,
-    "time": "2026-09-16T10:51:43.069292+00:00",
-    "symbol": "ARCX10",
+  "0x0722a193F0b7b70f4f043C602164B7a9fe0Fb8Fe": {
+    "price": 0.002461,
+    "time": "2026-09-16T11:15:35.122905+00:00",
+    "symbol": "musebook",
+    "chain": "robinhood",
+    "token_address": "0x505886a2a77DEe23b4Cef13903c846b8Ed6e2017"
+  },
+  "0xe2a4fc1b30f0f0b47bb3d3cd92a66a24137f5ed267af456cd64067388b7b73fe": {
+    "price": 0.001748,
+    "time": "2026-09-16T11:15:35.122928+00:00",
+    "symbol": "ORB",
     "chain": "arc",
-    "token_address": "0x12cE1F970722ca6e08364b60099b3d25c09b5434"
+    "token_address": "0x599786809486Db312efbF86ab0949A8bBbfcF565"
   },
   "0xd77a1efbc8d143b100cf2496ff970da0a616a6796886e6ba1f45e7d7e09bb150": {
-    "price": 0.001649,
-    "time": "2026-09-16T10:51:43.069319+00:00",
+    "price": 0.001779,
+    "time": "2026-09-16T11:15:35.122932+00:00",
     "symbol": "Minara",
     "chain": "arc",
     "token_address": "0xA163d7624Da3B5d9182c50EaB5b8cd247Ae861bb"
   },
   "0x162Df51C504e7b8321e07387932f333D9be16a72": {
-    "price": 0.01514,
-    "time": "2026-09-16T10:51:43.069322+00:00",
+    "price": 0.01668,
+    "time": "2026-09-16T11:15:35.122935+00:00",
     "symbol": "TOLLY",
     "chain": "arc",
     "token_address": "0xBc43CE8DEc648EA298C4275559b81D6261c90b67"
