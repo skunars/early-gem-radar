@@ -1,14 +1,7 @@
 {
-  "0xf9088c9d2dA1B2c450C23b657285b8439E0A9B66": {
-    "price": 0.00082,
-    "time": "2026-09-16T02:36:42.936268+00:00",
-    "symbol": "CATE",
-    "chain": "bsc",
-    "token_address": "0xa4B0320fe6158823CE73a26300176747670B5555"
-  },
   "0xddda7faad1393876050afbddd473516d53b0af813d38051cc88897213d717865": {
-    "price": 0.0007028,
-    "time": "2026-09-16T02:36:42.936286+00:00",
+    "price": 0.0009256,
+    "time": "2026-09-16T02:52:26.881155+00:00",
     "symbol": "OKEY",
     "chain": "robinhood",
     "token_address": "0x7b02c947f09B042922292f3d5FbeeFFbDaee2eE8"
