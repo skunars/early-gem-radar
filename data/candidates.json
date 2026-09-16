@@ -100966,5 +100966,151 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "arc:0xe6a2476f33ec1566288aa32ec3319a6b77dd1e3b": {
+    "first_seen": "2026-09-16T19:23:03.265681+00:00",
+    "last_seen": "2026-09-16T19:23:03.265681+00:00",
+    "chain": "arc",
+    "address": "0xe6a2476f33ec1566288aa32ec3319a6b77dd1e3b",
+    "symbol": "DUKE",
+    "name": "Duke",
+    "dex": "uniswap",
+    "pair_address": "0x9673b01178e483C9EA427a76567Ed6383e6CA72f",
+    "dex_url": "https://dexscreener.com/arc/0x9673b01178e483c9ea427a76567ed6383e6ca72f",
+    "initial": {
+      "timestamp": "2026-09-16T19:23:03.265681+00:00",
+      "price_usd": 0.001603,
+      "liquidity_usd": 179242.06,
+      "volume_24h_usd": 3644893.81,
+      "market_cap": 1603183.0,
+      "fdv": 1603183.0,
+      "price_change_24h": 1878.0,
+      "age_hours": 1066.3675299180554,
+      "buys_24h": 9390,
+      "sells_24h": 6336,
+      "score": 20,
+      "signal": "⚪ ELE",
+      "security_available": false,
+      "security_risk": "UNKNOWN",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-16T19:23:03.265681+00:00",
+      "price_usd": 0.001603,
+      "liquidity_usd": 179242.06,
+      "volume_24h_usd": 3644893.81,
+      "market_cap": 1603183.0,
+      "fdv": 1603183.0,
+      "price_change_24h": 1878.0,
+      "age_hours": 1066.3675299180554,
+      "buys_24h": 9390,
+      "sells_24h": 6336,
+      "score": 20,
+      "signal": "⚪ ELE",
+      "security_available": false,
+      "security_risk": "UNKNOWN",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-16T19:23:03.265681+00:00",
+        "price_usd": 0.001603,
+        "liquidity_usd": 179242.06,
+        "volume_24h_usd": 3644893.81,
+        "market_cap": 1603183.0,
+        "fdv": 1603183.0,
+        "price_change_24h": 1878.0,
+        "age_hours": 1066.3675299180554,
+        "buys_24h": 9390,
+        "sells_24h": 6336,
+        "score": 20,
+        "signal": "⚪ ELE",
+        "security_available": false,
+        "security_risk": "UNKNOWN",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
+  },
+  "base:0xc005627a90bd65f8e92dc89594bcc6e79b511c8f": {
+    "first_seen": "2026-09-16T19:23:03.404528+00:00",
+    "last_seen": "2026-09-16T19:23:03.404528+00:00",
+    "chain": "base",
+    "address": "0xc005627a90bd65f8e92dc89594bcc6e79b511c8f",
+    "symbol": "SHIT",
+    "name": "SHIT",
+    "dex": "uniswap",
+    "pair_address": "0x69a8440ea85bac37d8eceb41b599ff18f9243fd8446226770c91d6afeb31b946",
+    "dex_url": "https://dexscreener.com/base/0x69a8440ea85bac37d8eceb41b599ff18f9243fd8446226770c91d6afeb31b946",
+    "initial": {
+      "timestamp": "2026-09-16T19:23:03.404528+00:00",
+      "price_usd": 0.000782,
+      "liquidity_usd": 240222.95,
+      "volume_24h_usd": 328113.8,
+      "market_cap": 782020.0,
+      "fdv": 782020.0,
+      "price_change_24h": 77.52,
+      "age_hours": 26.781322586111113,
+      "buys_24h": 1713,
+      "sells_24h": 2984,
+      "score": 0,
+      "signal": "🔴 UZAK DUR",
+      "security_available": true,
+      "security_risk": "HIGH",
+      "security_risks": [
+        "MINT YETKİSİ"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-16T19:23:03.404528+00:00",
+      "price_usd": 0.000782,
+      "liquidity_usd": 240222.95,
+      "volume_24h_usd": 328113.8,
+      "market_cap": 782020.0,
+      "fdv": 782020.0,
+      "price_change_24h": 77.52,
+      "age_hours": 26.781322586111113,
+      "buys_24h": 1713,
+      "sells_24h": 2984,
+      "score": 0,
+      "signal": "🔴 UZAK DUR",
+      "security_available": true,
+      "security_risk": "HIGH",
+      "security_risks": [
+        "MINT YETKİSİ"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-16T19:23:03.404528+00:00",
+        "price_usd": 0.000782,
+        "liquidity_usd": 240222.95,
+        "volume_24h_usd": 328113.8,
+        "market_cap": 782020.0,
+        "fdv": 782020.0,
+        "price_change_24h": 77.52,
+        "age_hours": 26.781322586111113,
+        "buys_24h": 1713,
+        "sells_24h": 2984,
+        "score": 0,
+        "signal": "🔴 UZAK DUR",
+        "security_available": true,
+        "security_risk": "HIGH",
+        "security_risks": [
+          "MINT YETKİSİ"
+        ],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
