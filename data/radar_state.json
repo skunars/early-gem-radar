@@ -1,30 +1,23 @@
 {
-  "0xDA9F3D166497DdfDDF37c93CACFd8Aa39b71e493": {
-    "price": 0.01089,
-    "time": "2026-09-16T06:48:36.413840+00:00",
-    "symbol": "LONG",
+  "0x0069cb6F70e2f848405f4483f232274c720CE6f9": {
+    "price": 0.003651,
+    "time": "2026-09-16T07:02:53.443402+00:00",
+    "symbol": "Architects",
     "chain": "arc",
-    "token_address": "0x2164bB17a2D38c1b5170E987b2c0416DF1EFc752"
+    "token_address": "0x8bcb94279FC2c984EC34e0C1f2192df8c69EA4F0"
   },
   "0x0Abd501F56CD434D346CD5Bf3B67aEF461ebBc2d": {
-    "price": 0.000573,
-    "time": "2026-09-16T06:48:36.413850+00:00",
+    "price": 0.0007995,
+    "time": "2026-09-16T07:02:53.443421+00:00",
     "symbol": "ELLIPSE",
     "chain": "arc",
     "token_address": "0x86F7424C3e1EBb3F42e1E687468e36D5f2A1222E"
   },
   "0xcF924acEE7EB1F169A922bf19b0a732810971985": {
-    "price": 0.003537,
-    "time": "2026-09-16T06:48:36.413852+00:00",
+    "price": 0.003377,
+    "time": "2026-09-16T07:02:53.443425+00:00",
     "symbol": "ARCAT",
     "chain": "arc",
     "token_address": "0x07704B06981eA962b87296362a1281484d160000"
-  },
-  "0x0069cb6F70e2f848405f4483f232274c720CE6f9": {
-    "price": 0.003872,
-    "time": "2026-09-16T06:48:36.413854+00:00",
-    "symbol": "Architects",
-    "chain": "arc",
-    "token_address": "0x8bcb94279FC2c984EC34e0C1f2192df8c69EA4F0"
   }
 }
