@@ -1,37 +1,30 @@
 {
-  "0x97a00e1d21194cdc01e7c57f4287933f40e466fe80b34d12ae055d5330c3add5": {
-    "price": 0.0002621,
-    "time": "2026-09-16T06:20:36.365412+00:00",
-    "symbol": "JOLLY",
-    "chain": "robinhood",
-    "token_address": "0x50D812299221BC2BDc72ae9F27C5129c1c6C1e18"
-  },
   "0xDA9F3D166497DdfDDF37c93CACFd8Aa39b71e493": {
-    "price": 0.01248,
-    "time": "2026-09-16T06:20:36.365429+00:00",
+    "price": 0.01089,
+    "time": "2026-09-16T06:48:36.413840+00:00",
     "symbol": "LONG",
     "chain": "arc",
     "token_address": "0x2164bB17a2D38c1b5170E987b2c0416DF1EFc752"
   },
+  "0x0Abd501F56CD434D346CD5Bf3B67aEF461ebBc2d": {
+    "price": 0.000573,
+    "time": "2026-09-16T06:48:36.413850+00:00",
+    "symbol": "ELLIPSE",
+    "chain": "arc",
+    "token_address": "0x86F7424C3e1EBb3F42e1E687468e36D5f2A1222E"
+  },
   "0xcF924acEE7EB1F169A922bf19b0a732810971985": {
-    "price": 0.003087,
-    "time": "2026-09-16T06:20:36.365434+00:00",
+    "price": 0.003537,
+    "time": "2026-09-16T06:48:36.413852+00:00",
     "symbol": "ARCAT",
     "chain": "arc",
     "token_address": "0x07704B06981eA962b87296362a1281484d160000"
   },
-  "0x40a433930370f6cdf0a78debc2c6dd599c23bd428c0d67dd8b5373e4f101557f": {
-    "price": 4.926e-06,
-    "time": "2026-09-16T06:20:36.365437+00:00",
-    "symbol": "musebook",
-    "chain": "robinhood",
-    "token_address": "0x91A2DAe9699f0B82540B5886b0d8759C22820bA3"
-  },
-  "0xc926c45ceb6e8d8c816df11f913e2f6b02d2d9026afb3b0fa04c008ca965e316": {
-    "price": 8.534e-06,
-    "time": "2026-09-16T06:20:36.365439+00:00",
-    "symbol": "musebook",
-    "chain": "robinhood",
-    "token_address": "0x786d42BC32fCea61e75c87128eD4aC144133bba3"
+  "0x0069cb6F70e2f848405f4483f232274c720CE6f9": {
+    "price": 0.003872,
+    "time": "2026-09-16T06:48:36.413854+00:00",
+    "symbol": "Architects",
+    "chain": "arc",
+    "token_address": "0x8bcb94279FC2c984EC34e0C1f2192df8c69EA4F0"
   }
 }
