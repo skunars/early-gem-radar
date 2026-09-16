@@ -440,7 +440,7 @@
   },
   {
     "trade_id": "robinhood_0x654E4143e82a5824445Ade0824351C2A9ACD95a8_1789363177",
-    "status": "OPEN",
+    "status": "CLOSED",
     "stake_tl": 100.0,
     "name": "Circle Internet Group • Robinhood Token",
     "symbol": "CRCL",
@@ -455,19 +455,19 @@
     "earlyness_score": 58,
     "peak_price": 97.66,
     "peak_profit_pct": 6.0427,
-    "max_drawdown_pct": 17.4602,
-    "current_profit_pct": -11.4176,
-    "current_profit_tl": -11.4176,
+    "max_drawdown_pct": 19.1433,
+    "current_profit_pct": -13.1006,
+    "current_profit_tl": -13.1006,
     "highest_milestone": 5,
     "milestones_hit": [
       5
     ],
-    "exit_time": null,
-    "exit_price": null,
-    "exit_reason": null,
-    "final_profit_pct": null,
-    "final_profit_tl": null,
-    "hold_hours": null
+    "exit_time": "2026-09-16T14:25:31.727867+00:00",
+    "exit_price": 80.03,
+    "exit_reason": "HARD_STOP",
+    "final_profit_pct": -13.1006,
+    "final_profit_tl": -13.1006,
+    "hold_hours": 57.1
   },
   {
     "trade_id": "robinhood_0xf9050c018e681d55ad59745028f47b4c8be1ed7de353656a807785f1718b3c2e_1789372022",

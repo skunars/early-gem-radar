@@ -100553,5 +100553,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "bsc:0xeaa7665193efa6a3cd0d10867e0e9ae60e6d7777": {
+    "first_seen": "2026-09-16T14:25:39.032568+00:00",
+    "last_seen": "2026-09-16T14:25:39.032568+00:00",
+    "chain": "bsc",
+    "address": "0xeaa7665193efa6a3cd0d10867e0e9ae60e6d7777",
+    "symbol": "派人生",
+    "name": "PILIFE",
+    "dex": "pancakeswap",
+    "pair_address": "0x5887e9D301E4B8Db5a715dfd20a1690625FA5C93",
+    "dex_url": "https://dexscreener.com/bsc/0x5887e9d301e4b8db5a715dfd20a1690625fa5c93",
+    "initial": {
+      "timestamp": "2026-09-16T14:25:39.032568+00:00",
+      "price_usd": 0.004145,
+      "liquidity_usd": 219196.07,
+      "volume_24h_usd": 1903243.7,
+      "market_cap": 4138906.0,
+      "fdv": 4139375.0,
+      "price_change_24h": 2268.0,
+      "age_hours": 4.991848829444444,
+      "buys_24h": 3821,
+      "sells_24h": 1972,
+      "score": 50,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 3.0,
+      "sell_tax": 4.95
+    },
+    "latest": {
+      "timestamp": "2026-09-16T14:25:39.032568+00:00",
+      "price_usd": 0.004145,
+      "liquidity_usd": 219196.07,
+      "volume_24h_usd": 1903243.7,
+      "market_cap": 4138906.0,
+      "fdv": 4139375.0,
+      "price_change_24h": 2268.0,
+      "age_hours": 4.991848829444444,
+      "buys_24h": 3821,
+      "sells_24h": 1972,
+      "score": 50,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 3.0,
+      "sell_tax": 4.95
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-16T14:25:39.032568+00:00",
+        "price_usd": 0.004145,
+        "liquidity_usd": 219196.07,
+        "volume_24h_usd": 1903243.7,
+        "market_cap": 4138906.0,
+        "fdv": 4139375.0,
+        "price_change_24h": 2268.0,
+        "age_hours": 4.991848829444444,
+        "buys_24h": 3821,
+        "sells_24h": 1972,
+        "score": 50,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 3.0,
+        "sell_tax": 4.95
+      }
+    ]
   }
 }
