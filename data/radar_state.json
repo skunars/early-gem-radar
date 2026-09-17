@@ -1,14 +1,7 @@
 {
-  "0x2aD2e2EC3949a591032D389d5c3b13b4264e920b": {
-    "price": 0.004216,
-    "time": "2026-09-17T23:19:54.860653+00:00",
-    "symbol": "PAWSINU",
-    "chain": "robinhood",
-    "token_address": "0x4129bFEA8Ea6a263AdE31edfC117C83585A3a8b7"
-  },
   "0xddab655ac4d7e2417b1a56888b851f3f8ae7926805d6d8e8c2fd8e9bc39cf881": {
-    "price": 0.0008046,
-    "time": "2026-09-17T23:19:54.860670+00:00",
+    "price": 0.001154,
+    "time": "2026-09-17T23:33:33.145637+00:00",
     "symbol": "PAWSINU",
     "chain": "robinhood",
     "token_address": "0x99544c92856BbBa2982980333DD61ac325421337"
