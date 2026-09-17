@@ -1,16 +1,9 @@
 {
-  "0xd271ae25f05d809758cdf3d4b7a5ba42b8c62209fd5eac0284f6b163a684031b": {
-    "price": 0.00778,
-    "time": "2026-09-17T19:21:57.305157+00:00",
-    "symbol": "NEO",
-    "chain": "robinhood",
-    "token_address": "0x37f5b13345c6723E17CE45d388c9C4f7aD8342C3"
-  },
-  "0xb5679e35c8bc870587eb26d04ba3ad3dc8d698f4bde39cd02c33baf1b5d3303a": {
-    "price": 0.002563,
-    "time": "2026-09-17T19:21:57.305196+00:00",
-    "symbol": "1000X",
-    "chain": "robinhood",
-    "token_address": "0x1b536dC1586E2Bf08b42805940Fb534ed729a06D"
+  "FEBzyyXLew5E9JngX7CKumHr5ehdUhRb7G6kjouo77dn": {
+    "price": 0.0009265,
+    "time": "2026-09-17T19:41:31.364483+00:00",
+    "symbol": "SOLCAT",
+    "chain": "solana",
+    "token_address": "9U1f18idDeySFnYrurxqT1f5n5nE4g4Uk5LLzP69bh1"
   }
 }
