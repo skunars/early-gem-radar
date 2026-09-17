@@ -103195,5 +103195,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "bsc:0x64bbd231e2a15f0597dc365d259264fac309ffff": {
+    "first_seen": "2026-09-17T12:47:25.698144+00:00",
+    "last_seen": "2026-09-17T12:47:25.698144+00:00",
+    "chain": "bsc",
+    "address": "0x64bbd231e2a15f0597dc365d259264fac309ffff",
+    "symbol": "混混猫",
+    "name": "混混猫",
+    "dex": "pancakeswap",
+    "pair_address": "0x20692EaD8191af0aF560A0Eed7f88aF55C8d7365",
+    "dex_url": "https://dexscreener.com/bsc/0x20692ead8191af0af560a0eed7f88af55c8d7365",
+    "initial": {
+      "timestamp": "2026-09-17T12:47:25.698144+00:00",
+      "price_usd": 0.002375,
+      "liquidity_usd": 144710.02,
+      "volume_24h_usd": 118593.88,
+      "market_cap": 1213999.0,
+      "fdv": 1213999.0,
+      "price_change_24h": 5.65,
+      "age_hours": 167.83615093194442,
+      "buys_24h": 731,
+      "sells_24h": 522,
+      "score": 65,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 2.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-17T12:47:25.698144+00:00",
+      "price_usd": 0.002375,
+      "liquidity_usd": 144710.02,
+      "volume_24h_usd": 118593.88,
+      "market_cap": 1213999.0,
+      "fdv": 1213999.0,
+      "price_change_24h": 5.65,
+      "age_hours": 167.83615093194442,
+      "buys_24h": 731,
+      "sells_24h": 522,
+      "score": 65,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 2.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-17T12:47:25.698144+00:00",
+        "price_usd": 0.002375,
+        "liquidity_usd": 144710.02,
+        "volume_24h_usd": 118593.88,
+        "market_cap": 1213999.0,
+        "fdv": 1213999.0,
+        "price_change_24h": 5.65,
+        "age_hours": 167.83615093194442,
+        "buys_24h": 731,
+        "sells_24h": 522,
+        "score": 65,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 2.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
