@@ -1,21 +1,14 @@
 {
   "0xDd3124f72b53981693fa4F822F394fa186Ab3015": {
-    "price": 0.0014,
-    "time": "2026-09-17T10:37:32.429960+00:00",
+    "price": 0.001683,
+    "time": "2026-09-17T10:53:00.384723+00:00",
     "symbol": "LOX",
     "chain": "robinhood",
     "token_address": "0xd125a2f04D48dD4992e1f9a18d946148Dae84A81"
   },
-  "0xbdc454331f582d91d7ca1c045f583db3ce480765680a9338cf45e94bdf524adc": {
-    "price": 0.001198,
-    "time": "2026-09-17T10:37:32.429978+00:00",
-    "symbol": "UPDN",
-    "chain": "robinhood",
-    "token_address": "0x68108D3d39778f3Aaf400f3504b3190A63c105B6"
-  },
   "0xc35bdd1e26bc96b5801f8775b838f96debdb1821f9927a9cfe6dbc8031f5ef41": {
-    "price": 0.003058,
-    "time": "2026-09-17T10:37:32.429982+00:00",
+    "price": 0.002408,
+    "time": "2026-09-17T10:53:00.384747+00:00",
     "symbol": "PAWS",
     "chain": "robinhood",
     "token_address": "0x0D4e4204903a6F0dE75a30E1fd43D0C9436559f9"
