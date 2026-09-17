@@ -1,1 +1,9 @@
-{}
+{
+  "0xaf8aa959b7e460fbbc61d25b9896a6e3f92cbf3a2bde01fa2b5ac811f2d6a986": {
+    "price": 0.0009429,
+    "time": "2026-09-17T18:28:09.170294+00:00",
+    "symbol": "CPU",
+    "chain": "robinhood",
+    "token_address": "0x8eaa17Be69AE9616cEDe4671e6d837bb89491E18"
+  }
+}

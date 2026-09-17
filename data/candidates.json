@@ -103850,5 +103850,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x8eaa17be69ae9616cede4671e6d837bb89491e18": {
+    "first_seen": "2026-09-17T18:28:09.057379+00:00",
+    "last_seen": "2026-09-17T18:28:09.057379+00:00",
+    "chain": "robinhood",
+    "address": "0x8eaa17be69ae9616cede4671e6d837bb89491e18",
+    "symbol": "CPU",
+    "name": "Cat Processing Unit",
+    "dex": "uniswap",
+    "pair_address": "0xaf8aa959b7e460fbbc61d25b9896a6e3f92cbf3a2bde01fa2b5ac811f2d6a986",
+    "dex_url": "https://dexscreener.com/robinhood/0xaf8aa959b7e460fbbc61d25b9896a6e3f92cbf3a2bde01fa2b5ac811f2d6a986",
+    "initial": {
+      "timestamp": "2026-09-17T18:28:09.057379+00:00",
+      "price_usd": 0.0009429,
+      "liquidity_usd": 277217.21,
+      "volume_24h_usd": 1056910.32,
+      "market_cap": 942988.0,
+      "fdv": 942988.0,
+      "price_change_24h": 3980.0,
+      "age_hours": 163.17281841583332,
+      "buys_24h": 6589,
+      "sells_24h": 7382,
+      "score": 43,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-17T18:28:09.057379+00:00",
+      "price_usd": 0.0009429,
+      "liquidity_usd": 277217.21,
+      "volume_24h_usd": 1056910.32,
+      "market_cap": 942988.0,
+      "fdv": 942988.0,
+      "price_change_24h": 3980.0,
+      "age_hours": 163.17281841583332,
+      "buys_24h": 6589,
+      "sells_24h": 7382,
+      "score": 43,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-17T18:28:09.057379+00:00",
+        "price_usd": 0.0009429,
+        "liquidity_usd": 277217.21,
+        "volume_24h_usd": 1056910.32,
+        "market_cap": 942988.0,
+        "fdv": 942988.0,
+        "price_change_24h": 3980.0,
+        "age_hours": 163.17281841583332,
+        "buys_24h": 6589,
+        "sells_24h": 7382,
+        "score": 43,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
