@@ -649,7 +649,7 @@
   },
   {
     "trade_id": "solana_EcFsXQJjVCjCYWHsuhXUnZH4XB2MzF7iZ3dJu48wmoa9_1789680191",
-    "status": "OPEN",
+    "status": "CLOSED",
     "stake_tl": 100.0,
     "name": "Mooncat",
     "symbol": "MCAT",
@@ -664,9 +664,9 @@
     "earlyness_score": 70,
     "peak_price": 0.004053,
     "peak_profit_pct": 180.2905,
-    "max_drawdown_pct": 24.6888,
-    "current_profit_pct": 155.6017,
-    "current_profit_tl": 155.6017,
+    "max_drawdown_pct": 75.5187,
+    "current_profit_pct": 104.7718,
+    "current_profit_tl": 104.7718,
     "highest_milestone": 150,
     "milestones_hit": [
       5,
@@ -678,11 +678,11 @@
       100,
       150
     ],
-    "exit_time": null,
-    "exit_price": null,
-    "exit_reason": null,
-    "final_profit_pct": null,
-    "final_profit_tl": null,
-    "hold_hours": null
+    "exit_time": "2026-09-17T22:47:54.180514+00:00",
+    "exit_price": 0.0031854,
+    "exit_reason": "TRAILING_STOP",
+    "final_profit_pct": 120.2905,
+    "final_profit_tl": 120.2905,
+    "hold_hours": 1.41
   }
 ]
