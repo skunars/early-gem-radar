@@ -1,16 +1,16 @@
 {
+  "0x2aD2e2EC3949a591032D389d5c3b13b4264e920b": {
+    "price": 0.001851,
+    "time": "2026-09-17T23:00:36.535653+00:00",
+    "symbol": "PAWSINU",
+    "chain": "robinhood",
+    "token_address": "0x4129bFEA8Ea6a263AdE31edfC117C83585A3a8b7"
+  },
   "CDWkK63nUnxvQtrKoaMjY2PgLYsjprJeXbgW5JpXQRd7": {
-    "price": 0.002339,
-    "time": "2026-09-17T22:48:00.164409+00:00",
+    "price": 0.001665,
+    "time": "2026-09-17T23:00:36.535665+00:00",
     "symbol": "VIBES",
     "chain": "solana",
     "token_address": "viBEsohKdeaUgNhbB1j4NpsAm4Bg8LCCwYhkpb6UyNN"
-  },
-  "0x504FBB2eb3f6C8bC456D16073610d2107252fdc7": {
-    "price": 0.0003304,
-    "time": "2026-09-17T22:48:00.164428+00:00",
-    "symbol": "LONGARC",
-    "chain": "arc",
-    "token_address": "0x6987e526572428c2F6877C0EeD3298d0180896E7"
   }
 }
