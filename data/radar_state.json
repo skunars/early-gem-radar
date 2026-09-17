@@ -1,16 +1,30 @@
 {
-  "0xDd3124f72b53981693fa4F822F394fa186Ab3015": {
-    "price": 0.001683,
-    "time": "2026-09-17T10:53:00.384723+00:00",
-    "symbol": "LOX",
-    "chain": "robinhood",
-    "token_address": "0xd125a2f04D48dD4992e1f9a18d946148Dae84A81"
+  "0x6930D0842C1Bf8Dc7926E4D699768dE51477eE3D": {
+    "price": 380.7,
+    "time": "2026-09-17T11:15:08.718028+00:00",
+    "symbol": "Figure",
+    "chain": "bsc",
+    "token_address": "0x1c02de693ED2D2Bb7a04bE0bEf86112b3e691E5c"
   },
-  "0xc35bdd1e26bc96b5801f8775b838f96debdb1821f9927a9cfe6dbc8031f5ef41": {
-    "price": 0.002408,
-    "time": "2026-09-17T10:53:00.384747+00:00",
-    "symbol": "PAWS",
+  "0xbdc454331f582d91d7ca1c045f583db3ce480765680a9338cf45e94bdf524adc": {
+    "price": 0.001496,
+    "time": "2026-09-17T11:15:08.718047+00:00",
+    "symbol": "UPDN",
     "chain": "robinhood",
-    "token_address": "0x0D4e4204903a6F0dE75a30E1fd43D0C9436559f9"
+    "token_address": "0x68108D3d39778f3Aaf400f3504b3190A63c105B6"
+  },
+  "0x3f2Fd0bB44Dd197Ae6146Fe49A04BD29a3DfF858": {
+    "price": 0.0003656,
+    "time": "2026-09-17T11:15:08.718051+00:00",
+    "symbol": "ETH",
+    "chain": "robinhood",
+    "token_address": "0x781198652265aE95829d907910092fB644f156Ab"
+  },
+  "0x2292233d308188fcB3775F63A20f31DFf6DB02d9": {
+    "price": 5.32,
+    "time": "2026-09-17T11:15:08.718055+00:00",
+    "symbol": "SN80",
+    "chain": "base",
+    "token_address": "0x6F63d869011f95274498023b4ABFC00b30c34378"
   }
 }
