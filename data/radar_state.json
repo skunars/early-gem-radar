@@ -1,1 +1,9 @@
-{}
+{
+  "0x7af498736230420547e1ff934c61f06347048f5aec4dbf4b55c6078d9e70d000": {
+    "price": 0.0005225,
+    "time": "2026-09-17T09:20:15.028098+00:00",
+    "symbol": "LOX",
+    "chain": "robinhood",
+    "token_address": "0x8688671bE90EC0d93364D0ac7883C27d1aB2Df1B"
+  }
+}
