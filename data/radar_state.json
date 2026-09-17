@@ -1,9 +1,16 @@
 {
   "0x7af498736230420547e1ff934c61f06347048f5aec4dbf4b55c6078d9e70d000": {
-    "price": 0.0005225,
-    "time": "2026-09-17T09:20:15.028098+00:00",
+    "price": 0.0005223,
+    "time": "2026-09-17T09:43:36.550576+00:00",
     "symbol": "LOX",
     "chain": "robinhood",
     "token_address": "0x8688671bE90EC0d93364D0ac7883C27d1aB2Df1B"
+  },
+  "0x8ef6cafb8b71c6bece2e9bf01d5bc83131db34d28c68ac52977156e2ca740918": {
+    "price": 0.0002589,
+    "time": "2026-09-17T09:43:36.550591+00:00",
+    "symbol": "Moth",
+    "chain": "robinhood",
+    "token_address": "0x66AaE4AA7247983D4A0550aDD6338Fe59d93964d"
   }
 }
