@@ -1,28 +1,35 @@
 {
   "0x6930D0842C1Bf8Dc7926E4D699768dE51477eE3D": {
-    "price": 380.7,
-    "time": "2026-09-17T11:15:08.718028+00:00",
+    "price": 353.51,
+    "time": "2026-09-17T11:32:42.662392+00:00",
     "symbol": "Figure",
     "chain": "bsc",
     "token_address": "0x1c02de693ED2D2Bb7a04bE0bEf86112b3e691E5c"
   },
-  "0xbdc454331f582d91d7ca1c045f583db3ce480765680a9338cf45e94bdf524adc": {
-    "price": 0.001496,
-    "time": "2026-09-17T11:15:08.718047+00:00",
-    "symbol": "UPDN",
+  "0x09b09b2e61a8e2b6b187c127064ccb346dbd8258ddeaac40d0ec157f289851de": {
+    "price": 0.0003948,
+    "time": "2026-09-17T11:32:42.662414+00:00",
+    "symbol": "MCHAT",
     "chain": "robinhood",
-    "token_address": "0x68108D3d39778f3Aaf400f3504b3190A63c105B6"
+    "token_address": "0xE6642A052424a50D160Ab1BE907cEcfb5485474a"
   },
   "0x3f2Fd0bB44Dd197Ae6146Fe49A04BD29a3DfF858": {
-    "price": 0.0003656,
-    "time": "2026-09-17T11:15:08.718051+00:00",
+    "price": 0.0004434,
+    "time": "2026-09-17T11:32:42.662418+00:00",
     "symbol": "ETH",
     "chain": "robinhood",
     "token_address": "0x781198652265aE95829d907910092fB644f156Ab"
   },
+  "0xbdc454331f582d91d7ca1c045f583db3ce480765680a9338cf45e94bdf524adc": {
+    "price": 0.001209,
+    "time": "2026-09-17T11:32:42.662421+00:00",
+    "symbol": "UPDN",
+    "chain": "robinhood",
+    "token_address": "0x68108D3d39778f3Aaf400f3504b3190A63c105B6"
+  },
   "0x2292233d308188fcB3775F63A20f31DFf6DB02d9": {
-    "price": 5.32,
-    "time": "2026-09-17T11:15:08.718055+00:00",
+    "price": 5.33,
+    "time": "2026-09-17T11:32:42.662424+00:00",
     "symbol": "SN80",
     "chain": "base",
     "token_address": "0x6F63d869011f95274498023b4ABFC00b30c34378"
