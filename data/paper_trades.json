@@ -662,12 +662,12 @@
     "entry_score": 90,
     "raw_score": 90,
     "earlyness_score": 70,
-    "peak_price": 0.003257,
-    "peak_profit_pct": 125.242,
+    "peak_price": 0.004053,
+    "peak_profit_pct": 180.2905,
     "max_drawdown_pct": 0.0,
-    "current_profit_pct": 125.242,
-    "current_profit_tl": 125.242,
-    "highest_milestone": 100,
+    "current_profit_pct": 180.2905,
+    "current_profit_tl": 180.2905,
+    "highest_milestone": 150,
     "milestones_hit": [
       5,
       10,
@@ -675,7 +675,8 @@
       30,
       50,
       75,
-      100
+      100,
+      150
     ],
     "exit_time": null,
     "exit_price": null,

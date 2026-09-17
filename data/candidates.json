@@ -104737,5 +104737,81 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "solana:vibesohkdeaugnhbb1j4npsam4bg8lccwyhkpb6uynn": {
+    "first_seen": "2026-09-17T22:17:32.837100+00:00",
+    "last_seen": "2026-09-17T22:17:32.837100+00:00",
+    "chain": "solana",
+    "address": "vibesohkdeaugnhbb1j4npsam4bg8lccwyhkpb6uynn",
+    "symbol": "VIBES",
+    "name": "Vibes",
+    "dex": "raydium",
+    "pair_address": "CDWkK63nUnxvQtrKoaMjY2PgLYsjprJeXbgW5JpXQRd7",
+    "dex_url": "https://dexscreener.com/solana/cdwkk63nunxvqtrkoamjy2pglysjprjexbgw5jpxqrd7",
+    "initial": {
+      "timestamp": "2026-09-17T22:17:32.837100+00:00",
+      "price_usd": 0.001725,
+      "liquidity_usd": 124448.21,
+      "volume_24h_usd": 1080583.42,
+      "market_cap": 1725196.0,
+      "fdv": 1725196.0,
+      "price_change_24h": 39643.0,
+      "age_hours": 0.41756520694444443,
+      "buys_24h": 514,
+      "sells_24h": 234,
+      "score": 47,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "MEDIUM",
+      "security_risks": [
+        "METADATA DEĞİŞTİRİLEBİLİR"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-17T22:17:32.837100+00:00",
+      "price_usd": 0.001725,
+      "liquidity_usd": 124448.21,
+      "volume_24h_usd": 1080583.42,
+      "market_cap": 1725196.0,
+      "fdv": 1725196.0,
+      "price_change_24h": 39643.0,
+      "age_hours": 0.41756520694444443,
+      "buys_24h": 514,
+      "sells_24h": 234,
+      "score": 47,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "MEDIUM",
+      "security_risks": [
+        "METADATA DEĞİŞTİRİLEBİLİR"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-17T22:17:32.837100+00:00",
+        "price_usd": 0.001725,
+        "liquidity_usd": 124448.21,
+        "volume_24h_usd": 1080583.42,
+        "market_cap": 1725196.0,
+        "fdv": 1725196.0,
+        "price_change_24h": 39643.0,
+        "age_hours": 0.41756520694444443,
+        "buys_24h": 514,
+        "sells_24h": 234,
+        "score": 47,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "MEDIUM",
+        "security_risks": [
+          "METADATA DEĞİŞTİRİLEBİLİR"
+        ],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
