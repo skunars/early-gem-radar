@@ -1,1 +1,9 @@
-{}
+{
+  "0xe22fc0f9e28781932ccb62360139264ed2f46b4ada722bfe0a6e949b194ec535": {
+    "price": 0.001036,
+    "time": "2026-09-17T16:58:13.437014+00:00",
+    "symbol": "WAR",
+    "chain": "robinhood",
+    "token_address": "0xfaCcEC59Ffd59A36bA477bA898B12fCdBd70638E"
+  }
+}

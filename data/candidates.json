@@ -103761,5 +103761,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xfaccec59ffd59a36ba477ba898b12fcdbd70638e": {
+    "first_seen": "2026-09-17T16:58:13.322548+00:00",
+    "last_seen": "2026-09-17T16:58:13.322548+00:00",
+    "chain": "robinhood",
+    "address": "0xfaccec59ffd59a36ba477ba898b12fcdbd70638e",
+    "symbol": "WAR",
+    "name": "WAR.BOT",
+    "dex": "uniswap",
+    "pair_address": "0xe22fc0f9e28781932ccb62360139264ed2f46b4ada722bfe0a6e949b194ec535",
+    "dex_url": "https://dexscreener.com/robinhood/0xe22fc0f9e28781932ccb62360139264ed2f46b4ada722bfe0a6e949b194ec535",
+    "initial": {
+      "timestamp": "2026-09-17T16:58:13.322548+00:00",
+      "price_usd": 0.001036,
+      "liquidity_usd": 114736.65,
+      "volume_24h_usd": 514801.9,
+      "market_cap": 1036797.0,
+      "fdv": 1036797.0,
+      "price_change_24h": 24930.0,
+      "age_hours": 1.1890986808333333,
+      "buys_24h": 995,
+      "sells_24h": 926,
+      "score": 56,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-17T16:58:13.322548+00:00",
+      "price_usd": 0.001036,
+      "liquidity_usd": 114736.65,
+      "volume_24h_usd": 514801.9,
+      "market_cap": 1036797.0,
+      "fdv": 1036797.0,
+      "price_change_24h": 24930.0,
+      "age_hours": 1.1890986808333333,
+      "buys_24h": 995,
+      "sells_24h": 926,
+      "score": 56,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-17T16:58:13.322548+00:00",
+        "price_usd": 0.001036,
+        "liquidity_usd": 114736.65,
+        "volume_24h_usd": 514801.9,
+        "market_cap": 1036797.0,
+        "fdv": 1036797.0,
+        "price_change_24h": 24930.0,
+        "age_hours": 1.1890986808333333,
+        "buys_24h": 995,
+        "sells_24h": 926,
+        "score": 56,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
