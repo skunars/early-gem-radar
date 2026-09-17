@@ -103284,5 +103284,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "arc:0x7b8000d1cb9fb68ef3dd20021cfa8a0e74908ffb": {
+    "first_seen": "2026-09-17T13:43:48.047856+00:00",
+    "last_seen": "2026-09-17T13:43:48.047856+00:00",
+    "chain": "arc",
+    "address": "0x7b8000d1cb9fb68ef3dd20021cfa8a0e74908ffb",
+    "symbol": "Architects",
+    "name": "Architects",
+    "dex": "uniswap",
+    "pair_address": "0xdC13c8B79Ca2F7936BE5F7DBb6EE09EC30e58750",
+    "dex_url": "https://dexscreener.com/arc/0xdc13c8b79ca2f7936be5f7dbb6ee09ec30e58750",
+    "initial": {
+      "timestamp": "2026-09-17T13:43:48.047856+00:00",
+      "price_usd": 0.0005996,
+      "liquidity_usd": 144916.74,
+      "volume_24h_usd": 462946.87,
+      "market_cap": 599692.0,
+      "fdv": 599692.0,
+      "price_change_24h": 5785.0,
+      "age_hours": 1.0887046877777777,
+      "buys_24h": 1294,
+      "sells_24h": 854,
+      "score": 33,
+      "signal": "⚪ ELE",
+      "security_available": false,
+      "security_risk": "UNKNOWN",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-17T13:43:48.047856+00:00",
+      "price_usd": 0.0005996,
+      "liquidity_usd": 144916.74,
+      "volume_24h_usd": 462946.87,
+      "market_cap": 599692.0,
+      "fdv": 599692.0,
+      "price_change_24h": 5785.0,
+      "age_hours": 1.0887046877777777,
+      "buys_24h": 1294,
+      "sells_24h": 854,
+      "score": 33,
+      "signal": "⚪ ELE",
+      "security_available": false,
+      "security_risk": "UNKNOWN",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-17T13:43:48.047856+00:00",
+        "price_usd": 0.0005996,
+        "liquidity_usd": 144916.74,
+        "volume_24h_usd": 462946.87,
+        "market_cap": 599692.0,
+        "fdv": 599692.0,
+        "price_change_24h": 5785.0,
+        "age_hours": 1.0887046877777777,
+        "buys_24h": 1294,
+        "sells_24h": 854,
+        "score": 33,
+        "signal": "⚪ ELE",
+        "security_available": false,
+        "security_risk": "UNKNOWN",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
