@@ -101972,5 +101972,84 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "solana:6jrr1iqpdinytnvnpwtr2p7e2wsj1rwdsrkgyhnzjuvr": {
+    "first_seen": "2026-09-17T01:51:25.560208+00:00",
+    "last_seen": "2026-09-17T01:51:25.560208+00:00",
+    "chain": "solana",
+    "address": "6jrr1iqpdinytnvnpwtr2p7e2wsj1rwdsrkgyhnzjuvr",
+    "symbol": "wifout",
+    "name": "wifout",
+    "dex": "raydium",
+    "pair_address": "6YxMPqMWHVq6NNdfH2cgJFWjK6fwa5KUbixgszauenbP",
+    "dex_url": "https://dexscreener.com/solana/6yxmpqmwhvq6nndfh2cgjfwjk6fwa5kubixgszauenbp",
+    "initial": {
+      "timestamp": "2026-09-17T01:51:25.560208+00:00",
+      "price_usd": 0.002113,
+      "liquidity_usd": 126675.04,
+      "volume_24h_usd": 1311338.16,
+      "market_cap": 2113578.0,
+      "fdv": 2113578.0,
+      "price_change_24h": 17083.0,
+      "age_hours": 35.50665117222222,
+      "buys_24h": 4034,
+      "sells_24h": 3289,
+      "score": 35,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "MEDIUM",
+      "security_risks": [
+        "METADATA DEĞİŞTİRİLEBİLİR",
+        "TRANSFER FEE DEĞİŞTİRİLEBİLİR"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-17T01:51:25.560208+00:00",
+      "price_usd": 0.002113,
+      "liquidity_usd": 126675.04,
+      "volume_24h_usd": 1311338.16,
+      "market_cap": 2113578.0,
+      "fdv": 2113578.0,
+      "price_change_24h": 17083.0,
+      "age_hours": 35.50665117222222,
+      "buys_24h": 4034,
+      "sells_24h": 3289,
+      "score": 35,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "MEDIUM",
+      "security_risks": [
+        "METADATA DEĞİŞTİRİLEBİLİR",
+        "TRANSFER FEE DEĞİŞTİRİLEBİLİR"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-17T01:51:25.560208+00:00",
+        "price_usd": 0.002113,
+        "liquidity_usd": 126675.04,
+        "volume_24h_usd": 1311338.16,
+        "market_cap": 2113578.0,
+        "fdv": 2113578.0,
+        "price_change_24h": 17083.0,
+        "age_hours": 35.50665117222222,
+        "buys_24h": 4034,
+        "sells_24h": 3289,
+        "score": 35,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "MEDIUM",
+        "security_risks": [
+          "METADATA DEĞİŞTİRİLEBİLİR",
+          "TRANSFER FEE DEĞİŞTİRİLEBİLİR"
+        ],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
