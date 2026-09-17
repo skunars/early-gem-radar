@@ -1,9 +1,9 @@
 {
-  "0x7c3e47e9f8207b0960d60f8b9bb8bdec420e9d466c8ba6bea77d1622c5087f83": {
-    "price": 0.0005126,
-    "time": "2026-09-17T14:43:25.530851+00:00",
-    "symbol": "MFEED",
+  "0x605cEc424731404C27943876B05a0Ce80f6eA21e": {
+    "price": 0.001434,
+    "time": "2026-09-17T14:59:33.615232+00:00",
+    "symbol": "Fly",
     "chain": "robinhood",
-    "token_address": "0x9676d577e78ea3148Ac1B323ba35D7fb87845ead"
+    "token_address": "0xAC8C916507fA300f0E4a98e8738db792178E27b9"
   }
 }
