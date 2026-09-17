@@ -101864,5 +101864,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x0779369854d3ecdea927206718ffd7730c67b71f": {
+    "first_seen": "2026-09-17T00:30:25.642351+00:00",
+    "last_seen": "2026-09-17T00:30:25.642351+00:00",
+    "chain": "robinhood",
+    "address": "0x0779369854d3ecdea927206718ffd7730c67b71f",
+    "symbol": "RAREFRIENDS",
+    "name": "RareFriends",
+    "dex": "uniswap",
+    "pair_address": "0x9116440ebd86be5f0b850524a0d52a97399c68027d3590fa3526e1039dda2240",
+    "dex_url": "https://dexscreener.com/robinhood/0x9116440ebd86be5f0b850524a0d52a97399c68027d3590fa3526e1039dda2240",
+    "initial": {
+      "timestamp": "2026-09-17T00:30:25.642351+00:00",
+      "price_usd": 0.003678,
+      "liquidity_usd": 882794.84,
+      "volume_24h_usd": 2223295.51,
+      "market_cap": 3664389.0,
+      "fdv": 3664389.0,
+      "price_change_24h": -71.12,
+      "age_hours": 9.745919680833333,
+      "buys_24h": 2580,
+      "sells_24h": 990,
+      "score": 47,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-17T00:30:25.642351+00:00",
+      "price_usd": 0.003678,
+      "liquidity_usd": 882794.84,
+      "volume_24h_usd": 2223295.51,
+      "market_cap": 3664389.0,
+      "fdv": 3664389.0,
+      "price_change_24h": -71.12,
+      "age_hours": 9.745919680833333,
+      "buys_24h": 2580,
+      "sells_24h": 990,
+      "score": 47,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-17T00:30:25.642351+00:00",
+        "price_usd": 0.003678,
+        "liquidity_usd": 882794.84,
+        "volume_24h_usd": 2223295.51,
+        "market_cap": 3664389.0,
+        "fdv": 3664389.0,
+        "price_change_24h": -71.12,
+        "age_hours": 9.745919680833333,
+        "buys_24h": 2580,
+        "sells_24h": 990,
+        "score": 47,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
