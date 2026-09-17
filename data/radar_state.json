@@ -1,9 +1,9 @@
 {
-  "FEBzyyXLew5E9JngX7CKumHr5ehdUhRb7G6kjouo77dn": {
-    "price": 0.0009265,
-    "time": "2026-09-17T19:41:31.364483+00:00",
-    "symbol": "SOLCAT",
-    "chain": "solana",
-    "token_address": "9U1f18idDeySFnYrurxqT1f5n5nE4g4Uk5LLzP69bh1"
+  "0xAc75Ff66b791E817FEE9d37F408478c44314c90a": {
+    "price": 0.0003473,
+    "time": "2026-09-17T19:58:06.915483+00:00",
+    "symbol": "BINGUS",
+    "chain": "robinhood",
+    "token_address": "0xf63B8deBe4f9cAC38441A03C307F7E5986ede856"
   }
 }

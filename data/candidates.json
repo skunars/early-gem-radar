@@ -104209,5 +104209,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xf63b8debe4f9cac38441a03c307f7e5986ede856": {
+    "first_seen": "2026-09-17T19:58:06.805277+00:00",
+    "last_seen": "2026-09-17T19:58:06.805277+00:00",
+    "chain": "robinhood",
+    "address": "0xf63b8debe4f9cac38441a03c307f7e5986ede856",
+    "symbol": "BINGUS",
+    "name": "The Coge",
+    "dex": "uniswap",
+    "pair_address": "0xAc75Ff66b791E817FEE9d37F408478c44314c90a",
+    "dex_url": "https://dexscreener.com/robinhood/0xac75ff66b791e817fee9d37f408478c44314c90a",
+    "initial": {
+      "timestamp": "2026-09-17T19:58:06.805277+00:00",
+      "price_usd": 0.0003473,
+      "liquidity_usd": 112794.44,
+      "volume_24h_usd": 352720.0,
+      "market_cap": 347370.0,
+      "fdv": 347370.0,
+      "price_change_24h": 3053.0,
+      "age_hours": 0.5915289213888889,
+      "buys_24h": 938,
+      "sells_24h": 409,
+      "score": 59,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-17T19:58:06.805277+00:00",
+      "price_usd": 0.0003473,
+      "liquidity_usd": 112794.44,
+      "volume_24h_usd": 352720.0,
+      "market_cap": 347370.0,
+      "fdv": 347370.0,
+      "price_change_24h": 3053.0,
+      "age_hours": 0.5915289213888889,
+      "buys_24h": 938,
+      "sells_24h": 409,
+      "score": 59,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-17T19:58:06.805277+00:00",
+        "price_usd": 0.0003473,
+        "liquidity_usd": 112794.44,
+        "volume_24h_usd": 352720.0,
+        "market_cap": 347370.0,
+        "fdv": 347370.0,
+        "price_change_24h": 3053.0,
+        "age_hours": 0.5915289213888889,
+        "buys_24h": 938,
+        "sells_24h": 409,
+        "score": 59,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
