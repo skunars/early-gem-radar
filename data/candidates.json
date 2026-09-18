@@ -107824,5 +107824,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x82ef09793c78f7cb6a2b6696fcdca8e1c3581e18": {
+    "first_seen": "2026-09-18T18:49:48.580989+00:00",
+    "last_seen": "2026-09-18T18:49:48.580989+00:00",
+    "chain": "robinhood",
+    "address": "0x82ef09793c78f7cb6a2b6696fcdca8e1c3581e18",
+    "symbol": "AGRIPPA",
+    "name": "AGRIPPA",
+    "dex": "uniswap",
+    "pair_address": "0xb3afa4acad527eca0332d07366222eb237b3b1aa71f2f10e0cfbd93dff6a339f",
+    "dex_url": "https://dexscreener.com/robinhood/0xb3afa4acad527eca0332d07366222eb237b3b1aa71f2f10e0cfbd93dff6a339f",
+    "initial": {
+      "timestamp": "2026-09-18T18:49:48.580989+00:00",
+      "price_usd": 0.001946,
+      "liquidity_usd": 411671.51,
+      "volume_24h_usd": 2679211.91,
+      "market_cap": 1946100.0,
+      "fdv": 1946100.0,
+      "price_change_24h": 3089.0,
+      "age_hours": 59.02244744083333,
+      "buys_24h": 15649,
+      "sells_24h": 17480,
+      "score": 46,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-18T18:49:48.580989+00:00",
+      "price_usd": 0.001946,
+      "liquidity_usd": 411671.51,
+      "volume_24h_usd": 2679211.91,
+      "market_cap": 1946100.0,
+      "fdv": 1946100.0,
+      "price_change_24h": 3089.0,
+      "age_hours": 59.02244744083333,
+      "buys_24h": 15649,
+      "sells_24h": 17480,
+      "score": 46,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-18T18:49:48.580989+00:00",
+        "price_usd": 0.001946,
+        "liquidity_usd": 411671.51,
+        "volume_24h_usd": 2679211.91,
+        "market_cap": 1946100.0,
+        "fdv": 1946100.0,
+        "price_change_24h": 3089.0,
+        "age_hours": 59.02244744083333,
+        "buys_24h": 15649,
+        "sells_24h": 17480,
+        "score": 46,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
