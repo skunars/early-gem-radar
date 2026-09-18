@@ -1,16 +1,1 @@
-{
-  "6EFvd189kCKoxftbWYWdx7YqT38ES8jEHoyM3jjA7HWP": {
-    "price": 0.001758,
-    "time": "2026-09-18T14:50:56.244949+00:00",
-    "symbol": "BRRR",
-    "chain": "solana",
-    "token_address": "GJSfEpiK9RnmRt9AnZi3FL1b2K6AApcW1SzTs2FeHGis"
-  },
-  "0x86bbf4b57ee899dfa5eb9f948b28f287d0d7987b96a3738abde25e1f53f78e52": {
-    "price": 0.003911,
-    "time": "2026-09-18T14:50:56.244966+00:00",
-    "symbol": "WONK",
-    "chain": "arc",
-    "token_address": "0x548Df4bF91624D8cEC46d606211EB13f7492e27E"
-  }
-}
+{}
