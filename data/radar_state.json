@@ -1,16 +1,9 @@
 {
   "0xBaafEaA885c0575Bb3DCD8521a01a71D7200dc3B": {
-    "price": 6.14,
-    "time": "2026-09-18T11:49:06.708597+00:00",
+    "price": 8.067,
+    "time": "2026-09-18T12:03:09.658441+00:00",
     "symbol": "SLC",
     "chain": "bsc",
     "token_address": "0x119047881102Bad1C0b26dC7190EFab090D399b8"
-  },
-  "0x50dcdabd9f68281e0041e76d818779f14c41278a508ae8f53e82ad6b86de253e": {
-    "price": 0.001409,
-    "time": "2026-09-18T11:49:06.708612+00:00",
-    "symbol": "HAPPY",
-    "chain": "robinhood",
-    "token_address": "0x99EDa6DE9bdc4f9c628659d3841AF410948d1205"
   }
 }
