@@ -1,16 +1,9 @@
 {
-  "0xa516F2F91385fdB1D672FBDB81b491E9cfBbEFaa": {
-    "price": 0.0003342,
-    "time": "2026-09-18T03:05:00.351167+00:00",
-    "symbol": "UCAT",
-    "chain": "robinhood",
-    "token_address": "0x55D9397CC22765407b98D67623a1142C8A1e7248"
-  },
-  "0xf349598d52e023a1b1ed17aa0a52791ac3432158b8471dfe15571866effb4fbf": {
-    "price": 0.0004822,
-    "time": "2026-09-18T03:05:00.351182+00:00",
-    "symbol": "RightsLayer",
-    "chain": "robinhood",
-    "token_address": "0x3f73365Ea66f44D463bbCab1dB6b553Ae5fbC7D5"
+  "DAbSqjHryfMDqN6Vj4YF28SSmZftHBYzueM8ykTyQPHZ": {
+    "price": 0.001372,
+    "time": "2026-09-18T03:23:34.989385+00:00",
+    "symbol": "POT",
+    "chain": "solana",
+    "token_address": "4R2vepDVY7Gdcm2VKuAy6EbBfWsYSEsDJou1QGKuMfnf"
   }
 }

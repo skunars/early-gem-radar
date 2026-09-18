@@ -105597,5 +105597,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "solana:4r2vepdvy7gdcm2vkuay6ebbfwsysesdjou1qgkumfnf": {
+    "first_seen": "2026-09-18T03:23:34.876861+00:00",
+    "last_seen": "2026-09-18T03:23:34.876861+00:00",
+    "chain": "solana",
+    "address": "4r2vepdvy7gdcm2vkuay6ebbfwsysesdjou1qgkumfnf",
+    "symbol": "POT",
+    "name": "Grok Pot",
+    "dex": "pumpswap",
+    "pair_address": "DAbSqjHryfMDqN6Vj4YF28SSmZftHBYzueM8ykTyQPHZ",
+    "dex_url": "https://dexscreener.com/solana/dabsqjhryfmdqn6vj4yf28ssmzfthbyzuem8yktyqphz",
+    "initial": {
+      "timestamp": "2026-09-18T03:23:34.876861+00:00",
+      "price_usd": 0.001372,
+      "liquidity_usd": 130481.16,
+      "volume_24h_usd": 1521857.39,
+      "market_cap": 1314359.0,
+      "fdv": 1314359.0,
+      "price_change_24h": 579.0,
+      "age_hours": 49.709358516111116,
+      "buys_24h": 7247,
+      "sells_24h": 7025,
+      "score": 55,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-18T03:23:34.876861+00:00",
+      "price_usd": 0.001372,
+      "liquidity_usd": 130481.16,
+      "volume_24h_usd": 1521857.39,
+      "market_cap": 1314359.0,
+      "fdv": 1314359.0,
+      "price_change_24h": 579.0,
+      "age_hours": 49.709358516111116,
+      "buys_24h": 7247,
+      "sells_24h": 7025,
+      "score": 55,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-18T03:23:34.876861+00:00",
+        "price_usd": 0.001372,
+        "liquidity_usd": 130481.16,
+        "volume_24h_usd": 1521857.39,
+        "market_cap": 1314359.0,
+        "fdv": 1314359.0,
+        "price_change_24h": 579.0,
+        "age_hours": 49.709358516111116,
+        "buys_24h": 7247,
+        "sells_24h": 7025,
+        "score": 55,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

@@ -734,16 +734,17 @@
     "entry_score": 90,
     "raw_score": 90,
     "earlyness_score": 75,
-    "peak_price": 0.002782,
-    "peak_profit_pct": 27.09,
+    "peak_price": 0.002891,
+    "peak_profit_pct": 32.0694,
     "max_drawdown_pct": 0.0,
-    "current_profit_pct": 27.09,
-    "current_profit_tl": 27.09,
-    "highest_milestone": 20,
+    "current_profit_pct": 32.0694,
+    "current_profit_tl": 32.0694,
+    "highest_milestone": 30,
     "milestones_hit": [
       5,
       10,
-      20
+      20,
+      30
     ],
     "exit_time": null,
     "exit_price": null,
