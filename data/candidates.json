@@ -107913,5 +107913,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x3e7734b34330ca85510b2be4de16787e7244ce49": {
+    "first_seen": "2026-09-18T19:22:00.164060+00:00",
+    "last_seen": "2026-09-18T19:22:00.164060+00:00",
+    "chain": "robinhood",
+    "address": "0x3e7734b34330ca85510b2be4de16787e7244ce49",
+    "symbol": "QED",
+    "name": "Q.E.D. — The Proof-of-Meme Coin",
+    "dex": "uniswap",
+    "pair_address": "0xe691db6dfe150a5e7c4427b9fbe154240e182686be485ece157d0081328e74fd",
+    "dex_url": "https://dexscreener.com/robinhood/0xe691db6dfe150a5e7c4427b9fbe154240e182686be485ece157d0081328e74fd",
+    "initial": {
+      "timestamp": "2026-09-18T19:22:00.164060+00:00",
+      "price_usd": 0.00225,
+      "liquidity_usd": 706089.62,
+      "volume_24h_usd": 887612.6,
+      "market_cap": 706898.0,
+      "fdv": 706898.0,
+      "price_change_24h": 7.68,
+      "age_hours": 0.43267331583333335,
+      "buys_24h": 1295,
+      "sells_24h": 739,
+      "score": 95,
+      "signal": "🟢 AL ADAYI",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-18T19:22:00.164060+00:00",
+      "price_usd": 0.00225,
+      "liquidity_usd": 706089.62,
+      "volume_24h_usd": 887612.6,
+      "market_cap": 706898.0,
+      "fdv": 706898.0,
+      "price_change_24h": 7.68,
+      "age_hours": 0.43267331583333335,
+      "buys_24h": 1295,
+      "sells_24h": 739,
+      "score": 95,
+      "signal": "🟢 AL ADAYI",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-18T19:22:00.164060+00:00",
+        "price_usd": 0.00225,
+        "liquidity_usd": 706089.62,
+        "volume_24h_usd": 887612.6,
+        "market_cap": 706898.0,
+        "fdv": 706898.0,
+        "price_change_24h": 7.68,
+        "age_hours": 0.43267331583333335,
+        "buys_24h": 1295,
+        "sells_24h": 739,
+        "score": 95,
+        "signal": "🟢 AL ADAYI",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
