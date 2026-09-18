@@ -1,16 +1,16 @@
 {
-  "0x5A29f21bC022C8cEFe6B1ddeC6B6AD0B6A6cC885": {
-    "price": 0.005146,
-    "time": "2026-09-18T05:22:22.034191+00:00",
-    "symbol": "AGI",
-    "chain": "robinhood",
-    "token_address": "0xa72350F01E33d300bBC2B198e7A1E675A7f08e89"
-  },
   "0x8d5849b452beef528e8706e3281c349d58b305bc56e3292640eebe184c86057a": {
-    "price": 0.0001761,
-    "time": "2026-09-18T05:22:22.034207+00:00",
+    "price": 0.0002376,
+    "time": "2026-09-18T05:41:45.465143+00:00",
     "symbol": "ACTR",
     "chain": "robinhood",
     "token_address": "0xc32542036516f9D4029b195f68995Df620654a86"
+  },
+  "0x5A29f21bC022C8cEFe6B1ddeC6B6AD0B6A6cC885": {
+    "price": 0.005022,
+    "time": "2026-09-18T05:41:45.465163+00:00",
+    "symbol": "AGI",
+    "chain": "robinhood",
+    "token_address": "0xa72350F01E33d300bBC2B198e7A1E675A7f08e89"
   }
 }
