@@ -1,9 +1,9 @@
 {
-  "F2TAJwEFSGjq1XSdfpLsCuoSeni84kSPCtpQ5oWpVcdf": {
-    "price": 0.0007179,
-    "time": "2026-09-18T04:35:24.687711+00:00",
-    "symbol": "DEX",
-    "chain": "solana",
-    "token_address": "FzEh8uAxjUWRgGhzb4TGGBBsKUzsZn8zoSoZGmEppump"
+  "0x5A29f21bC022C8cEFe6B1ddeC6B6AD0B6A6cC885": {
+    "price": 0.00198,
+    "time": "2026-09-18T04:50:00.616959+00:00",
+    "symbol": "AGI",
+    "chain": "robinhood",
+    "token_address": "0xa72350F01E33d300bBC2B198e7A1E675A7f08e89"
   }
 }
