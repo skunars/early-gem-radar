@@ -107754,5 +107754,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x1258af9d5e3f2a31e585711966ac295b64ddf6a5": {
+    "first_seen": "2026-09-18T18:17:02.386302+00:00",
+    "last_seen": "2026-09-18T18:17:02.386302+00:00",
+    "chain": "robinhood",
+    "address": "0x1258af9d5e3f2a31e585711966ac295b64ddf6a5",
+    "symbol": "CEST",
+    "name": "Cestus Network",
+    "dex": "uniswap",
+    "pair_address": "0xe9ebfff0ccc09a45eb684f67bf41d3a7d382cc2e04b908cfaeb929b76d70530d",
+    "dex_url": "https://dexscreener.com/robinhood/0xe9ebfff0ccc09a45eb684f67bf41d3a7d382cc2e04b908cfaeb929b76d70530d",
+    "initial": {
+      "timestamp": "2026-09-18T18:17:02.386302+00:00",
+      "price_usd": 0.001467,
+      "liquidity_usd": 114524.67,
+      "volume_24h_usd": 3073148.3,
+      "market_cap": 1467649.0,
+      "fdv": 1467649.0,
+      "price_change_24h": 2585.0,
+      "age_hours": 0.8754135530555556,
+      "buys_24h": 8384,
+      "sells_24h": 7546,
+      "score": 57,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-18T18:17:02.386302+00:00",
+      "price_usd": 0.001467,
+      "liquidity_usd": 114524.67,
+      "volume_24h_usd": 3073148.3,
+      "market_cap": 1467649.0,
+      "fdv": 1467649.0,
+      "price_change_24h": 2585.0,
+      "age_hours": 0.8754135530555556,
+      "buys_24h": 8384,
+      "sells_24h": 7546,
+      "score": 57,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-18T18:17:02.386302+00:00",
+        "price_usd": 0.001467,
+        "liquidity_usd": 114524.67,
+        "volume_24h_usd": 3073148.3,
+        "market_cap": 1467649.0,
+        "fdv": 1467649.0,
+        "price_change_24h": 2585.0,
+        "age_hours": 0.8754135530555556,
+        "buys_24h": 8384,
+        "sells_24h": 7546,
+        "score": 57,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

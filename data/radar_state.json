@@ -1,16 +1,9 @@
 {
-  "BMh3pFZw5M4PvQvENd9yRQFKePjjUM2zTtKrKTvXMYSt": {
-    "price": 0.007405,
-    "time": "2026-09-18T17:51:43.841945+00:00",
-    "symbol": "nub",
-    "chain": "solana",
-    "token_address": "4QsNTBKwHgyYUUHq9tDzk1CCVu7y5hK7z3GE9R36pump"
-  },
-  "0x3459aff5e12cbc4838c5a72af1453dd0ca1265376f88a113301381d6ff919c17": {
-    "price": 0.0001227,
-    "time": "2026-09-18T17:51:43.841968+00:00",
-    "symbol": "MEAT",
+  "0xe9ebfff0ccc09a45eb684f67bf41d3a7d382cc2e04b908cfaeb929b76d70530d": {
+    "price": 0.001467,
+    "time": "2026-09-18T18:17:02.503202+00:00",
+    "symbol": "CEST",
     "chain": "robinhood",
-    "token_address": "0xf95e8710753576C4Fbf1239A2377Bb84F5191E18"
+    "token_address": "0x1258Af9d5E3f2A31E585711966Ac295B64ddF6A5"
   }
 }
