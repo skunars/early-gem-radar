@@ -1,14 +1,7 @@
 {
-  "BXRcBvpUjtupBYw9STTFugriMkQmDEzQspqbyxZRaYQo": {
-    "price": 0.000771,
-    "time": "2026-09-18T01:41:07.518706+00:00",
-    "symbol": "$EPEP",
-    "chain": "solana",
-    "token_address": "7rUNV1HjfCzbtGi3ZbKQ5hYXVjzbAfyCTcgTULQxCwki"
-  },
   "0x2b8e46ac7037705129ff8a82bb685a4aed55589b411c0b8cb2e7b82fa68def2e": {
-    "price": 0.003143,
-    "time": "2026-09-18T01:41:07.518721+00:00",
+    "price": 0.003942,
+    "time": "2026-09-18T01:57:50.112005+00:00",
     "symbol": "Circled",
     "chain": "arc",
     "token_address": "0x390128Ca6d20661181ffdE1259Ced84DE23fD4f5"
