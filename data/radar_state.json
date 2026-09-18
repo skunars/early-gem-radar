@@ -1,1 +1,9 @@
-{}
+{
+  "0x1b5f16f239acce0b9be07f35298dd6145fc5969b379bcd5920254dcab738fff3": {
+    "price": 0.0002439,
+    "time": "2026-09-18T09:15:10.329723+00:00",
+    "symbol": "LATC",
+    "chain": "robinhood",
+    "token_address": "0xf3DC597f08035feB92985c1476E215b6787307cA"
+  }
+}
