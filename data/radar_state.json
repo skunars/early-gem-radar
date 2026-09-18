@@ -1,1 +1,9 @@
-{}
+{
+  "0xc7b8d8176ec8bd0658e4c2b6f8e269bcd7b1b444bc2b1e68b653e128481f6454": {
+    "price": 0.001587,
+    "time": "2026-09-18T13:02:02.923226+00:00",
+    "symbol": "PEPONS",
+    "chain": "robinhood",
+    "token_address": "0xfdE368DeBe9E80f80785064A65719cEC1f809DeC"
+  }
+}
