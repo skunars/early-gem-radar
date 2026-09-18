@@ -107188,5 +107188,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xabf64392b4306f8c0d81a6711a780ba3f4f28e35": {
+    "first_seen": "2026-09-18T15:32:19.956343+00:00",
+    "last_seen": "2026-09-18T15:32:19.956343+00:00",
+    "chain": "robinhood",
+    "address": "0xabf64392b4306f8c0d81a6711a780ba3f4f28e35",
+    "symbol": "TIGRINO",
+    "name": "Leopardus Tilcayo",
+    "dex": "uniswap",
+    "pair_address": "0xa9379d721b781e98fe4e70730bdb795962f5ba7dca10945d8c4e9d51367065e3",
+    "dex_url": "https://dexscreener.com/robinhood/0xa9379d721b781e98fe4e70730bdb795962f5ba7dca10945d8c4e9d51367065e3",
+    "initial": {
+      "timestamp": "2026-09-18T15:32:19.956343+00:00",
+      "price_usd": 0.0003461,
+      "liquidity_usd": 102861.99,
+      "volume_24h_usd": 548992.29,
+      "market_cap": 346109.0,
+      "fdv": 346109.0,
+      "price_change_24h": 3543.0,
+      "age_hours": 0.9269726280555556,
+      "buys_24h": 953,
+      "sells_24h": 1001,
+      "score": 55,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-18T15:32:19.956343+00:00",
+      "price_usd": 0.0003461,
+      "liquidity_usd": 102861.99,
+      "volume_24h_usd": 548992.29,
+      "market_cap": 346109.0,
+      "fdv": 346109.0,
+      "price_change_24h": 3543.0,
+      "age_hours": 0.9269726280555556,
+      "buys_24h": 953,
+      "sells_24h": 1001,
+      "score": 55,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-18T15:32:19.956343+00:00",
+        "price_usd": 0.0003461,
+        "liquidity_usd": 102861.99,
+        "volume_24h_usd": 548992.29,
+        "market_cap": 346109.0,
+        "fdv": 346109.0,
+        "price_change_24h": 3543.0,
+        "age_hours": 0.9269726280555556,
+        "buys_24h": 953,
+        "sells_24h": 1001,
+        "score": 55,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }

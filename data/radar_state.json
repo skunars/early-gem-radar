@@ -1,1 +1,9 @@
-{}
+{
+  "0xa9379d721b781e98fe4e70730bdb795962f5ba7dca10945d8c4e9d51367065e3": {
+    "price": 0.0003461,
+    "time": "2026-09-18T15:32:20.114350+00:00",
+    "symbol": "TIGRINO",
+    "chain": "robinhood",
+    "token_address": "0xaBf64392b4306f8c0D81A6711a780Ba3f4F28E35"
+  }
+}
