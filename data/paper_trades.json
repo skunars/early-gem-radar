@@ -721,7 +721,7 @@
   },
   {
     "trade_id": "robinhood_0x02d356AcD227E12A9573F0499f133c6e3B0AF1C9_1789693432",
-    "status": "OPEN",
+    "status": "CLOSED",
     "stake_tl": 100.0,
     "name": "Volt Inu",
     "symbol": "VOLT",
@@ -736,9 +736,9 @@
     "earlyness_score": 75,
     "peak_price": 0.003707,
     "peak_profit_pct": 69.3467,
-    "max_drawdown_pct": 19.3696,
-    "current_profit_pct": 52.8552,
-    "current_profit_tl": 52.8552,
+    "max_drawdown_pct": 23.1613,
+    "current_profit_pct": 46.1855,
+    "current_profit_tl": 46.1855,
     "highest_milestone": 50,
     "milestones_hit": [
       5,
@@ -747,11 +747,11 @@
       30,
       50
     ],
-    "exit_time": null,
-    "exit_price": null,
-    "exit_reason": null,
-    "final_profit_pct": null,
-    "final_profit_tl": null,
-    "hold_hours": null
+    "exit_time": "2026-09-18T07:42:13.622550+00:00",
+    "exit_price": 0.0032692,
+    "exit_reason": "TRAILING_STOP",
+    "final_profit_pct": 49.3467,
+    "final_profit_tl": 49.3467,
+    "hold_hours": 6.64
   }
 ]
