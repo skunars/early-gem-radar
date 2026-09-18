@@ -108129,5 +108129,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x72be5b4db195eeee68028849461326842b6e1e18": {
+    "first_seen": "2026-09-18T21:57:45.882883+00:00",
+    "last_seen": "2026-09-18T21:57:45.882883+00:00",
+    "chain": "robinhood",
+    "address": "0x72be5b4db195eeee68028849461326842b6e1e18",
+    "symbol": "BLESS",
+    "name": "Bless Be Dei",
+    "dex": "uniswap",
+    "pair_address": "0x9980e1413957dff73bc88ace5e71925d9e737b7e5dec7d84c8ec4d000d0ef3da",
+    "dex_url": "https://dexscreener.com/robinhood/0x9980e1413957dff73bc88ace5e71925d9e737b7e5dec7d84c8ec4d000d0ef3da",
+    "initial": {
+      "timestamp": "2026-09-18T21:57:45.882883+00:00",
+      "price_usd": 0.007029,
+      "liquidity_usd": 4527073.11,
+      "volume_24h_usd": 3942872.55,
+      "market_cap": 7029156.0,
+      "fdv": 7029156.0,
+      "price_change_24h": 30437.0,
+      "age_hours": 0.24330909333333334,
+      "buys_24h": 6609,
+      "sells_24h": 14664,
+      "score": 34,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-18T21:57:45.882883+00:00",
+      "price_usd": 0.007029,
+      "liquidity_usd": 4527073.11,
+      "volume_24h_usd": 3942872.55,
+      "market_cap": 7029156.0,
+      "fdv": 7029156.0,
+      "price_change_24h": 30437.0,
+      "age_hours": 0.24330909333333334,
+      "buys_24h": 6609,
+      "sells_24h": 14664,
+      "score": 34,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-18T21:57:45.882883+00:00",
+        "price_usd": 0.007029,
+        "liquidity_usd": 4527073.11,
+        "volume_24h_usd": 3942872.55,
+        "market_cap": 7029156.0,
+        "fdv": 7029156.0,
+        "price_change_24h": 30437.0,
+        "age_hours": 0.24330909333333334,
+        "buys_24h": 6609,
+        "sells_24h": 14664,
+        "score": 34,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
