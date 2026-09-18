@@ -1,7 +1,21 @@
 {
+  "0xBaafEaA885c0575Bb3DCD8521a01a71D7200dc3B": {
+    "price": 9.078,
+    "time": "2026-09-18T10:42:09.365920+00:00",
+    "symbol": "SLC",
+    "chain": "bsc",
+    "token_address": "0x119047881102Bad1C0b26dC7190EFab090D399b8"
+  },
+  "0x4632a4b24f1453c1203905a56e8535974b1de99410e57c98a617e32659b7ff5a": {
+    "price": 0.001238,
+    "time": "2026-09-18T10:42:09.365927+00:00",
+    "symbol": "DUO",
+    "chain": "robinhood",
+    "token_address": "0xbC7226433DbEdc8a09DAafAd2Ba4745c410c2178"
+  },
   "DebWvgrdky3WidWRtCvS22bh1VQgGLocNfSMzMPbFdX9": {
-    "price": 0.05689,
-    "time": "2026-09-18T10:24:00.277852+00:00",
+    "price": 0.08362,
+    "time": "2026-09-18T10:42:09.365929+00:00",
     "symbol": "LFOWN",
     "chain": "solana",
     "token_address": "5gDnzAC4EEFmTjFzFjHUXS7wx5Cdvi2NTKGZT61meta"
