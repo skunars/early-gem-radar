@@ -1,1 +1,9 @@
-{}
+{
+  "0x541bedd98337d22c46ff8196494f14e7d9922ddedf07b74df44c7020487e5fdf": {
+    "price": 2.319e-06,
+    "time": "2026-09-18T20:49:43.840263+00:00",
+    "symbol": "Agrippa",
+    "chain": "robinhood",
+    "token_address": "0x83a49B808F8d5e02CB2931cd2352988f498e5Ba3"
+  }
+}
