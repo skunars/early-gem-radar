@@ -105124,5 +105124,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0x5d102d1e69e77591d486aa4f663b3645151bbdf6": {
+    "first_seen": "2026-09-18T00:30:08.689300+00:00",
+    "last_seen": "2026-09-18T00:30:08.689300+00:00",
+    "chain": "robinhood",
+    "address": "0x5d102d1e69e77591d486aa4f663b3645151bbdf6",
+    "symbol": "VOLT",
+    "name": "Volt Inu",
+    "dex": "uniswap",
+    "pair_address": "0x02d356AcD227E12A9573F0499f133c6e3B0AF1C9",
+    "dex_url": "https://dexscreener.com/robinhood/0x02d356acd227e12a9573f0499f133c6e3b0af1c9",
+    "initial": {
+      "timestamp": "2026-09-18T00:30:08.689300+00:00",
+      "price_usd": 0.001887,
+      "liquidity_usd": 129896.82,
+      "volume_24h_usd": 288206.59,
+      "market_cap": 562786.0,
+      "fdv": 562786.0,
+      "price_change_24h": 28.58,
+      "age_hours": 0.47669871555555554,
+      "buys_24h": 635,
+      "sells_24h": 314,
+      "score": 92,
+      "signal": "🟢 AL ADAYI",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-18T00:30:08.689300+00:00",
+      "price_usd": 0.001887,
+      "liquidity_usd": 129896.82,
+      "volume_24h_usd": 288206.59,
+      "market_cap": 562786.0,
+      "fdv": 562786.0,
+      "price_change_24h": 28.58,
+      "age_hours": 0.47669871555555554,
+      "buys_24h": 635,
+      "sells_24h": 314,
+      "score": 92,
+      "signal": "🟢 AL ADAYI",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-18T00:30:08.689300+00:00",
+        "price_usd": 0.001887,
+        "liquidity_usd": 129896.82,
+        "volume_24h_usd": 288206.59,
+        "market_cap": 562786.0,
+        "fdv": 562786.0,
+        "price_change_24h": 28.58,
+        "age_hours": 0.47669871555555554,
+        "buys_24h": 635,
+        "sells_24h": 314,
+        "score": 92,
+        "signal": "🟢 AL ADAYI",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
