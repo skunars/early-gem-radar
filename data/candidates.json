@@ -106868,5 +106868,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xafb2e8581cc8e7c125163d1efe0061d8632ee458": {
+    "first_seen": "2026-09-18T13:57:42.135392+00:00",
+    "last_seen": "2026-09-18T13:57:42.135392+00:00",
+    "chain": "robinhood",
+    "address": "0xafb2e8581cc8e7c125163d1efe0061d8632ee458",
+    "symbol": "PCMN",
+    "name": "Pepacman",
+    "dex": "uniswap",
+    "pair_address": "0x62e71fec7d2ecf46b79252303ef885c62819958658166991c61dadfcf4662434",
+    "dex_url": "https://dexscreener.com/robinhood/0x62e71fec7d2ecf46b79252303ef885c62819958658166991c61dadfcf4662434",
+    "initial": {
+      "timestamp": "2026-09-18T13:57:42.135392+00:00",
+      "price_usd": 0.002389,
+      "liquidity_usd": 147713.09,
+      "volume_24h_usd": 626745.48,
+      "market_cap": 2389351.0,
+      "fdv": 2389351.0,
+      "price_change_24h": 98565.0,
+      "age_hours": 0.3354610627777778,
+      "buys_24h": 667,
+      "sells_24h": 257,
+      "score": 64,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-18T13:57:42.135392+00:00",
+      "price_usd": 0.002389,
+      "liquidity_usd": 147713.09,
+      "volume_24h_usd": 626745.48,
+      "market_cap": 2389351.0,
+      "fdv": 2389351.0,
+      "price_change_24h": 98565.0,
+      "age_hours": 0.3354610627777778,
+      "buys_24h": 667,
+      "sells_24h": 257,
+      "score": 64,
+      "signal": "🟡 TAKİP",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-18T13:57:42.135392+00:00",
+        "price_usd": 0.002389,
+        "liquidity_usd": 147713.09,
+        "volume_24h_usd": 626745.48,
+        "market_cap": 2389351.0,
+        "fdv": 2389351.0,
+        "price_change_24h": 98565.0,
+        "age_hours": 0.3354610627777778,
+        "buys_24h": 667,
+        "sells_24h": 257,
+        "score": 64,
+        "signal": "🟡 TAKİP",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
