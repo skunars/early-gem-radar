@@ -1,7 +1,21 @@
 {
+  "0x8b9Ae9726173f933972cdfD6b0B9B573826cd243": {
+    "price": 0.001623,
+    "time": "2026-09-18T22:17:34.727646+00:00",
+    "symbol": "VCAT",
+    "chain": "base",
+    "token_address": "0xFDCC845c048Ad96B5C80b6A55D65C20A98d37777"
+  },
+  "8gdC17FnHJDsYrsF3n89rdyNuhs1rHACkEt35sytKs7u": {
+    "price": 0.001173,
+    "time": "2026-09-18T22:17:34.727671+00:00",
+    "symbol": "CROSSR",
+    "chain": "solana",
+    "token_address": "Ea9TZ2XC7AkgfKrFV5MnTKig5YWJoZH7xt4d4BnYpump"
+  },
   "0x9980e1413957dff73bc88ace5e71925d9e737b7e5dec7d84c8ec4d000d0ef3da": {
-    "price": 0.007029,
-    "time": "2026-09-18T21:57:45.994912+00:00",
+    "price": 0.0007814,
+    "time": "2026-09-18T22:17:34.727673+00:00",
     "symbol": "BLESS",
     "chain": "robinhood",
     "token_address": "0x72Be5b4Db195eeee68028849461326842b6E1E18"
