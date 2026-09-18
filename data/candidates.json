@@ -106118,5 +106118,84 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "solana:5gdnzac4eefmtjfzfjhuxs7wx5cdvi2ntkgzt61meta": {
+    "first_seen": "2026-09-18T09:49:54.680969+00:00",
+    "last_seen": "2026-09-18T09:49:54.680969+00:00",
+    "chain": "solana",
+    "address": "5gdnzac4eefmtjfzfjhuxs7wx5cdvi2ntkgzt61meta",
+    "symbol": "LFOWN",
+    "name": "LFOWN",
+    "dex": "meteora",
+    "pair_address": "DebWvgrdky3WidWRtCvS22bh1VQgGLocNfSMzMPbFdX9",
+    "dex_url": "https://dexscreener.com/solana/debwvgrdky3widwrtcvs22bh1vqgglocnfsmzmpbfdx9",
+    "initial": {
+      "timestamp": "2026-09-18T09:49:54.680969+00:00",
+      "price_usd": 0.03944,
+      "liquidity_usd": 120330.13,
+      "volume_24h_usd": 78319.69,
+      "market_cap": 508815.0,
+      "fdv": 508815.0,
+      "price_change_24h": 259.0,
+      "age_hours": 239.2607193975,
+      "buys_24h": 355,
+      "sells_24h": 133,
+      "score": 0,
+      "signal": "🔴 UZAK DUR",
+      "security_available": true,
+      "security_risk": "HIGH",
+      "security_risks": [
+        "MINT YETKİSİ",
+        "METADATA DEĞİŞTİRİLEBİLİR"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-18T09:49:54.680969+00:00",
+      "price_usd": 0.03944,
+      "liquidity_usd": 120330.13,
+      "volume_24h_usd": 78319.69,
+      "market_cap": 508815.0,
+      "fdv": 508815.0,
+      "price_change_24h": 259.0,
+      "age_hours": 239.2607193975,
+      "buys_24h": 355,
+      "sells_24h": 133,
+      "score": 0,
+      "signal": "🔴 UZAK DUR",
+      "security_available": true,
+      "security_risk": "HIGH",
+      "security_risks": [
+        "MINT YETKİSİ",
+        "METADATA DEĞİŞTİRİLEBİLİR"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-18T09:49:54.680969+00:00",
+        "price_usd": 0.03944,
+        "liquidity_usd": 120330.13,
+        "volume_24h_usd": 78319.69,
+        "market_cap": 508815.0,
+        "fdv": 508815.0,
+        "price_change_24h": 259.0,
+        "age_hours": 239.2607193975,
+        "buys_24h": 355,
+        "sells_24h": 133,
+        "score": 0,
+        "signal": "🔴 UZAK DUR",
+        "security_available": true,
+        "security_risk": "HIGH",
+        "security_risks": [
+          "MINT YETKİSİ",
+          "METADATA DEĞİŞTİRİLEBİLİR"
+        ],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
