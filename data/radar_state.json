@@ -1,9 +1,9 @@
 {
-  "0x371659127ab80de9deb674b4d08b44da03d092e8bdaa6aee9717cb4f7d1ed190": {
-    "price": 0.001224,
-    "time": "2026-09-19T07:18:05.527795+00:00",
-    "symbol": "VLAD",
+  "0x1077ec7114a6746e8b39c3e758b2b5bbb31127a47614910d475cda394bddf6b5": {
+    "price": 0.000169,
+    "time": "2026-09-19T07:32:22.673293+00:00",
+    "symbol": "PEQ",
     "chain": "robinhood",
-    "token_address": "0xeBd79CEADa7A7798ee75727671581DDA5a9E88e4"
+    "token_address": "0x927E4F0aD36D18BEbE66066bc3fF9864AD3c704a"
   }
 }
