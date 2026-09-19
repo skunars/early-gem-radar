@@ -1,7 +1,14 @@
 {
+  "0xce081CB94cBEA8ff0cc00c2Be82D6c741369eD4A": {
+    "price": 0.001404,
+    "time": "2026-09-19T16:23:05.181378+00:00",
+    "symbol": "SI",
+    "chain": "robinhood",
+    "token_address": "0xCEaa9679Aa4800C015e49D2751b726E8d4816636"
+  },
   "0x229da7b0c376132113a48878fe680519265e9e93c45a17ae1569047c2dc4bd26": {
-    "price": 0.002029,
-    "time": "2026-09-19T16:00:44.668912+00:00",
+    "price": 0.002072,
+    "time": "2026-09-19T16:23:05.181394+00:00",
     "symbol": "SI",
     "chain": "robinhood",
     "token_address": "0xEF82DDc566653699B89C3aFe123559a75aAA2976"
