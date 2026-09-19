@@ -1,1 +1,9 @@
-{}
+{
+  "0xa28562EED7ae735aB8f454F8c5b7bb308ef89057": {
+    "price": 0.001247,
+    "time": "2026-09-19T12:27:09.531192+00:00",
+    "symbol": "URANUS",
+    "chain": "robinhood",
+    "token_address": "0xaA78d186a28Dbd83A6430A93AfA0670231Bc36D8"
+  }
+}
