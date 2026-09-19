@@ -1,16 +1,9 @@
 {
   "0x2C992C2d4A07C630F942aA6ADF14Fc73b083DCcf": {
-    "price": 0.003485,
-    "time": "2026-09-19T12:46:11.914221+00:00",
+    "price": 0.003265,
+    "time": "2026-09-19T12:58:38.045758+00:00",
     "symbol": "wildebeest",
     "chain": "robinhood",
     "token_address": "0xf088cD91FC446cB7d49F94e755f8e4CD23834a34"
-  },
-  "0xa28562EED7ae735aB8f454F8c5b7bb308ef89057": {
-    "price": 0.001538,
-    "time": "2026-09-19T12:46:11.914237+00:00",
-    "symbol": "URANUS",
-    "chain": "robinhood",
-    "token_address": "0xaA78d186a28Dbd83A6430A93AfA0670231Bc36D8"
   }
 }
