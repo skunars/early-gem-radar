@@ -110038,5 +110038,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xef82ddc566653699b89c3afe123559a75aaa2976": {
+    "first_seen": "2026-09-19T15:48:02.008268+00:00",
+    "last_seen": "2026-09-19T15:48:02.008268+00:00",
+    "chain": "robinhood",
+    "address": "0xef82ddc566653699b89c3afe123559a75aaa2976",
+    "symbol": "SI",
+    "name": "Superior Inu",
+    "dex": "uniswap",
+    "pair_address": "0x229da7b0c376132113a48878fe680519265e9e93c45a17ae1569047c2dc4bd26",
+    "dex_url": "https://dexscreener.com/robinhood/0x229da7b0c376132113a48878fe680519265e9e93c45a17ae1569047c2dc4bd26",
+    "initial": {
+      "timestamp": "2026-09-19T15:48:02.008268+00:00",
+      "price_usd": 0.001334,
+      "liquidity_usd": 100807.14,
+      "volume_24h_usd": 1791930.74,
+      "market_cap": 1334522.0,
+      "fdv": 1334522.0,
+      "price_change_24h": 2789.0,
+      "age_hours": 0.27585784944444447,
+      "buys_24h": 6131,
+      "sells_24h": 6214,
+      "score": 55,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-19T15:48:02.008268+00:00",
+      "price_usd": 0.001334,
+      "liquidity_usd": 100807.14,
+      "volume_24h_usd": 1791930.74,
+      "market_cap": 1334522.0,
+      "fdv": 1334522.0,
+      "price_change_24h": 2789.0,
+      "age_hours": 0.27585784944444447,
+      "buys_24h": 6131,
+      "sells_24h": 6214,
+      "score": 55,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-19T15:48:02.008268+00:00",
+        "price_usd": 0.001334,
+        "liquidity_usd": 100807.14,
+        "volume_24h_usd": 1791930.74,
+        "market_cap": 1334522.0,
+        "fdv": 1334522.0,
+        "price_change_24h": 2789.0,
+        "age_hours": 0.27585784944444447,
+        "buys_24h": 6131,
+        "sells_24h": 6214,
+        "score": 55,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
