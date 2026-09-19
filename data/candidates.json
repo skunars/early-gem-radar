@@ -109470,5 +109470,154 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "ethereum:0x57737ded3870e43fed7d80d31e0ced3d5fb0cccc": {
+    "first_seen": "2026-09-19T10:22:27.458704+00:00",
+    "last_seen": "2026-09-19T10:22:27.458704+00:00",
+    "chain": "ethereum",
+    "address": "0x57737ded3870e43fed7d80d31e0ced3d5fb0cccc",
+    "symbol": "wildebeest",
+    "name": "wildebeest",
+    "dex": "uniswap",
+    "pair_address": "0x40eFaFE9250b43b7C1be0ec1A75e4e7526559507",
+    "dex_url": "https://dexscreener.com/ethereum/0x40efafe9250b43b7c1be0ec1a75e4e7526559507",
+    "initial": {
+      "timestamp": "2026-09-19T10:22:27.458704+00:00",
+      "price_usd": 0.001854,
+      "liquidity_usd": 151602.9,
+      "volume_24h_usd": 2081244.35,
+      "market_cap": 1854038.0,
+      "fdv": 1854038.0,
+      "price_change_24h": 2414.0,
+      "age_hours": 1.5665884791666667,
+      "buys_24h": 2853,
+      "sells_24h": 2435,
+      "score": 56,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-19T10:22:27.458704+00:00",
+      "price_usd": 0.001854,
+      "liquidity_usd": 151602.9,
+      "volume_24h_usd": 2081244.35,
+      "market_cap": 1854038.0,
+      "fdv": 1854038.0,
+      "price_change_24h": 2414.0,
+      "age_hours": 1.5665884791666667,
+      "buys_24h": 2853,
+      "sells_24h": 2435,
+      "score": 56,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "LOW",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-19T10:22:27.458704+00:00",
+        "price_usd": 0.001854,
+        "liquidity_usd": 151602.9,
+        "volume_24h_usd": 2081244.35,
+        "market_cap": 1854038.0,
+        "fdv": 1854038.0,
+        "price_change_24h": 2414.0,
+        "age_hours": 1.5665884791666667,
+        "buys_24h": 2853,
+        "sells_24h": 2435,
+        "score": 56,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "LOW",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
+  },
+  "solana:dicjdhhfngkbgjyhc9ydfuzmr9xwbzvb44yb2u1afnsj": {
+    "first_seen": "2026-09-19T10:22:27.606975+00:00",
+    "last_seen": "2026-09-19T10:22:27.606975+00:00",
+    "chain": "solana",
+    "address": "dicjdhhfngkbgjyhc9ydfuzmr9xwbzvb44yb2u1afnsj",
+    "symbol": "Elias",
+    "name": "Baby jupiter",
+    "dex": "raydium",
+    "pair_address": "Hdp6K8r88zZ7PUDBT6ydKoEzg3cGJitgcHXBJESks48V",
+    "dex_url": "https://dexscreener.com/solana/hdp6k8r88zz7pudbt6ydkoezg3cgjitgchxbjesks48v",
+    "initial": {
+      "timestamp": "2026-09-19T10:22:27.606975+00:00",
+      "price_usd": 0.04267,
+      "liquidity_usd": 41884557.24,
+      "volume_24h_usd": 404545501.64,
+      "market_cap": 42674267.0,
+      "fdv": 42674267.0,
+      "price_change_24h": -81.55,
+      "age_hours": 0.3812469213888889,
+      "buys_24h": 1129,
+      "sells_24h": 847,
+      "score": 32,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "MEDIUM",
+      "security_risks": [
+        "METADATA DEĞİŞTİRİLEBİLİR",
+        "TRANSFER FEE DEĞİŞTİRİLEBİLİR"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-19T10:22:27.606975+00:00",
+      "price_usd": 0.04267,
+      "liquidity_usd": 41884557.24,
+      "volume_24h_usd": 404545501.64,
+      "market_cap": 42674267.0,
+      "fdv": 42674267.0,
+      "price_change_24h": -81.55,
+      "age_hours": 0.3812469213888889,
+      "buys_24h": 1129,
+      "sells_24h": 847,
+      "score": 32,
+      "signal": "⚪ ELE",
+      "security_available": true,
+      "security_risk": "MEDIUM",
+      "security_risks": [
+        "METADATA DEĞİŞTİRİLEBİLİR",
+        "TRANSFER FEE DEĞİŞTİRİLEBİLİR"
+      ],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-19T10:22:27.606975+00:00",
+        "price_usd": 0.04267,
+        "liquidity_usd": 41884557.24,
+        "volume_24h_usd": 404545501.64,
+        "market_cap": 42674267.0,
+        "fdv": 42674267.0,
+        "price_change_24h": -81.55,
+        "age_hours": 0.3812469213888889,
+        "buys_24h": 1129,
+        "sells_24h": 847,
+        "score": 32,
+        "signal": "⚪ ELE",
+        "security_available": true,
+        "security_risk": "MEDIUM",
+        "security_risks": [
+          "METADATA DEĞİŞTİRİLEBİLİR",
+          "TRANSFER FEE DEĞİŞTİRİLEBİLİR"
+        ],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
