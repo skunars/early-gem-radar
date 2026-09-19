@@ -1,14 +1,7 @@
 {
-  "0x98fB535B9D3Fdb7aADA8284e4E6aaab9D0019aA7": {
-    "price": 0.0003646,
-    "time": "2026-09-19T06:00:31.099364+00:00",
-    "symbol": "DICKINU",
-    "chain": "robinhood",
-    "token_address": "0x787B9388C0a715B9e2688088DE97b2A004D452eD"
-  },
   "0x52a261a40fd3cbeab71e903d8aa9eac1c11d75aff4bcf0551573e09d5f7e720e": {
-    "price": 0.001906,
-    "time": "2026-09-19T06:00:31.099383+00:00",
+    "price": 0.001352,
+    "time": "2026-09-19T06:27:29.524589+00:00",
     "symbol": "URANUS",
     "chain": "robinhood",
     "token_address": "0xb911F04A24A9f6234537829290335e623ee71E18"
