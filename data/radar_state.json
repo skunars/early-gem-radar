@@ -1,14 +1,7 @@
 {
-  "0xe90b534d1742c2cf77f37c75a6238dc924b040bf48c704ef920e5117f764e3e1": {
-    "price": 0.0004445,
-    "time": "2026-09-19T04:57:41.163701+00:00",
-    "symbol": "Kiro",
-    "chain": "robinhood",
-    "token_address": "0x18d197B134d2EadF4D6E68fEB3600fE6664Cf58D"
-  },
   "0x9c9D966FAC8dba11bd9cde9dC6c80c5557e05e46": {
-    "price": 0.001859,
-    "time": "2026-09-19T04:57:41.163718+00:00",
+    "price": 0.001808,
+    "time": "2026-09-19T05:16:32.137918+00:00",
     "symbol": "Brodie",
     "chain": "robinhood",
     "token_address": "0x7B1E12fbb48C6DC406C974a9852778200c9C7a20"
