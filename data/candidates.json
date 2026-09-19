@@ -109273,5 +109273,75 @@
         "sell_tax": 0.0
       }
     ]
+  },
+  "robinhood:0xebd79ceada7a7798ee75727671581dda5a9e88e4": {
+    "first_seen": "2026-09-19T07:18:05.412867+00:00",
+    "last_seen": "2026-09-19T07:18:05.412867+00:00",
+    "chain": "robinhood",
+    "address": "0xebd79ceada7a7798ee75727671581dda5a9e88e4",
+    "symbol": "VLAD",
+    "name": "Vlad Coin",
+    "dex": "uniswap",
+    "pair_address": "0x371659127ab80de9deb674b4d08b44da03d092e8bdaa6aee9717cb4f7d1ed190",
+    "dex_url": "https://dexscreener.com/robinhood/0x371659127ab80de9deb674b4d08b44da03d092e8bdaa6aee9717cb4f7d1ed190",
+    "initial": {
+      "timestamp": "2026-09-19T07:18:05.412867+00:00",
+      "price_usd": 0.001224,
+      "liquidity_usd": 105054.74,
+      "volume_24h_usd": 1671023.75,
+      "market_cap": 1224277.0,
+      "fdv": 1224277.0,
+      "price_change_24h": 2140.0,
+      "age_hours": 0.3933564741666667,
+      "buys_24h": 5456,
+      "sells_24h": 4198,
+      "score": 35,
+      "signal": "⚪ ELE",
+      "security_available": false,
+      "security_risk": "UNKNOWN",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "latest": {
+      "timestamp": "2026-09-19T07:18:05.412867+00:00",
+      "price_usd": 0.001224,
+      "liquidity_usd": 105054.74,
+      "volume_24h_usd": 1671023.75,
+      "market_cap": 1224277.0,
+      "fdv": 1224277.0,
+      "price_change_24h": 2140.0,
+      "age_hours": 0.3933564741666667,
+      "buys_24h": 5456,
+      "sells_24h": 4198,
+      "score": 35,
+      "signal": "⚪ ELE",
+      "security_available": false,
+      "security_risk": "UNKNOWN",
+      "security_risks": [],
+      "buy_tax": 0.0,
+      "sell_tax": 0.0
+    },
+    "scans": [
+      {
+        "timestamp": "2026-09-19T07:18:05.412867+00:00",
+        "price_usd": 0.001224,
+        "liquidity_usd": 105054.74,
+        "volume_24h_usd": 1671023.75,
+        "market_cap": 1224277.0,
+        "fdv": 1224277.0,
+        "price_change_24h": 2140.0,
+        "age_hours": 0.3933564741666667,
+        "buys_24h": 5456,
+        "sells_24h": 4198,
+        "score": 35,
+        "signal": "⚪ ELE",
+        "security_available": false,
+        "security_risk": "UNKNOWN",
+        "security_risks": [],
+        "buy_tax": 0.0,
+        "sell_tax": 0.0
+      }
+    ]
   }
 }
