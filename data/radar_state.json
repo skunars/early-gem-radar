@@ -1,16 +1,9 @@
 {
   "0x40eFaFE9250b43b7C1be0ec1A75e4e7526559507": {
-    "price": 0.001854,
-    "time": "2026-09-19T10:22:27.723278+00:00",
+    "price": 0.002265,
+    "time": "2026-09-19T10:40:42.337525+00:00",
     "symbol": "wildebeest",
     "chain": "ethereum",
     "token_address": "0x57737DED3870E43FEd7D80d31e0ced3d5Fb0cccC"
-  },
-  "Hdp6K8r88zZ7PUDBT6ydKoEzg3cGJitgcHXBJESks48V": {
-    "price": 0.04267,
-    "time": "2026-09-19T10:22:27.723298+00:00",
-    "symbol": "Elias",
-    "chain": "solana",
-    "token_address": "DicJdhHfnGKBGjYhc9YdfuZMr9XWBzvB44YB2U1afnSJ"
   }
 }
