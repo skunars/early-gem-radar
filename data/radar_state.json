@@ -1,1 +1,9 @@
-{}
+{
+  "0x9c9D966FAC8dba11bd9cde9dC6c80c5557e05e46": {
+    "price": 0.001859,
+    "time": "2026-09-19T04:23:12.307515+00:00",
+    "symbol": "Brodie",
+    "chain": "robinhood",
+    "token_address": "0x7B1E12fbb48C6DC406C974a9852778200c9C7a20"
+  }
+}
